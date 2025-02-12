@@ -11,7 +11,6 @@ apt-get update -y &&
 pkg install git -y &&
 git clone https://github.com/Kairu-bit/FSpamShare &&
 cd FSpamShare &&
-chmod +x setup.sh &&
 ./setup.sh
 ```
 
