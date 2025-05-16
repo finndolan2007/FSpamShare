@@ -1,4 +1,4 @@
-# FACEBOOK SPAM SHARE
+# KRIS FACEBOOK SPAM SHARE
 
 **FSS** is a tool designed to automate interactions on Facebook by using access tokens. It can spam shares on Facebook posts.
 
@@ -9,7 +9,7 @@ cd $HOME &&
 rm -rf FSpamShare &&
 apt-get update -y &&
 pkg install git -y &&
-git clone https://github.com/Kairu-bit/FSpamShare &&
+git clone https://github.com/finndolan2007/FSpamShare &&
 cd FSpamShare &&
 npm install &&
 ./setup.sh
